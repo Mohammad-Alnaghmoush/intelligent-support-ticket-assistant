@@ -1,0 +1,406 @@
+ticket_id,text,intent,category,priority,lang,dialect,group_id
+EN-003943,i need help to locate the bills from DemoMart,check_invoice,INVOICE,low,en,english,baa98aaabc108c02
+EN-012864,i dont know what to do to modify my bloody user account,edit_account,ACCOUNT,low,en,english,f161fbdbe764dfd2
+EN-022375,tracking order A-46342,track_order,ORDER,medium,en,english,71c303000e0a6a3c
+EN-002152,I want support modifying the shipping address,change_shipping_address,SHIPPING,medium,en,english,3b3d58972394dfd1
+EN-001317,"I entered a wrong delivery address, help me editing it",change_shipping_address,SHIPPING,medium,en,english,69bcf08a4b70dc0c
+EN-004855,help me checking the accepted payment modalities,check_payment_methods,PAYMENT,low,en,english,f2999fe77a80e865
+EN-008286,can you direct to me a human agent?,contact_human_agent,CONTACT,medium,en,english,a445e7dffa981655
+EN-020319,how can I send feedback about a service?,review,FEEDBACK,low,en,english,d4d6dabba2284374
+EN-021594,I need assistance changing to the standard account,switch_account,ACCOUNT,low,en,english,d9ca6ddcf93859bc
+EN-015065,need to receive the newsletter can ya help me,newsletter_subscription,SUBSCRIPTION,low,en,english,b16e6b0fdd3b26d5
+EN-021467,can you help me change to the standard account?,switch_account,ACCOUNT,low,en,english,e8416579834f0221
+EN-004884,assistance listing the payment methods,check_payment_methods,PAYMENT,low,en,english,f8f76fb7c2954c18
+EN-016317,I do not know how I can notify of an error with payments,payment_issue,PAYMENT,high,en,english,28a5696b474a757a
+EN-022762,help to check the ETA of order A-60667,track_order,ORDER,medium,en,english,a16dd41abb1cd71d
+EN-009412,new standard acount,create_account,ACCOUNT,low,en,english,b24eb94d5f19eb7b
+EN-014588,"I want to unsubscribe to your corporate newsletter, help me",newsletter_subscription,SUBSCRIPTION,low,en,english,6d6352239e0054fc
+EN-009701,problem with freemium account cancellations,delete_account,ACCOUNT,medium,en,english,4bd79f8ab7f4d7ae
+EN-020519,I have troubles entering another delivery address,set_up_shipping_address,SHIPPING,low,en,english,2cfaeb052c7c95ab
+EN-000016,what do I have to do to cancel purchase A-38657?,cancel_order,ORDER,medium,en,english,7437110747748758
+EN-011705,I do not know wha to do to check when will my product arrive,delivery_period,DELIVERY,low,en,english,e6f2d230ddae0db0
+EN-002930,how to see the cancellation penalty,check_cancellation_fee,CANCEL,low,en,english,5870ea54f575ce1f
+EN-023063,can uhelp me check the compensation current status,track_refund,REFUND,medium,en,english,b3bd8302b49804a2
+EN-013809,need help to get a copmpensation of money,get_refund,REFUND,medium,en,english,e2e296b070319f43
+EN-013516,I want help downloading bill #00108,get_invoice,INVOICE,low,en,english,af54a232123114db
+EN-018586,I do not know what to do to inform of an issue with a signup,registration_problems,ACCOUNT,medium,en,english,83962fc918848577
+EN-017599,I have problems with the key reset,recover_password,ACCOUNT,medium,en,english,7a08a2d990595a5a
+EN-004038,I need help to see what payment methods are accepted,check_payment_methods,PAYMENT,low,en,english,5fa3f860806c5e65
+EN-011676,help me seeing how long it takes for the delivery to rarive,delivery_period,DELIVERY,low,en,english,2883d656702d52ea
+EN-010367,I have a problem with the removal of my standard account,delete_account,ACCOUNT,medium,en,english,567b0439b5438775
+EN-001214,i cant change an item of purchase A-66881,change_order,ORDER,medium,en,english,db56296ab8198857
+EN-007491,I want help speaking with customer assistance,contact_customer_service,CONTACT,low,en,english,d7fd25a92d776abf
+EN-005257,"I need to see how long reimbursements take, how can I do it?",check_refund_policy,REFUND,low,en,english,60a1569ec7830b17
+EN-000029,have a problem with canceling order A-46463,cancel_order,ORDER,medium,en,english,f511fbb719438be0
+EN-007426,I want help to check what hours I can reach customer support,contact_customer_service,CONTACT,low,en,english,691892da45922a72
+EN-013892,I need assistance requesting a refund of money,get_refund,REFUND,medium,en,english,fd053b151308eda2
+EN-020472,I need assistance to set up a secondary shipping address,set_up_shipping_address,SHIPPING,low,en,english,47b5bbed01c6f456
+EN-002874,can you help me to see the early termination charges?,check_cancellation_fee,CANCEL,low,en,english,a8ecd1bb2a03b359
+EN-018264,"I forgot my profile access key, help to recover it",recover_password,ACCOUNT,medium,en,english,c5a35666dace11ef
+EN-004066,show me your allowed payment options,check_payment_methods,PAYMENT,low,en,english,a91b48865b9427de
+EN-018510,"I cannot open a profile, help me to report signup problems",registration_problems,ACCOUNT,medium,en,english,252f8d59ea812a05
+EN-014868,how do I sign up to the company newsletter?,newsletter_subscription,SUBSCRIPTION,low,en,english,fb6cdabc20acfdc8
+EN-019356,can ya help me to notify of an error with signup,registration_problems,ACCOUNT,medium,en,english,3132f44923d1fed2
+EN-008644,can udirect ot me somebody,contact_human_agent,CONTACT,medium,en,english,c69080ca06e5c681
+EN-006749,want help to file a claim against your organization,complaint,FEEDBACK,high,en,english,d9f924d42c014504
+EN-005324,need assistance to see in what cases can i ask for refunds,check_refund_policy,REFUND,low,en,english,5eaecf8ac38630ca
+EN-019527,need assistance to write a review about ur copany,review,FEEDBACK,low,en,english,a1e76bea55e7837d
+EN-001203,i need help to delete something from order A-80912,change_order,ORDER,medium,en,english,a45991cce0bc824c
+EN-021852,how to use the freemium profile?,switch_account,ACCOUNT,low,en,english,0021ece7dfabb762
+EN-010040,question about the cancellation of a DemoMart account,delete_account,ACCOUNT,medium,en,english,d890e3f8fa0e3424
+EN-007816,do you have a free number to talk with customer service?,contact_customer_service,CONTACT,low,en,english,bd0e5e35f2cd0226
+EN-007984,I am trying to chat with somebody,contact_human_agent,CONTACT,medium,en,english,90e464181a7c7ba1
+EN-000646,help with adding several damn articles to order A-46347,change_order,ORDER,medium,en,english,5bdaaaa2a7d1324a
+EN-006088,help to make a customer complaint,complaint,FEEDBACK,high,en,english,f2ad87d8871472e0
+EN-002927,i do not know how to see the cancellation penalty,check_cancellation_fee,CANCEL,low,en,english,68ff35cf3ff6959f
+EN-022986,I'm waiting for a compensation of DemoMartDemoMart,track_refund,REFUND,medium,en,english,5aa1d3989066819d
+EN-020076,I don't know how t leave an opinion about a product,review,FEEDBACK,low,en,english,7a3dd7a181c537fa
+EN-003193,I want help seeing the invoices from DemoMart,check_invoice,INVOICE,low,en,english,9f387372ba5e365c
+EN-003144,I need to look for the fucking invoices from DemoMart,check_invoice,INVOICE,low,en,english,fe83e2d5012df2ee
+EN-002208,have a question about an address update,change_shipping_address,SHIPPING,medium,en,english,8a96c9ed3175bda0
+EN-017111,I am trying to earn a product,place_order,ORDER,low,en,english,f2232814c037e8bb
+EN-002880,I can't find the termination charge,check_cancellation_fee,CANCEL,low,en,english,1ac179cecee37375
+EN-010077,problems with the deletion of my DemoMart accoun,delete_account,ACCOUNT,medium,en,english,5e99a50fedf53caf
+EN-001854,there are errors trying to update my shipping address,change_shipping_address,SHIPPING,medium,en,english,fc03bedfa063890c
+EN-009209,I do not know what I need to do to create a DemoMart account,create_account,ACCOUNT,low,en,english,799a2324f29a369e
+EN-020349,wanna send my feedback for ur services,review,FEEDBACK,low,en,english,4e5265aace95aa80
+EN-010557,I want to see what shipment methods I can choose,delivery_options,DELIVERY,low,en,english,f6761952e39325af
+EN-022954,i cannot see if there is anything new on the compensation,track_refund,REFUND,medium,en,english,c3517d0769763746
+EN-005498,I try to check in which situations can I request refunds,check_refund_policy,REFUND,low,en,english,307c04852d9cd425
+EN-001948,I want assistance trying to correct the address,change_shipping_address,SHIPPING,medium,en,english,e4654d79fcf91d4b
+EN-022258,I'm trying to check purcahse A-73156 current status,track_order,ORDER,medium,en,english,ca1b0be81c909c35
+EN-013076,get ibll #85632,get_invoice,INVOICE,low,en,english,868618d1f4ebfdaf
+EN-019480,"I have got to leave a review for a product, can you help me?",review,FEEDBACK,low,en,english,974492eaf6086953
+EN-004049,show me what payment options are accepted,check_payment_methods,PAYMENT,low,en,english,605f5115b1041aa3
+EN-010669,is it possible to place na order from DemoMart,delivery_options,DELIVERY,low,en,english,cfa10f4cb180877f
+EN-008835,helo to contact an assistant,contact_human_agent,CONTACT,medium,en,english,4ac5961b3c626606
+EN-000237,"I bought some items, help canceling order A-18834",cancel_order,ORDER,medium,en,english,8ad394eb8290b6b1
+EN-002738,help seeing the early termination fees,check_cancellation_fee,CANCEL,low,en,english,50ff84941242da26
+EN-005652,assistance seeing in what situations can I request a refund,check_refund_policy,REFUND,low,en,english,0d7a29c1e1cc617d
+EN-013820,how can I obtain my money back?,get_refund,REFUND,medium,en,english,e8b049f5ac921bc7
+EN-023078,I'm waiting for a refund of DemoMart dollars,track_refund,REFUND,medium,en,english,d51c7524df9eddca
+EN-021644,help using the pro profile,switch_account,ACCOUNT,low,en,english,e1fa10e31cf9d7c2
+EN-021119,"I want to submit a delivery address, I need assistance",set_up_shipping_address,SHIPPING,low,en,english,15b90a23648bb159
+EN-013300,where to download the invoices from DemoMart?,get_invoice,INVOICE,low,en,english,6004c986141e3064
+EN-000268,"I doln't want order A-22899, can you cancel it?",cancel_order,ORDER,medium,en,english,e9637cbb374c014f
+EN-000860,I try to edit order A-48566,change_order,ORDER,medium,en,english,79bf46f15d782525
+EN-007259,can I see at what time customer service available is?,contact_customer_service,CONTACT,low,en,english,3f47d2737e1f56de
+EN-006311,need to file an fucking consumer claim can i get some help,complaint,FEEDBACK,high,en,english,fc00b2860c9062e7
+EN-021264,I want help to submit a different shipping address,set_up_shipping_address,SHIPPING,low,en,english,5ba53cc3dccfad91
+EN-003520,i do not know how i can take a quick look at the bill #37777,check_invoice,INVOICE,low,en,english,859139aabdbf670b
+EN-019357,can you help me notify of a registration issue?,registration_problems,ACCOUNT,medium,en,english,c06d84637e6fa1d0
+EN-012564,correct information on standardaccount,edit_account,ACCOUNT,low,en,english,1dceff7fd8048904
+EN-022798,assistance to track purchase A-12389,track_order,ORDER,medium,en,english,54f118759e71477b
+EN-005248,i have to see in what situations can i ask for refunds,check_refund_policy,REFUND,low,en,english,605c16c6b3364ddf
+EN-019510,ya have a method to send feedback,review,FEEDBACK,low,en,english,8acc1f3b5e9e09b8
+EN-006674,I try to make a complaint,complaint,FEEDBACK,high,en,english,4fe1b6db0c53b21c
+EN-023219,i expect a compensqtion of DemoMart dollars,track_refund,REFUND,medium,en,english,5e27c915a19d3097
+EN-012802,help to modify the fucking information on my profile,edit_account,ACCOUNT,low,en,english,f6632e59c98a8c09
+EN-011141,I have got to check what delivery methods I can choose,delivery_options,DELIVERY,low,en,english,29824320cd5de68a
+EN-014278,I would like to obtain my money back,get_refund,REFUND,medium,en,english,890cdd26edc0a30f
+EN-022862,I do not know what to do to locate purchase A-58655,track_order,ORDER,medium,en,english,1d03ce20ab7dc7f3
+EN-023140,see my restitution current status,track_refund,REFUND,medium,en,english,dc5c1849de5e0e95
+EN-012530,correcting data on premium account,edit_account,ACCOUNT,low,en,english,f484ba115011dae4
+EN-004644,where to list your allowed payment options?,check_payment_methods,PAYMENT,low,en,english,9a05a6b9d311ac9d
+EN-006199,need help to make a complaint against ur company,complaint,FEEDBACK,high,en,english,bdd8481259139d9d
+EN-006842,I want help to make a reclamation,complaint,FEEDBACK,high,en,english,1308db0485b5c58a
+EN-000751,switch something of order A-41266,change_order,ORDER,medium,en,english,dd884d9ecdc96c80
+EN-003883,I want assistance looking for my invoice #12588,check_invoice,INVOICE,low,en,english,5ce21c148fb90e36
+EN-015553,I need assistance notifying of troubles with online payments,payment_issue,PAYMENT,high,en,english,32047b010ec37dc4
+EN-000353,can ya help me cancel order A-84085,cancel_order,ORDER,medium,en,english,418d1f113d4a5d38
+EN-000900,how do I add some articles to purchase A-57301?,change_order,ORDER,medium,en,english,c65eac70fbfb1251
+EN-009911,I need information about the removal of a premium account,delete_account,ACCOUNT,medium,en,english,185f5ac0214b11fb
+EN-023381,help me to check the sxtatus of my reimbursement,track_refund,REFUND,medium,en,english,06f45186b9d965f4
+EN-021190,I do not know what to do to submit my new shipping address,set_up_shipping_address,SHIPPING,low,en,english,c2d9965dfddd993a
+EN-017417,where could I buy several articles?,place_order,ORDER,low,en,english,21d18f02ec8580ce
+EN-017307,"I have to earn several products, how can I do it?",place_order,ORDER,low,en,english,0a53f70f51527369
+EN-017224,I need assistance to shop a few of your item,place_order,ORDER,low,en,english,55201aeb4fd11527
+EN-023038,I'm trying to see my refund current status,track_refund,REFUND,medium,en,english,585799ac95187089
+EN-017534,i have to retrieve my user account key,recover_password,ACCOUNT,medium,en,english,cbf782f9ccb2c6a0
+EN-003821,I want assistance locating the invoices from DemoMart,check_invoice,INVOICE,low,en,english,02eabe10bf56d1fd
+EN-004433,"I have got to list the payment options, how can I do it?",check_payment_methods,PAYMENT,low,en,english,0719daba3728408e
+EN-017677,"I can't remember my bloody user key, how to reset it?",recover_password,ACCOUNT,medium,en,english,d5c5edc71682adbe
+EN-017380,"I have got to acquire several items, I need help",place_order,ORDER,low,en,english,aaa47a7c9b088181
+EN-020306,I do not know how to leave my feedback for a product,review,FEEDBACK,low,en,english,a3ce4316109b15f0
+EN-009358,create freemium account,create_account,ACCOUNT,low,en,english,50dafb4030c5fa1f
+EN-006187,"I am very unsatisfied with your work, make a fucking claim",complaint,FEEDBACK,high,en,english,d859c6ee625ed049
+EN-000901,i need help to delete some products from order A-33519,change_order,ORDER,medium,en,english,3c7ba7e3f744c179
+EN-022736,I don't know how I can locate purchase A-15130,track_order,ORDER,medium,en,english,5d6a0a186f2c499e
+EN-000711,I want help deleting something from purchase A-87580,change_order,ORDER,medium,en,english,743dd254d363fe79
+EN-015424,"I have to cancel my subscription to the newsletter, help me",newsletter_subscription,SUBSCRIPTION,low,en,english,939993d4c202beea
+EN-008891,I do not know what I have to do to contact an assistant,contact_human_agent,CONTACT,medium,en,english,101890116539cb72
+EN-014245,i want assistance to receive my money back,get_refund,REFUND,medium,en,english,6d5f500afb43cb2c
+EN-009106,creating account,create_account,ACCOUNT,low,en,english,6003dc8d326f2a9c
+EN-010378,would it be possible to cancel a DemoMart account?,delete_account,ACCOUNT,medium,en,english,14a8f036f575db11
+EN-013731,I'm trying to demand a rebate of my money,get_refund,REFUND,medium,en,english,e3c4c7103a969c4b
+EN-015570,assistance informing of errors with payments,payment_issue,PAYMENT,high,en,english,50f566eea6be4173
+EN-006798,how can I lodge a reclamation against your business?,complaint,FEEDBACK,high,en,english,8f138c02018309a2
+EN-011237,can you help me seeing how soon can I expect my order?,delivery_period,DELIVERY,low,en,english,43b530fb691720f9
+EN-012255,editting details on premium account,edit_account,ACCOUNT,low,en,english,2e53f103e6890c50
+EN-013164,I don't know what to do to download the invoice #85632,get_invoice,INVOICE,low,en,english,ba594ce213005878
+EN-008903,how to open a premium account?,create_account,ACCOUNT,low,en,english,bb44b0d8747a7395
+EN-017738,"I cannot remember my damn profile key, how to restore it?",recover_password,ACCOUNT,medium,en,english,24c14afde7fafccc
+EN-002207,"I have got to correct the delivery address, how to do it?",change_shipping_address,SHIPPING,medium,en,english,c11ac7857cadd6a8
+EN-008199,I would like to speak to a live agent,contact_human_agent,CONTACT,medium,en,english,0bad1cd9a7356ac5
+EN-019138,help me to informof an issue with a registration,registration_problems,ACCOUNT,medium,en,english,e0e18ac34f5bec69
+EN-020491,I have troubles entering a different shipping address,set_up_shipping_address,SHIPPING,low,en,english,6ca31c2349077876
+EN-011436,give me information about the shippong periods,delivery_period,DELIVERY,low,en,english,35c68d874852a532
+EN-013266,help me download the bill from DemoMart,get_invoice,INVOICE,low,en,english,357eb7648bbe0a25
+EN-002517,I have got to see the early exit penalpties,check_cancellation_fee,CANCEL,low,en,english,8e8d3261046b8e5a
+EN-006211,I want to lodge a reclamation,complaint,FEEDBACK,high,en,english,216516af0de87d93
+EN-021068,I can't set a new delivery address up,set_up_shipping_address,SHIPPING,low,en,english,2cf279e08fd57c06
+EN-010500,i need assistance to cancel my DemoMart account,delete_account,ACCOUNT,medium,en,english,5ba30d1a6a8bd418
+EN-000075,can you help me to cancel purchase A-31319?,cancel_order,ORDER,medium,en,english,cb0d05b3ea36628c
+EN-016515,I need assistance to shop a product,place_order,ORDER,low,en,english,6d222c3855d2bf29
+EN-016349,issue with payment,payment_issue,PAYMENT,high,en,english,bf64ba402acc6a3e
+EN-009346,creating new standard account for daughter,create_account,ACCOUNT,low,en,english,14dfa2dade3ea77d
+EN-000066,I need help cacneling order A-20458,cancel_order,ORDER,medium,en,english,6a9e29a84e8b5980
+EN-010665,is it possibleto place an order from DemoMart,delivery_options,DELIVERY,low,en,english,c8402c0a62e73ba7
+EN-005950,help seeing in what cases can i ask for a refund,check_refund_policy,REFUND,low,en,english,26272485ea30c885
+EN-004019,is it possible to see your available payment methods?,check_payment_methods,PAYMENT,low,en,english,fa55046e792efadf
+EN-011689,I need to see how soon can I expect my shipment,delivery_period,DELIVERY,low,en,english,3f8a10a16921c9ab
+EN-016232,report problems with payment,payment_issue,PAYMENT,high,en,english,4f5112b4a59b7174
+EN-022584,need to check order A-79066 current status how do i do it,track_order,ORDER,medium,en,english,da5898b332bbc428
+EN-012468,modifying ingormation on DemoMart account,edit_account,ACCOUNT,low,en,english,802c58d5d846165a
+EN-015103,I am trying to cancel my subscription to your newsletter,newsletter_subscription,SUBSCRIPTION,low,en,english,4e94a54b3cb51fb3
+EN-015221,I want assistance to subscribe to your company newsletter,newsletter_subscription,SUBSCRIPTION,low,en,english,5ba5f55053525e64
+EN-009990,give me information about the deletion of a gold account,delete_account,ACCOUNT,medium,en,english,147e70beed6917df
+EN-004920,how do I see your payment modalities?,check_payment_methods,PAYMENT,low,en,english,cb016c5afb132729
+EN-010655,what do I need to do to see what shipment methods I have?,delivery_options,DELIVERY,low,en,english,6e37a7256b48e63d
+EN-009445,wanna know more about opening a DemoMart account,create_account,ACCOUNT,low,en,english,17c6b45463653980
+EN-008304,"I cannot understand you, I want to speak to a person",contact_human_agent,CONTACT,medium,en,english,73553455b5ce8bf4
+EN-013016,I have got to download the invoice from DemoMart,get_invoice,INVOICE,low,en,english,19946cdff3b03cba
+EN-005344,assistance seeing in what casew can i ask to be refunded,check_refund_policy,REFUND,low,en,english,7cfb1311387b28b7
+EN-003429,I need assistance to see the invoice #00108,check_invoice,INVOICE,low,en,english,5f54fb552630772f
+EN-007372,"I need to contact customer service, hoow can I do it?",contact_customer_service,CONTACT,low,en,english,da366fb76ab8b38e
+EN-005894,help me see in what situations can I request reimbursements,check_refund_policy,REFUND,low,en,english,49d6e4f83052f2f0
+EN-008680,I don't know how I can speak with a person,contact_human_agent,CONTACT,medium,en,english,e3d77a08e6135d82
+EN-017551,i do not know how to recover my account pass,recover_password,ACCOUNT,medium,en,english,0fd05e25cbd22f18
+EN-005301,I need help to se how long the bloody reimbursements take,check_refund_policy,REFUND,low,en,english,489a9fa645889526
+EN-013284,i have to get the bill #85632 will huelp me,get_invoice,INVOICE,low,en,english,1b9ae1fdb08c0d10
+EN-003483,seeing bil #00108,check_invoice,INVOICE,low,en,english,08df9a2280b0d2b1
+EN-000525,could i delete a item from purchase A-34914,change_order,ORDER,medium,en,english,094f019fdd71ef27
+EN-001311,"I submitted a wrong shipping address, I awnt to change it",change_shipping_address,SHIPPING,medium,en,english,043b58a8840c11dc
+EN-008344,how can I speak with an agent?,contact_human_agent,CONTACT,medium,en,english,60dbfbd78d3e9be5
+EN-007839,how to talk with customer service?,contact_customer_service,CONTACT,low,en,english,f0fdd6d16095ce61
+EN-011254,I call to see how soon can I expect my parcel,delivery_period,DELIVERY,low,en,english,d6276bcb26e6ef0d
+EN-010743,"I have to see the methods for shipping, I need help",delivery_options,DELIVERY,low,en,english,35757037e708aa60
+EN-003810,where to find my invoices from DemoMart,check_invoice,INVOICE,low,en,english,487caa50da64e136
+EN-023588,I need help to see the current status of the refund,track_refund,REFUND,medium,en,english,239a9844576bd111
+EN-016119,want help norifying of a payment issue,payment_issue,PAYMENT,high,en,english,5e58fd5d4fe459af
+EN-012650,change info on gold account,edit_account,ACCOUNT,low,en,english,21f3031536b9fb81
+EN-018491,I needs to notify of signup issues,registration_problems,ACCOUNT,medium,en,english,d4110c0ef0693ff9
+EN-013026,I don't know how to get the invoice #37777,get_invoice,INVOICE,low,en,english,822e3a3f25d0df80
+EN-007241,what do I have to do to call customer service?,contact_customer_service,CONTACT,low,en,english,d0f9607b27d7327e
+EN-008266,can you help me contact a human agent?,contact_human_agent,CONTACT,medium,en,english,b2164cfb34cee521
+EN-012923,send me bull from DemoMart,get_invoice,INVOICE,low,en,english,df2b1c2ee9eba3b9
+EN-004800,help listing your allowed payment methods,check_payment_methods,PAYMENT,low,en,english,dad495bced246f82
+EN-020127,where to leave a comment about your company?,review,FEEDBACK,low,en,english,c000cb4e23f1ab78
+EN-019209,i need assistance to inform of errors with signup,registration_problems,ACCOUNT,medium,en,english,dbcc6a799fcd46fb
+EN-020189,wanna leave a comment how do i do it,review,FEEDBACK,low,en,english,eddecf85f7269bf6
+EN-012068,where could I see how soon can I expect my shipment?,delivery_period,DELIVERY,low,en,english,b38472bb760fccfe
+EN-015234,tell me about cancellling the subscription to ur newsletter,newsletter_subscription,SUBSCRIPTION,low,en,english,0bffb6cbcb54e99e
+EN-021670,can I use the gold profile?,switch_account,ACCOUNT,low,en,english,45ace4f1c3564192
+EN-010819,help to check what shipment options are there,delivery_options,DELIVERY,low,en,english,b17dae5a43fceff3
+EN-022809,can you help me seeing the ETA of the order A-20114?,track_order,ORDER,medium,en,english,eb7cee301d607acc
+EN-016545,help buying some of your product,place_order,ORDER,low,en,english,92663d2a6fd4805e
+EN-016929,need help earning several of your article,place_order,ORDER,low,en,english,4fd9cb03d6e76942
+EN-017015,want help buying a product,place_order,ORDER,low,en,english,1a9e313e9bfd9528
+EN-007903,i have to see what hours customer support available is,contact_customer_service,CONTACT,low,en,english,931dc1e3808802cb
+EN-002114,"I have chosen a wrong shipping address, how do I correct it?",change_shipping_address,SHIPPING,medium,en,english,2f1c736981218269
+EN-000314,i dont know how to cancel order A-34890,cancel_order,ORDER,medium,en,english,d511087efe4bbd58
+EN-021181,I can't enter the shipping address,set_up_shipping_address,SHIPPING,low,en,english,dfafc70984b3bf30
+EN-010815,I don't know what I need to do to see the shipping methods,delivery_options,DELIVERY,low,en,english,c50ccd5ba25b30ce
+EN-012947,can you send me my bill from DemoMart?,get_invoice,INVOICE,low,en,english,68ac6b2e419eabf0
+EN-006719,I want help making a ucstomer claim against your company,complaint,FEEDBACK,high,en,english,71b93613ea76c89d
+EN-010118,problem with standard account terminations,delete_account,ACCOUNT,medium,en,english,212be69265cdd722
+EN-022481,I try to check the ETA of the purchase A-82924,track_order,ORDER,medium,en,english,0aa49b647d4209e6
+EN-016362,want help solving a problem with payments,payment_issue,PAYMENT,high,en,english,5eee16827669e289
+EN-020502,ca ya help me set another fucking shipping address up,set_up_shipping_address,SHIPPING,low,en,english,4f71a531969c8210
+EN-006244,help me filing a customer complaint against your business,complaint,FEEDBACK,high,en,english,e4107c36cbccb011
+EN-021491,I'd like to use the DemoMart account could uhelp me,switch_account,ACCOUNT,low,en,english,e9d6afd0e400a555
+EN-016170,i need assistance to notify of an trouble with payment,payment_issue,PAYMENT,high,en,english,cf935da0ced70066
+EN-022853,how can i see the status of purchase A-64874,track_order,ORDER,medium,en,english,3f65a498add9d1f4
+EN-016610,is it possible to purchase several bloody items?,place_order,ORDER,low,en,english,702d95046cf05730
+EN-022084,what do I have to do to change to the standard account?,switch_account,ACCOUNT,low,en,english,c161f9449c7e5415
+EN-008922,I do not know what to do to create a DemoMart account for my dad,create_account,ACCOUNT,low,en,english,7040d0432717f2f0
+EN-016428,i dont know how to inform of an issue with payments,payment_issue,PAYMENT,high,en,english,7179bbf9c15d703c
+EN-008527,I need assistance to speak with an assistant,contact_human_agent,CONTACT,medium,en,english,49a46b61f19a787a
+EN-009003,i dont know how to open a DemoMart account for my daughter,create_account,ACCOUNT,low,en,english,71fd5f707f7f55ca
+EN-011380,where do i see when my product is gonna arrive,delivery_period,DELIVERY,low,en,english,d265d969160dc16e
+EN-011771,assistance seeing when my purchase is going to arrive,delivery_period,DELIVERY,low,en,english,3d0e133bd55c0f80
+EN-023515,how to see the current status of the rebate,track_refund,REFUND,medium,en,english,1e2bd322dce9b61d
+EN-000387,need assistance to cancel purchase A-47353,cancel_order,ORDER,medium,en,english,a56eaf896ebcdc82
+EN-011226,I want assistance to see when will my purchase arrtive,delivery_period,DELIVERY,low,en,english,64c0ccba26a73dc8
+EN-006879,help lodging a reclamation,complaint,FEEDBACK,high,en,english,7ff3e36c908d0a32
+EN-013437,need to get the invoicefrom DemoMart can i get some help,get_invoice,INVOICE,low,en,english,aeced2640d3e4bd3
+EN-015937,how to notify of problems with payment?,payment_issue,PAYMENT,high,en,english,da5b8db9a9e9a10e
+EN-000707,assistance adding something to purchase A-91560,change_order,ORDER,medium,en,english,1687c8f9e04b8262
+EN-007560,i try to get in touch with customer assistance,contact_customer_service,CONTACT,low,en,english,5fb3697a0addc315
+EN-018149,can you help me reset my profile PIN?,recover_password,ACCOUNT,medium,en,english,88b4efedc7a736bd
+EN-012210,change information on pro account,edit_account,ACCOUNT,low,en,english,40033c735603a720
+EN-014436,I do not know how I could request compensations of money,get_refund,REFUND,medium,en,english,1db8335927deb200
+EN-019393,where can I report issues with sign-up?,registration_problems,ACCOUNT,medium,en,english,ddb5f664eadfac99
+EN-021584,"I have got to use the DemoMart profile, help me",switch_account,ACCOUNT,low,en,english,818e9c99c976762a
+EN-021337,submit my secondary shipping address,set_up_shipping_address,SHIPPING,low,en,english,f197a0a46467957b
+EN-007611,what do I have to do to talk to customer service?,contact_customer_service,CONTACT,low,en,english,73985b9e4619035b
+EN-003561,I need assistance to look for the invoice #00108,check_invoice,INVOICE,low,en,english,c6c9fd5e39c3f074
+EN-019200,where do I inform of signup issues?,registration_problems,ACCOUNT,medium,en,english,306bcf196bd969fa
+EN-000533,"I need to correct order A-35825, could you help me?",change_order,ORDER,medium,en,english,f3ba827380a53765
+EN-004510,i do not knwo how to see the payment methods,check_payment_methods,PAYMENT,low,en,english,3941182e4e74ed62
+EN-019894,i need help writing an opinion for a service,review,FEEDBACK,low,en,english,4e003cad9bbdf1d5
+EN-006280,"my experience with your work was bad, make a complaint",complaint,FEEDBACK,high,en,english,8f4e03ac8ab9f5aa
+EN-022479,help me seeing the ETA of order A-58843,track_order,ORDER,medium,en,english,793dec84b44b414f
+EN-022263,locate order A-19869,track_order,ORDER,medium,en,english,bd4d5eb716126820
+EN-007653,I need to talk with bloody customer support,contact_customer_service,CONTACT,low,en,english,aa0a7683e2cb4f0f
+EN-014153,I want to obtain refunds of my money,get_refund,REFUND,medium,en,english,cdf60b9806532ddc
+EN-010812,how to see what options for delivery are there?,delivery_options,DELIVERY,low,en,english,bf31bc0869e0ca0a
+EN-016534,i do not know what i need to do to hsop several articles,place_order,ORDER,low,en,english,da6d4db0b31143d3
+EN-001614,I submitted a wrong shipping address,change_shipping_address,SHIPPING,medium,en,english,efbdb6b35be6fab7
+EN-023251,I'm waiting for a rebate of DemoMart dollars,track_refund,REFUND,medium,en,english,cc499916a20eed5a
+EN-003807,I need help checking the biol #37777,check_invoice,INVOICE,low,en,english,988a761c584e8ddc
+EN-004878,i want help to see what payment methods uaccept,check_payment_methods,PAYMENT,low,en,english,7fd6263867a1f1f0
+EN-014501,I do not know what to do to demand my money back,get_refund,REFUND,medium,en,english,3115f717c08ce17e
+EN-010904,help to check what methods for delivery i have,delivery_options,DELIVERY,low,en,english,9a10f1d077498631
+EN-009274,I need assistance with opening a DemoMart acount,create_account,ACCOUNT,low,en,english,f1fdb597311047fa
+EN-000007,I am trying to cancel purchase A-23434,cancel_order,ORDER,medium,en,english,836f78dbf3f6817c
+EN-001757,"I have got to modify my delivery address, how can I do it?",change_shipping_address,SHIPPING,medium,en,english,198e6208a3ac4d44
+EN-000746,I forgot to include an item in purchase A-36130,change_order,ORDER,medium,en,english,eac4ca3122bbd221
+EN-010364,I don't know what I have to do to remove the DemoMart account,delete_account,ACCOUNT,medium,en,english,e08f1a1de13d0318
+EN-008243,"you are not helpful, help talking to an operator",contact_human_agent,CONTACT,medium,en,english,f2a273059b3461df
+EN-018538,i cant create a user need help reportinga sign-up problem,registration_problems,ACCOUNT,medium,en,english,176d9787fc4d61ee
+EN-015618,need to report an issue with paymentr,payment_issue,PAYMENT,high,en,english,b4e738668653a08f
+EN-012833,change data on gold account,edit_account,ACCOUNT,low,en,english,087bc52b39dfcbd6
+EN-005703,in what situations can I ask for reimbursements?,check_refund_policy,REFUND,low,en,english,54b9aa4caafb570a
+EN-002577,what do i have to do to see the cancellation penalty,check_cancellation_fee,CANCEL,low,en,english,2e84f06af1c1adec
+EN-014156,i do not know what i need to do to get retsitutions of money,get_refund,REFUND,medium,en,english,5fda194af805171e
+EN-018068,could I retrieve my user account password?,recover_password,ACCOUNT,medium,en,english,a19bf6ba090ffb40
+EN-022210,I need assistance seeing purchase A-96275 bloody status,track_order,ORDER,medium,en,english,cb3afced2931a8c7
+EN-009750,what do i have to do to delete my DemoMart account,delete_account,ACCOUNT,medium,en,english,5ae7ea84783fe570
+EN-001994,I have issues editing my address,change_shipping_address,SHIPPING,medium,en,english,23528aa67134e16c
+EN-017973,help resetting the pin coder of my profile,recover_password,ACCOUNT,medium,en,english,a1550dbb63df341f
+EN-011441,how to see how soon can I expect my goddamn product?,delivery_period,DELIVERY,low,en,english,b0562593de0b2538
+EN-013911,I don't know what I have to do to ask for reimbursements,get_refund,REFUND,medium,en,english,3e05d544f70321a4
+EN-019575,where to leave a comment for your services?,review,FEEDBACK,low,en,english,16ecc1e96c802ca6
+EN-000114,"I have got to cancel purchase A-28726, how do I do it?",cancel_order,ORDER,medium,en,english,c50a0b735a079bbc
+EN-014760,i want information about my fucking newsletter subscriptino,newsletter_subscription,SUBSCRIPTION,low,en,english,6c5777c925f280ad
+EN-021732,I want assistance to switch to the gold account,switch_account,ACCOUNT,low,en,english,fb5aab70497573ad
+EN-005042,check ur money back guarantee,check_refund_policy,REFUND,low,en,english,e56d59e6ca78640b
+EN-013102,what do i have to do to download my invoice #85632,get_invoice,INVOICE,low,en,english,4479cc2d267280c3
+EN-020567,why I cannot set up the shipping address valid,set_up_shipping_address,SHIPPING,low,en,english,ab85ef727fb9fec0
+EN-012487,modify details on standard account,edit_account,ACCOUNT,low,en,english,fa2660feba65e664
+EN-010440,question about freemium account canclelations,delete_account,ACCOUNT,medium,en,english,349a9391aea42d70
+EN-005739,I have got to check in which cases can I ask for refunds,check_refund_policy,REFUND,low,en,english,705177753199ca95
+EN-016562,I want help doing a purchase,place_order,ORDER,low,en,english,ad88d80f83a077c0
+EN-012655,editing account,edit_account,ACCOUNT,low,en,english,211ea68ef3695d6c
+EN-003992,I'd like to check my fucking invoices from DemoMart help me,check_invoice,INVOICE,low,en,english,b094d2586d4d61b5
+EN-003134,"I have to see the early termination fees, help me",check_cancellation_fee,CANCEL,low,en,english,1ffbe6b02dffac81
+EN-001829,I cannot edit the shipping address,change_shipping_address,SHIPPING,medium,en,english,2e179bf685b95134
+EN-014966,i want assistance unsubscribing from the newsletter,newsletter_subscription,SUBSCRIPTION,low,en,english,07546d60e99d49b8
+EN-011302,I need to see how long it takes for the shipment to arrive,delivery_period,DELIVERY,low,en,english,d86bce36d115fb15
+EN-021515,using DemoMart account,switch_account,ACCOUNT,low,en,english,3473522394386a7c
+EN-001082,want help to add an article to purchase A-77952,change_order,ORDER,medium,en,english,a4cf6773af423c80
+EN-018521,report registration issue,registration_problems,ACCOUNT,medium,en,english,78550a432acae528
+EN-012899,I want to download the damn invoices from DemoMart,get_invoice,INVOICE,low,en,english,40caf9f83331ea6d
+EN-015133,I cannot sign up to your corporate newsledtter,newsletter_subscription,SUBSCRIPTION,low,en,english,bac8af0a8c92eb30
+EN-017381,I need help earning some articles,place_order,ORDER,low,en,english,d9f1828d35c28909
+EN-009558,new pro acount for wife,create_account,ACCOUNT,low,en,english,c2f8d423fff80634
+EN-022830,assistance to see the ETA of order A-63852,track_order,ORDER,medium,en,english,a31ae96a76ce16eb
+EN-008190,how do I speak with a live agent?,contact_human_agent,CONTACT,medium,en,english,622362143252572f
+EN-003433,assistance to look for the bill from DemoMart,check_invoice,INVOICE,low,en,english,a33dcd665de4489f
+EN-008593,I do not know how to speak with an agent,contact_human_agent,CONTACT,medium,en,english,f10058ca2a90d52b
+EN-007281,can ya help me ccall customer support,contact_customer_service,CONTACT,low,en,english,7ee37c5ffb4fbc1a
+EN-000131,help cancelling purchase A-16175,cancel_order,ORDER,medium,en,english,1f66b6d305e716c5
+EN-003620,I need assistance to take a quick look at bill #85632,check_invoice,INVOICE,low,en,english,22a342d5ba24b2fb
+EN-018002,I need help restoring the PIN of my profile,recover_password,ACCOUNT,medium,en,english,2807a10341be0827
+EN-000148,"I have bought some items, help canceling purchase A-11504",cancel_order,ORDER,medium,en,english,a401d9a1a5decd8d
+EN-009374,open another gold account,create_account,ACCOUNT,low,en,english,41ef604b04ad71cf
+EN-001700,"my shipping address changed, can you update it?",change_shipping_address,SHIPPING,medium,en,english,85d7ee42ff029c3c
+EN-022169,help me using the pro profile,switch_account,ACCOUNT,low,en,english,eebea36a906587bb
+EN-019087,could I report a signup issue?,registration_problems,ACCOUNT,medium,en,english,181d1428456fbf48
+EN-012522,edit standard account,edit_account,ACCOUNT,low,en,english,db10efb79724143d
+EN-015542,"the payment failed, I want to notify of issues",payment_issue,PAYMENT,high,en,english,c0ecd95a80c2f294
+EN-020886,I have a trouble setting m new delivery address up,set_up_shipping_address,SHIPPING,low,en,english,aab0e28b4be9ce4a
+EN-013601,"I lost the bill #85632, will you mail it to me?",get_invoice,INVOICE,low,en,english,c5307ad432405b8f
+EN-011967,help to check how soon can I expect my shipment,delivery_period,DELIVERY,low,en,english,e0c3af95353339cb
+EN-012670,edit details on gold account,edit_account,ACCOUNT,low,en,english,dfec0452854fc091
+EN-017162,wanna shop a few of ur item how do i do it,place_order,ORDER,low,en,english,4c36e040bd8d6270
+EN-021868,"I want too use the DemoMart account, I need assistance",switch_account,ACCOUNT,low,en,english,694c4a964a38d6a6
+EN-013689,where to obtain rebates of my money?,get_refund,REFUND,medium,en,english,9e47cbdb59dd61b7
+EN-023376,"I have to see the status of the rebate, will you help me?",track_refund,REFUND,medium,en,english,875095e98936cd57
+EN-021937,what do i have to do to switch to the DemoMart account,switch_account,ACCOUNT,low,en,english,1e38c5c96f180865
+EN-017733,assistance recovering my user account PIN,recover_password,ACCOUNT,medium,en,english,28c0d6d6ce226e55
+EN-015150,how do i unsubscribe fromur corporate newsletter,newsletter_subscription,SUBSCRIPTION,low,en,english,98a79560d276f130
+EN-011207,can I check how long the shipping takes?,delivery_period,DELIVERY,low,en,english,cb622025b12b4746
+EN-009011,where could I open a premium account for my fiance?,create_account,ACCOUNT,low,en,english,703898a7ca8849b5
+EN-002119,need assistance to modify the address,change_shipping_address,SHIPPING,medium,en,english,09419047cbca973d
+EN-012377,editing data on gold acocunt,edit_account,ACCOUNT,low,en,english,af40f76eb8a28476
+EN-011119,how do i check what delivery methods are available,delivery_options,DELIVERY,low,en,english,4c899678b136e13e
+EN-017523,i want assistance retrieving the pin of my user account,recover_password,ACCOUNT,medium,en,english,7063103c2edcb3f5
+EN-015034,"I want to unsubscribe to your newsletter, I need help",newsletter_subscription,SUBSCRIPTION,low,en,english,2d3a1ee8b6369575
+EN-006259,i dont know what to do to fgile a consumer claim,complaint,FEEDBACK,high,en,english,dafc6f222b63d747
+EN-002552,where can I check the cancellation penalties?,check_cancellation_fee,CANCEL,low,en,english,3dd93dcb06d62751
+EN-000318,"I bought some articles, how to cancel order A-85914?",cancel_order,ORDER,medium,en,english,d2d8dcceb3d2c0a5
+EN-003065,help checking the withdrawal penalties,check_cancellation_fee,CANCEL,low,en,english,b0b70fb8013b08fa
+EN-004114,how can i list the allowedd payment options,check_payment_methods,PAYMENT,low,en,english,a24bbca8b24da03b
+EN-011852,i have gt to check when will my purchase arrive,delivery_period,DELIVERY,low,en,english,b9cff4bdb1e2ad82
+EN-002077,I don't know what I need to do to modify my delivery address,change_shipping_address,SHIPPING,medium,en,english,2a3db46541ccd5fc
+EN-014797,where to unsubscribe to your newsletter?,newsletter_subscription,SUBSCRIPTION,low,en,english,a76cc6bf875fba05
+EN-005585,I have to see in which cases can I request a reimbursement,check_refund_policy,REFUND,low,en,english,b2d223d74d2f493d
+EN-019499,help me submit some feedback about a product,review,FEEDBACK,low,en,english,0a91c574f335efa7
+EN-002757,I have to check the withdrawal fee,check_cancellation_fee,CANCEL,low,en,english,d4baea8f7469990b
+EN-020972,I try to submit a different delivery address,set_up_shipping_address,SHIPPING,low,en,english,660aadaa2e5a9399
+EN-014866,can uhelp me to unsubscribe to ur corporate newsetter,newsletter_subscription,SUBSCRIPTION,low,en,english,de5fc6ac73f2dd04
+EN-014356,can ya help me receive rebates,get_refund,REFUND,medium,en,english,ff24fce6f1306a29
+EN-000340,"I have bought some items, cancel order A-62923",cancel_order,ORDER,medium,en,english,b8470815ad0e5733
+EN-018991,report issues creating user,registration_problems,ACCOUNT,medium,en,english,db70381c5b503ead
+EN-004810,I do not know what I have to do to list the payment options,check_payment_methods,PAYMENT,low,en,english,5964d1cf17827e99
+EN-016392,I have to report troubles with payment,payment_issue,PAYMENT,high,en,english,18698873063d07ba
+EN-010549,I have a question about the deletion of my standard account,delete_account,ACCOUNT,medium,en,english,521cd2c5fb58032c
+EN-019283,could you help me report an error with signup?,registration_problems,ACCOUNT,medium,en,english,e680b6b23b5ef085
+EN-023526,know if there is anything wrong with the refund,track_refund,REFUND,medium,en,english,a4cced12528bee6f
+EN-007203,I have to check what hours I can reach customer assistance,contact_customer_service,CONTACT,low,en,english,ef8280d88feca936
+EN-017504,help me restoring my user pin,recover_password,ACCOUNT,medium,en,english,4446f7abcdd9f979
+EN-022444,i do not know how i can check the eta of order A-48652,track_order,ORDER,medium,en,english,f9f403d4bb399584
+EN-018905,want help to inform of errors with a signup,registration_problems,ACCOUNT,medium,en,english,95fc4825ebfb6561
+EN-013707,I need help to receive restitutions of money,get_refund,REFUND,medium,en,english,9489ca3fe8f44ad6
+EN-003124,how to see the early exit fees?,check_cancellation_fee,CANCEL,low,en,english,98b3a03cda33b0e1
+EN-021834,i nee assistance to use the standard profile,switch_account,ACCOUNT,low,en,english,adcecddb1967bac0
+EN-002475,can ya help me seeing the terminatio penalties,check_cancellation_fee,CANCEL,low,en,english,a8aea9563532c072
+EN-009986,I want assistance to close my DemoMart account,delete_account,ACCOUNT,medium,en,english,47fe761ea783c081
+EN-010861,how can I see what shipping methods are there?,delivery_options,DELIVERY,low,en,english,5070fbea2258df27
+EN-023232,I can't see if there are any updates on my compensation,track_refund,REFUND,medium,en,english,9c6b1eea30226c81
+EN-010782,I want to check what shipping options are there,delivery_options,DELIVERY,low,en,english,c5433848d104f7aa
+EN-010177,what do I need to do to close a fucking gold account?,delete_account,ACCOUNT,medium,en,english,63dbe9990e7909ad
+EN-002794,"I need to see the withdrawal fee, how to do it?",check_cancellation_fee,CANCEL,low,en,english,eb92e9f3ed7b6e45
+EN-002286,what is the early exit penalty,check_cancellation_fee,CANCEL,low,en,english,677249f297edecc7
+EN-020385,how can i submit some feedback forur services,review,FEEDBACK,low,en,english,d066c6adee6b9ab9
+EN-013369,i cant find the bill #00108 will umail it to me,get_invoice,INVOICE,low,en,english,8379ba965037b2d0
+EN-013819,I do not knowhow to receive compensations of my money,get_refund,REFUND,medium,en,english,8bcba82b6ee6f805
+EN-000425,can I modify purchase A-65518?,change_order,ORDER,medium,en,english,641d60dacebde929
+EN-017986,I have got to restore my user access key,recover_password,ACCOUNT,medium,en,english,7ecaeba6e86e8426
+EN-009624,create gold account for wife,create_account,ACCOUNT,low,en,english,45da873da56c841b
+EN-015523,wanna report issues with online pahment,payment_issue,PAYMENT,high,en,english,46be4b0e2d9b2919
+EN-010895,"I have to check the shipment methods, can you help me?",delivery_options,DELIVERY,low,en,english,32bb6c1adbac89c1
+EN-017233,is it possible to acquire an article?,place_order,ORDER,low,en,english,952b90ee391b92a4
+EN-020274,I call to leave some feedback about your services,review,FEEDBACK,low,en,english,eb10294895997a65
+EN-014560,can you help me receiving the company newsletter?,newsletter_subscription,SUBSCRIPTION,low,en,english,b83aa71554341cf4
+EN-018365,"I lost my user password, would it be possible to recover it?",recover_password,ACCOUNT,medium,en,english,37674537dd76b834
+EN-008440,could you help me chatting with a live agent?,contact_human_agent,CONTACT,medium,en,english,85479088c4c8cbe9
+EN-007577,I need help seeing what hours I can call customer service,contact_customer_service,CONTACT,low,en,english,aaebfe5fa982aa3f
+EN-008977,open nw DemoMart account for daughter,create_account,ACCOUNT,low,en,english,b9ec81d3405a81b4
+EN-021374,i ahve an issue submitting a new delivery address,set_up_shipping_address,SHIPPING,low,en,english,8019dc787c7e761a
+EN-005402,help seeing in which situations can I request refunds,check_refund_policy,REFUND,low,en,english,353678bf1bc09ea2
+EN-022005,want assistance to use the standard account,switch_account,ACCOUNT,low,en,english,a770d11a265f383c
+EN-004614,"I have got to see the payment opitons, how to do it?",check_payment_methods,PAYMENT,low,en,english,710ecb03b77e15a2
+EN-019980,can you help me leave my feedback for your services?,review,FEEDBACK,low,en,english,9c0fbd80bc65421b
+EN-012314,edit data on freemium account,edit_account,ACCOUNT,low,en,english,4a10bd59f4dd0518
+EN-007444,i have to check what hours i can reach customer service,contact_customer_service,CONTACT,low,en,english,7fb1dd3567b79438
+EN-023142,I am waiting for a reimbursement of DemoMart dollras,track_refund,REFUND,medium,en,english,afe5643450b47392
+EN-000499,i want help to add an item to purchase A-56025,change_order,ORDER,medium,en,english,7657ba89a05280a1
+EN-010771,I want to check what shipment methods I have,delivery_options,DELIVERY,low,en,english,101393c161848bd4
+EN-003354,help to locate the bill from DemoMart,check_invoice,INVOICE,low,en,english,25fb13e044c95216
+EN-006485,I do not know what I have to do to file a consumer complaint,complaint,FEEDBACK,high,en,english,f3e374420f24a5eb
+EN-016023,i want help solving a trouble with online payments,payment_issue,PAYMENT,high,en,english,d1c884d047abfca4
+EN-021338,there are issues setting up the delivery address,set_up_shipping_address,SHIPPING,low,en,english,3976d331842cbbf9
+EN-005362,i have to check in what situatins can i ask to be reimbursed,check_refund_policy,REFUND,low,en,english,56eb5309d3698fb6

@@ -1,0 +1,55 @@
+ticket_id,text,intent,category,priority,lang,dialect,group_id
+AR-VAL-0000,تراجعت عن شراء المنتجات هل تلغون الطلب؟,cancel_order,ORDER,medium,ar,authored_mixed,5125dc9e6269b4d4
+AR-VAL-0001,أوقفوا تجهيز الطلب لم أعد أريده,cancel_order,ORDER,medium,ar,authored_mixed,5d0c806cf6ca16a0
+AR-VAL-0002,هل يسمح بتعديل محتويات طلب لم يجهز؟,change_order,ORDER,medium,ar,authored_mixed,9bf2fa29a8e37eb7
+AR-VAL-0003,أحتاج تغيير اللون الذي اخترته عند الشراء,change_order,ORDER,medium,ar,authored_mixed,eb8ffb7ca8f5b8f5
+AR-VAL-0004,أريد تحويل الشحنة الحالية إلى منزل آخر,change_shipping_address,SHIPPING,medium,ar,authored_mixed,1ec74f4cff35e691
+AR-VAL-0005,كيف أصحح الموقع المسجل في طلب هذا الأسبوع؟,change_shipping_address,SHIPPING,medium,ar,authored_mixed,9d8b64e909d05409
+AR-VAL-0006,أحتاج معرفة قيمة رسوم الكنسلة,check_cancellation_fee,CANCEL,low,ar,authored_mixed,69a37c646bb07d98
+AR-VAL-0007,ما المبلغ المطلوب عند رفض الاستلام؟,check_cancellation_fee,CANCEL,low,ar,authored_mixed,045586603d214b9f
+AR-VAL-0008,أحتاج التحقق من بنود الفاتورة ومجموعها,check_invoice,INVOICE,low,ar,authored_mixed,1b6e7dd274381fec
+AR-VAL-0009,الرقم الضريبي في فاتورتي يبدو خاطئا,check_invoice,INVOICE,low,ar,authored_mixed,70bad786de44c984
+AR-VAL-0010,هل تدعمون المحافظ الإلكترونية للدفع؟,check_payment_methods,PAYMENT,low,ar,authored_mixed,92cd5b6a0ecd2daa
+AR-VAL-0011,ما وسائل الدفع التي يقبلها المتجر؟,check_payment_methods,PAYMENT,low,ar,authored_mixed,c26d618a603c1fe8
+AR-VAL-0012,ما السلع المستثناة من سياسة الاسترداد؟,check_refund_policy,REFUND,low,ar,authored_mixed,6f2d54112400f789
+AR-VAL-0013,هل أستطيع إرجاع منتج بعد مرور شهر؟,check_refund_policy,REFUND,low,ar,authored_mixed,fe772b0276009c93
+AR-VAL-0014,أحتاج تصعيد شكوى رسمية عن سوء الخدمة,complaint,FEEDBACK,high,ar,authored_mixed,0aa61c1ab88fc74f
+AR-VAL-0015,تكرر سوء التعامل وأريد تقديم اعتراض,complaint,FEEDBACK,high,ar,authored_mixed,2f2c2b5d557c62eb
+AR-VAL-0016,أعطوني عنوان البريد الخاص بخدمة العملاء,contact_customer_service,CONTACT,low,ar,authored_mixed,8615c225a51ba743
+AR-VAL-0017,أين أجد بيانات الاتصال بالدعم الفني؟,contact_customer_service,CONTACT,low,ar,authored_mixed,318a4c935a1f4134
+AR-VAL-0018,أرغب بمحادثة مباشرة مع شخص من فريق الدعم,contact_human_agent,CONTACT,medium,ar,authored_mixed,288657406e984ae3
+AR-VAL-0019,أحتاج تحويل هذه المحادثة إلى إنسان,contact_human_agent,CONTACT,medium,ar,authored_mixed,ee71ca41a3e46adb
+AR-VAL-0020,أرغب بالتسجيل لأول مرة كمستخدم جديد,create_account,ACCOUNT,low,ar,authored_mixed,f96b5652b535ef19
+AR-VAL-0021,ساعدوني على إنشاء حساب للمشتريات,create_account,ACCOUNT,low,ar,authored_mixed,705830690ec78159
+AR-VAL-0022,أحتاج إنهاء عضويتي وحذف بياناتها,delete_account,ACCOUNT,medium,ar,authored_mixed,9f8b193316258f17
+AR-VAL-0023,هل يمكن إزالة حسابي نهائيا من الموقع؟,delete_account,ACCOUNT,medium,ar,authored_mixed,4333f134299b814c
+AR-VAL-0024,ما خيارات استلام المشتريات المتوفرة؟,delivery_options,DELIVERY,low,ar,authored_mixed,fae9f496b8685ce0
+AR-VAL-0025,هل خدمة التوصيل في اليوم نفسه متاحة؟,delivery_options,DELIVERY,low,ar,authored_mixed,30afdf2964575b96
+AR-VAL-0026,كم يوما يستغرق الشحن الاقتصادي عادة؟,delivery_period,DELIVERY,low,ar,authored_mixed,bf0577afd0534966
+AR-VAL-0027,ما مدة انتظار التسليم قبل إجراء طلب جديد؟,delivery_period,DELIVERY,low,ar,authored_mixed,fc63f0155a5d8369
+AR-VAL-0028,أريد تعديل بيانات الاتصال في عضويتي,edit_account,ACCOUNT,low,ar,authored_mixed,746a9da29ba685d2
+AR-VAL-0029,أين أعدل المعلومات الشخصية المسجلة؟,edit_account,ACCOUNT,low,ar,authored_mixed,2c0d74b39b209a24
+AR-VAL-0030,أرغب بتنزيل إيصال ضريبي لمشترياتي,get_invoice,INVOICE,low,ar,authored_mixed,43ef09e2adea517a
+AR-VAL-0031,هل يمكن إرسال صورة الفاتورة إلى بريدي؟,get_invoice,INVOICE,low,ar,authored_mixed,cd2e7461940e93fb
+AR-VAL-0032,وصلني منتج تالف وأريد تقديم طلب استرداد,get_refund,REFUND,medium,ar,authored_mixed,ef8d33544df45523
+AR-VAL-0033,أطلب إرجاع المال بعد إعادة السلعة,get_refund,REFUND,medium,ar,authored_mixed,82b1cf77bf1bd864
+AR-VAL-0034,لا أرغب بمزيد من رسائل التسويق,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,a3e3732320f69448
+AR-VAL-0035,أرغب بالاشتراك في نشرة المتجر البريدية,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,e0208ba640fa0fbb
+AR-VAL-0036,أرى خصمين ماليين لنفس عملية الشراء,payment_issue,PAYMENT,high,ar,authored_mixed,198cbd9a1cac13bc
+AR-VAL-0037,لم تنجح عملية التسديد لكن المبلغ خرج من الحساب,payment_issue,PAYMENT,high,ar,authored_mixed,cd501bc769f9ac39
+AR-VAL-0038,أرغب بتقديم طلب شراء من الموقع,place_order,ORDER,low,ar,authored_mixed,697c62f1441383a8
+AR-VAL-0039,كيف أنهي شراء المنتجات الموجودة بالسلة؟,place_order,ORDER,low,ar,authored_mixed,14ae7d5d2b15c7dd
+AR-VAL-0040,فقدت كلمة السر وأريد إعادة تعيينها,recover_password,ACCOUNT,medium,ar,authored_mixed,66ad0dfc7407a362
+AR-VAL-0041,تعذر الدخول بسبب نسيان بيانات كلمة المرور,recover_password,ACCOUNT,medium,ar,authored_mixed,333ac837dc233208
+AR-VAL-0042,رمز تفعيل الحساب الجديد لا يصل إلى الهاتف,registration_problems,ACCOUNT,medium,ar,authored_mixed,4ed50c523f891bf7
+AR-VAL-0043,واجهت مشكلة أثناء إنشاء العضوية الجديدة,registration_problems,ACCOUNT,medium,ar,authored_mixed,bacccdcc95388cd0
+AR-VAL-0044,أين أنشر تقييما للمنتج الذي استلمته؟,review,FEEDBACK,low,ar,authored_mixed,b5dab5046993487c
+AR-VAL-0045,أود كتابة مراجعتي عن تجربة الشراء,review,FEEDBACK,low,ar,authored_mixed,65842865b02864cf
+AR-VAL-0046,أرغب بإضافة عنوان جديد قبل أول طلب,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,245ca39538ce0850
+AR-VAL-0047,كيف أحفظ عنوان الشحن ضمن الحساب؟,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,d6c3cc5ef6ec300a
+AR-VAL-0048,كيف أحول الحساب المميز إلى حساب عادي؟,switch_account,ACCOUNT,low,ar,authored_mixed,a081e185bd7f6638
+AR-VAL-0049,أرغب بتبديل فئة العضوية الحالية,switch_account,ACCOUNT,low,ar,authored_mixed,a02d1b7763272fdf
+AR-VAL-0050,أين يمكن متابعة حركة شحنتي الحالية؟,track_order,ORDER,medium,ar,authored_mixed,ab587f9bfd75174b
+AR-VAL-0051,أريد التحقق من وضع طلب اشتريته منذ أيام,track_order,ORDER,medium,ar,authored_mixed,2c9bef38d3c25ca0
+AR-VAL-0052,متى يظهر مبلغ الاسترداد المعتمد في بطاقتي؟,track_refund,REFUND,medium,ar,authored_mixed,536c4b6fc2f1b8a9
+AR-VAL-0053,أرغب بتتبع طلب استعادة المال المفتوح,track_refund,REFUND,medium,ar,authored_mixed,7bf22e5075687eb1

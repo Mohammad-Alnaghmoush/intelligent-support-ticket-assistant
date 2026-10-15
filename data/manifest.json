@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "source_url": "https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset/resolve/main/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv",
+  "source_sha256": "6f81102b0100b97b8468eb04368033a23206bf1fde9d53500d5806ec1001a434",
+  "deduplicated_templates": 3263,
+  "sizes": {
+    "train": 2700,
+    "val": 405,
+    "test_en": 405,
+    "test_ar": 108,
+    "train_ar": 108,
+    "val_ar": 54,
+    "history": 1200
+  },
+  "split_policy": "one canonical template per row, stratified disjoint splits, separate Arabic utterances",
+  "snapshot_sha256": {
+    "train.csv": "5c0408b8ae48bcd317fbb47be0a6b9a87df0adf53f84520011536dd4fb9f1511",
+    "val.csv": "ba5626486341478cec4bbb977db1791a939c8ad816ba4292bdb91fc924c5f2e6",
+    "test_en.csv": "1c9dd3906dc0ee3c72bbce3952550fb64ad07df47e715206505eb91ed465b1fd",
+    "test_ar.csv": "96005850835b267ceed495c2cf2981e3228dee9db5f410767b7b1f87b78e4625",
+    "train_ar.csv": "2b175cb06f8a893f7836c557003cc706bd8aaf33b60f88a67f89c6cf0d39a86e",
+    "val_ar.csv": "c1396c5ce28c8a06b13ed1f8e6647262df050bbd1d71e7c3ee7c27149426c766",
+    "history.csv": "5c3e11b74fe7ab71e18fefbdeee876b99c929fc6086655e5048a839a0226ce89"
+  }
+}

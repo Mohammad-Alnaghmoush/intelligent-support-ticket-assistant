@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "method": "actual local Gradio HTTP request",
+  "interface_language": "English",
+  "input": "How do I delete my account?",
+  "intent": "delete_account",
+  "route": "draft_for_agent",
+  "llm_enabled": false
+}

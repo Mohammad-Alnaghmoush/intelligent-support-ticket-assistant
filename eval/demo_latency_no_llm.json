@@ -1,0 +1,12 @@
+{
+  "assistant_setup_s": 25.232418920999862,
+  "first_request_ms": 20.72,
+  "warm_requests": 6,
+  "warm_p95_ms": 17.325000000000003,
+  "note": "Mixed sample routes. First request includes local LLM loading if generation is reached. These seven samples are not a population benchmark.",
+  "llm_enabled": false,
+  "status_counts": {
+    "human_review": 4,
+    "retrieved_draft": 3
+  }
+}

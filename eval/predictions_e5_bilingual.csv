@@ -1,0 +1,514 @@
+ticket_id,text,y_true,lang,dialect,model,y_pred,confidence,accepted
+EN-003943,i need help to locate the bills from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.9830075663588145,True
+EN-012864,i dont know what to do to modify my bloody user account,edit_account,en,english,e5_bilingual,edit_account,0.9060611804248543,True
+EN-022375,tracking order A-46342,track_order,en,english,e5_bilingual,track_order,0.9294884112919615,True
+EN-002152,I want support modifying the shipping address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9252262664279943,True
+EN-001317,"I entered a wrong delivery address, help me editing it",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.8574223797118304,True
+EN-004855,help me checking the accepted payment modalities,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9791350028181655,True
+EN-008286,can you direct to me a human agent?,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9853271215604896,True
+EN-020319,how can I send feedback about a service?,review,en,english,e5_bilingual,review,0.9961276723411687,True
+EN-021594,I need assistance changing to the standard account,switch_account,en,english,e5_bilingual,switch_account,0.908193492354101,True
+EN-015065,need to receive the newsletter can ya help me,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9289845090837662,True
+EN-021467,can you help me change to the standard account?,switch_account,en,english,e5_bilingual,switch_account,0.9413917852113337,True
+EN-004884,assistance listing the payment methods,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.939704023238086,True
+EN-016317,I do not know how I can notify of an error with payments,payment_issue,en,english,e5_bilingual,payment_issue,0.9443026807255921,True
+EN-022762,help to check the ETA of order A-60667,track_order,en,english,e5_bilingual,track_order,0.966215326783678,True
+EN-009412,new standard acount,create_account,en,english,e5_bilingual,create_account,0.7734667884515688,True
+EN-014588,"I want to unsubscribe to your corporate newsletter, help me",newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9664611726639966,True
+EN-009701,problem with freemium account cancellations,delete_account,en,english,e5_bilingual,delete_account,0.7969757552288153,True
+EN-020519,I have troubles entering another delivery address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9748472729829285,True
+EN-000016,what do I have to do to cancel purchase A-38657?,cancel_order,en,english,e5_bilingual,cancel_order,0.9664644154096205,True
+EN-011705,I do not know wha to do to check when will my product arrive,delivery_period,en,english,e5_bilingual,delivery_period,0.9646788022494586,True
+EN-002930,how to see the cancellation penalty,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9927822341536676,True
+EN-023063,can uhelp me check the compensation current status,track_refund,en,english,e5_bilingual,track_refund,0.8360919434246382,True
+EN-013809,need help to get a copmpensation of money,get_refund,en,english,e5_bilingual,get_refund,0.9656929066426385,True
+EN-013516,I want help downloading bill #00108,get_invoice,en,english,e5_bilingual,get_invoice,0.8604898792430505,True
+EN-018586,I do not know what to do to inform of an issue with a signup,registration_problems,en,english,e5_bilingual,registration_problems,0.9768863540099683,True
+EN-017599,I have problems with the key reset,recover_password,en,english,e5_bilingual,recover_password,0.8902889410344905,True
+EN-004038,I need help to see what payment methods are accepted,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9859348711096868,True
+EN-011676,help me seeing how long it takes for the delivery to rarive,delivery_period,en,english,e5_bilingual,delivery_period,0.9368213538126104,True
+EN-010367,I have a problem with the removal of my standard account,delete_account,en,english,e5_bilingual,delete_account,0.9338181539182189,True
+EN-001214,i cant change an item of purchase A-66881,change_order,en,english,e5_bilingual,change_order,0.924129912423806,True
+EN-007491,I want help speaking with customer assistance,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9060137488493113,True
+EN-005257,"I need to see how long reimbursements take, how can I do it?",check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.8460294512104763,True
+EN-000029,have a problem with canceling order A-46463,cancel_order,en,english,e5_bilingual,cancel_order,0.9647350237420237,True
+EN-007426,I want help to check what hours I can reach customer support,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9796557370721397,True
+EN-013892,I need assistance requesting a refund of money,get_refund,en,english,e5_bilingual,get_refund,0.9640226231544438,True
+EN-020472,I need assistance to set up a secondary shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.99282358087997,True
+EN-002874,can you help me to see the early termination charges?,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9870867573739103,True
+EN-018264,"I forgot my profile access key, help to recover it",recover_password,en,english,e5_bilingual,recover_password,0.9832791189238125,True
+EN-004066,show me your allowed payment options,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9914836316543076,True
+EN-018510,"I cannot open a profile, help me to report signup problems",registration_problems,en,english,e5_bilingual,registration_problems,0.902473016464765,True
+EN-014868,how do I sign up to the company newsletter?,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9944759081436636,True
+EN-019356,can ya help me to notify of an error with signup,registration_problems,en,english,e5_bilingual,registration_problems,0.9715831528722698,True
+EN-008644,can udirect ot me somebody,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.8152043648703634,True
+EN-006749,want help to file a claim against your organization,complaint,en,english,e5_bilingual,complaint,0.9829436229499536,True
+EN-005324,need assistance to see in what cases can i ask for refunds,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9879721849907322,True
+EN-019527,need assistance to write a review about ur copany,review,en,english,e5_bilingual,review,0.9423820389962395,True
+EN-001203,i need help to delete something from order A-80912,change_order,en,english,e5_bilingual,change_order,0.9008065403926679,True
+EN-021852,how to use the freemium profile?,switch_account,en,english,e5_bilingual,switch_account,0.984341421587735,True
+EN-010040,question about the cancellation of a DemoMart account,delete_account,en,english,e5_bilingual,delete_account,0.9718306932624493,True
+EN-007816,do you have a free number to talk with customer service?,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9570032299493767,True
+EN-007984,I am trying to chat with somebody,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9907287116344279,True
+EN-000646,help with adding several damn articles to order A-46347,change_order,en,english,e5_bilingual,change_order,0.9242603773937679,True
+EN-006088,help to make a customer complaint,complaint,en,english,e5_bilingual,complaint,0.9371992041161064,True
+EN-002927,i do not know how to see the cancellation penalty,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9685671170603108,True
+EN-022986,I'm waiting for a compensation of DemoMartDemoMart,track_refund,en,english,e5_bilingual,track_refund,0.8479616554866436,True
+EN-020076,I don't know how t leave an opinion about a product,review,en,english,e5_bilingual,review,0.9554147175928893,True
+EN-003193,I want help seeing the invoices from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.8886715702345315,True
+EN-003144,I need to look for the fucking invoices from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.8878885378398425,True
+EN-002208,have a question about an address update,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9721135895937479,True
+EN-017111,I am trying to earn a product,place_order,en,english,e5_bilingual,place_order,0.9728268240814872,True
+EN-002880,I can't find the termination charge,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9455593626506713,True
+EN-010077,problems with the deletion of my DemoMart accoun,delete_account,en,english,e5_bilingual,delete_account,0.9354412014150553,True
+EN-001854,there are errors trying to update my shipping address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.96643360004525,True
+EN-009209,I do not know what I need to do to create a DemoMart account,create_account,en,english,e5_bilingual,create_account,0.8569735813708381,True
+EN-020349,wanna send my feedback for ur services,review,en,english,e5_bilingual,review,0.98965636084467,True
+EN-010557,I want to see what shipment methods I can choose,delivery_options,en,english,e5_bilingual,delivery_options,0.9945522078860787,True
+EN-022954,i cannot see if there is anything new on the compensation,track_refund,en,english,e5_bilingual,track_refund,0.989664789052882,True
+EN-005498,I try to check in which situations can I request refunds,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9741614253164407,True
+EN-001948,I want assistance trying to correct the address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9752028362931026,True
+EN-022258,I'm trying to check purcahse A-73156 current status,track_order,en,english,e5_bilingual,track_order,0.9592125410333492,True
+EN-013076,get ibll #85632,get_invoice,en,english,e5_bilingual,get_invoice,0.7049812575223784,True
+EN-019480,"I have got to leave a review for a product, can you help me?",review,en,english,e5_bilingual,review,0.9409822901676466,True
+EN-004049,show me what payment options are accepted,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9945517688954308,True
+EN-010669,is it possible to place na order from DemoMart,delivery_options,en,english,e5_bilingual,delivery_options,0.6827146016542345,True
+EN-008835,helo to contact an assistant,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.8086034661631493,True
+EN-000237,"I bought some items, help canceling order A-18834",cancel_order,en,english,e5_bilingual,cancel_order,0.9038533141075791,True
+EN-002738,help seeing the early termination fees,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9911319917599637,True
+EN-005652,assistance seeing in what situations can I request a refund,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.970982728196354,True
+EN-013820,how can I obtain my money back?,get_refund,en,english,e5_bilingual,get_refund,0.9608969541897057,True
+EN-023078,I'm waiting for a refund of DemoMart dollars,track_refund,en,english,e5_bilingual,track_refund,0.8544366748468639,True
+EN-021644,help using the pro profile,switch_account,en,english,e5_bilingual,switch_account,0.978391540785299,True
+EN-021119,"I want to submit a delivery address, I need assistance",set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9196762899417545,True
+EN-013300,where to download the invoices from DemoMart?,get_invoice,en,english,e5_bilingual,get_invoice,0.9600048384934865,True
+EN-000268,"I doln't want order A-22899, can you cancel it?",cancel_order,en,english,e5_bilingual,cancel_order,0.9760228038847499,True
+EN-000860,I try to edit order A-48566,change_order,en,english,e5_bilingual,change_order,0.8731807124043512,True
+EN-007259,can I see at what time customer service available is?,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9166562349466685,True
+EN-006311,need to file an fucking consumer claim can i get some help,complaint,en,english,e5_bilingual,complaint,0.8128441576352643,True
+EN-021264,I want help to submit a different shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9427687232342127,True
+EN-003520,i do not know how i can take a quick look at the bill #37777,check_invoice,en,english,e5_bilingual,check_invoice,0.9857531777002632,True
+EN-019357,can you help me notify of a registration issue?,registration_problems,en,english,e5_bilingual,registration_problems,0.9861996601580015,True
+EN-012564,correct information on standardaccount,edit_account,en,english,e5_bilingual,edit_account,0.9011662850105342,True
+EN-022798,assistance to track purchase A-12389,track_order,en,english,e5_bilingual,track_order,0.8485411223263346,True
+EN-005248,i have to see in what situations can i ask for refunds,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9928259011122856,True
+EN-019510,ya have a method to send feedback,review,en,english,e5_bilingual,review,0.969200918312491,True
+EN-006674,I try to make a complaint,complaint,en,english,e5_bilingual,complaint,0.9492458935121459,True
+EN-023219,i expect a compensqtion of DemoMart dollars,track_refund,en,english,e5_bilingual,track_refund,0.907069358524045,True
+EN-012802,help to modify the fucking information on my profile,edit_account,en,english,e5_bilingual,edit_account,0.959536344645381,True
+EN-011141,I have got to check what delivery methods I can choose,delivery_options,en,english,e5_bilingual,delivery_options,0.9821778242780941,True
+EN-014278,I would like to obtain my money back,get_refund,en,english,e5_bilingual,get_refund,0.9754516576217646,True
+EN-022862,I do not know what to do to locate purchase A-58655,track_order,en,english,e5_bilingual,track_order,0.6933154272290397,True
+EN-023140,see my restitution current status,track_refund,en,english,e5_bilingual,track_refund,0.9938245846701971,True
+EN-012530,correcting data on premium account,edit_account,en,english,e5_bilingual,edit_account,0.9779385933790317,True
+EN-004644,where to list your allowed payment options?,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9914151443166745,True
+EN-006199,need help to make a complaint against ur company,complaint,en,english,e5_bilingual,complaint,0.9781563635926372,True
+EN-006842,I want help to make a reclamation,complaint,en,english,e5_bilingual,complaint,0.7926008997550011,True
+EN-000751,switch something of order A-41266,change_order,en,english,e5_bilingual,change_order,0.970241763836029,True
+EN-003883,I want assistance looking for my invoice #12588,check_invoice,en,english,e5_bilingual,check_invoice,0.6527755429679484,True
+EN-015553,I need assistance notifying of troubles with online payments,payment_issue,en,english,e5_bilingual,payment_issue,0.980967199016697,True
+EN-000353,can ya help me cancel order A-84085,cancel_order,en,english,e5_bilingual,cancel_order,0.9855449528166015,True
+EN-000900,how do I add some articles to purchase A-57301?,change_order,en,english,e5_bilingual,change_order,0.8837221390557679,True
+EN-009911,I need information about the removal of a premium account,delete_account,en,english,e5_bilingual,delete_account,0.9782417866725165,True
+EN-023381,help me to check the sxtatus of my reimbursement,track_refund,en,english,e5_bilingual,check_refund_policy,0.29665456797198597,False
+EN-021190,I do not know what to do to submit my new shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9492631765583892,True
+EN-017417,where could I buy several articles?,place_order,en,english,e5_bilingual,place_order,0.996554519422048,True
+EN-017307,"I have to earn several products, how can I do it?",place_order,en,english,e5_bilingual,place_order,0.978105836930186,True
+EN-017224,I need assistance to shop a few of your item,place_order,en,english,e5_bilingual,place_order,0.9812294044379547,True
+EN-023038,I'm trying to see my refund current status,track_refund,en,english,e5_bilingual,track_refund,0.9790595019070214,True
+EN-017534,i have to retrieve my user account key,recover_password,en,english,e5_bilingual,recover_password,0.9873893727833121,True
+EN-003821,I want assistance locating the invoices from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.8521541237946448,True
+EN-004433,"I have got to list the payment options, how can I do it?",check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9420094378908416,True
+EN-017677,"I can't remember my bloody user key, how to reset it?",recover_password,en,english,e5_bilingual,recover_password,0.9756251691877924,True
+EN-017380,"I have got to acquire several items, I need help",place_order,en,english,e5_bilingual,place_order,0.9649946530866518,True
+EN-020306,I do not know how to leave my feedback for a product,review,en,english,e5_bilingual,review,0.9832103127638532,True
+EN-009358,create freemium account,create_account,en,english,e5_bilingual,create_account,0.9816190761706481,True
+EN-006187,"I am very unsatisfied with your work, make a fucking claim",complaint,en,english,e5_bilingual,complaint,0.8314801876126283,True
+EN-000901,i need help to delete some products from order A-33519,change_order,en,english,e5_bilingual,change_order,0.9756923447293276,True
+EN-022736,I don't know how I can locate purchase A-15130,track_order,en,english,e5_bilingual,track_order,0.8664600200206178,True
+EN-000711,I want help deleting something from purchase A-87580,change_order,en,english,e5_bilingual,change_order,0.8377522294838555,True
+EN-015424,"I have to cancel my subscription to the newsletter, help me",newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9646884178376697,True
+EN-008891,I do not know what I have to do to contact an assistant,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.8759560051150831,True
+EN-014245,i want assistance to receive my money back,get_refund,en,english,e5_bilingual,get_refund,0.9297562584975275,True
+EN-009106,creating account,create_account,en,english,e5_bilingual,create_account,0.9793152273458245,True
+EN-010378,would it be possible to cancel a DemoMart account?,delete_account,en,english,e5_bilingual,delete_account,0.9678601577911675,True
+EN-013731,I'm trying to demand a rebate of my money,get_refund,en,english,e5_bilingual,get_refund,0.9918333542936963,True
+EN-015570,assistance informing of errors with payments,payment_issue,en,english,e5_bilingual,payment_issue,0.9938863898965621,True
+EN-006798,how can I lodge a reclamation against your business?,complaint,en,english,e5_bilingual,complaint,0.9950390566177525,True
+EN-011237,can you help me seeing how soon can I expect my order?,delivery_period,en,english,e5_bilingual,delivery_period,0.9833720952115418,True
+EN-012255,editting details on premium account,edit_account,en,english,e5_bilingual,edit_account,0.9957832291980436,True
+EN-013164,I don't know what to do to download the invoice #85632,get_invoice,en,english,e5_bilingual,get_invoice,0.8968987307909017,True
+EN-008903,how to open a premium account?,create_account,en,english,e5_bilingual,create_account,0.9859440867288495,True
+EN-017738,"I cannot remember my damn profile key, how to restore it?",recover_password,en,english,e5_bilingual,recover_password,0.9701044538037875,True
+EN-002207,"I have got to correct the delivery address, how to do it?",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9117544498987095,True
+EN-008199,I would like to speak to a live agent,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9831757870265626,True
+EN-019138,help me to informof an issue with a registration,registration_problems,en,english,e5_bilingual,registration_problems,0.9697236810236057,True
+EN-020491,I have troubles entering a different shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.924961728454215,True
+EN-011436,give me information about the shippong periods,delivery_period,en,english,e5_bilingual,delivery_period,0.9005974317568693,True
+EN-013266,help me download the bill from DemoMart,get_invoice,en,english,e5_bilingual,get_invoice,0.9727494690544001,True
+EN-002517,I have got to see the early exit penalpties,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9430856308340727,True
+EN-006211,I want to lodge a reclamation,complaint,en,english,e5_bilingual,complaint,0.8958459519741112,True
+EN-021068,I can't set a new delivery address up,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9023069220891125,True
+EN-010500,i need assistance to cancel my DemoMart account,delete_account,en,english,e5_bilingual,delete_account,0.9487642597462363,True
+EN-000075,can you help me to cancel purchase A-31319?,cancel_order,en,english,e5_bilingual,cancel_order,0.969505506265922,True
+EN-016515,I need assistance to shop a product,place_order,en,english,e5_bilingual,place_order,0.9464510883206843,True
+EN-016349,issue with payment,payment_issue,en,english,e5_bilingual,payment_issue,0.9955330119506728,True
+EN-009346,creating new standard account for daughter,create_account,en,english,e5_bilingual,create_account,0.9856903285968756,True
+EN-000066,I need help cacneling order A-20458,cancel_order,en,english,e5_bilingual,cancel_order,0.6534277007871109,True
+EN-010665,is it possibleto place an order from DemoMart,delivery_options,en,english,e5_bilingual,delivery_options,0.7990571933885843,True
+EN-005950,help seeing in what cases can i ask for a refund,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.992809820537368,True
+EN-004019,is it possible to see your available payment methods?,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9948932754859436,True
+EN-011689,I need to see how soon can I expect my shipment,delivery_period,en,english,e5_bilingual,delivery_period,0.9896508334460657,True
+EN-016232,report problems with payment,payment_issue,en,english,e5_bilingual,payment_issue,0.9986422992520575,True
+EN-022584,need to check order A-79066 current status how do i do it,track_order,en,english,e5_bilingual,track_order,0.9733498633242011,True
+EN-012468,modifying ingormation on DemoMart account,edit_account,en,english,e5_bilingual,edit_account,0.8527576111880908,True
+EN-015103,I am trying to cancel my subscription to your newsletter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9777092306088537,True
+EN-015221,I want assistance to subscribe to your company newsletter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9895407957681172,True
+EN-009990,give me information about the deletion of a gold account,delete_account,en,english,e5_bilingual,delete_account,0.989178113633922,True
+EN-004920,how do I see your payment modalities?,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9897611156061393,True
+EN-010655,what do I need to do to see what shipment methods I have?,delivery_options,en,english,e5_bilingual,delivery_options,0.9691740178264,True
+EN-009445,wanna know more about opening a DemoMart account,create_account,en,english,e5_bilingual,create_account,0.9792012884454532,True
+EN-008304,"I cannot understand you, I want to speak to a person",contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9893147013815667,True
+EN-013016,I have got to download the invoice from DemoMart,get_invoice,en,english,e5_bilingual,get_invoice,0.9340490003801348,True
+EN-005344,assistance seeing in what casew can i ask to be refunded,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9082249062189587,True
+EN-003429,I need assistance to see the invoice #00108,check_invoice,en,english,e5_bilingual,check_invoice,0.8267263169051271,True
+EN-007372,"I need to contact customer service, hoow can I do it?",contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.7820922216731233,True
+EN-005894,help me see in what situations can I request reimbursements,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9718616564459578,True
+EN-008680,I don't know how I can speak with a person,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9915793167542902,True
+EN-017551,i do not know how to recover my account pass,recover_password,en,english,e5_bilingual,recover_password,0.8910771822859462,True
+EN-005301,I need help to se how long the bloody reimbursements take,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.7099347202947347,True
+EN-013284,i have to get the bill #85632 will huelp me,get_invoice,en,english,e5_bilingual,check_invoice,0.6719432284916996,True
+EN-003483,seeing bil #00108,check_invoice,en,english,e5_bilingual,check_invoice,0.9810473013300408,True
+EN-000525,could i delete a item from purchase A-34914,change_order,en,english,e5_bilingual,change_order,0.9218473237830775,True
+EN-001311,"I submitted a wrong shipping address, I awnt to change it",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.8331908185400259,True
+EN-008344,how can I speak with an agent?,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9942219588338285,True
+EN-007839,how to talk with customer service?,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9825153650423165,True
+EN-011254,I call to see how soon can I expect my parcel,delivery_period,en,english,e5_bilingual,delivery_period,0.992471253193958,True
+EN-010743,"I have to see the methods for shipping, I need help",delivery_options,en,english,e5_bilingual,delivery_options,0.8905939763952775,True
+EN-003810,where to find my invoices from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.9119201605919175,True
+EN-023588,I need help to see the current status of the refund,track_refund,en,english,e5_bilingual,track_refund,0.9861091608864051,True
+EN-016119,want help norifying of a payment issue,payment_issue,en,english,e5_bilingual,payment_issue,0.974954333307545,True
+EN-012650,change info on gold account,edit_account,en,english,e5_bilingual,edit_account,0.9791692600036318,True
+EN-018491,I needs to notify of signup issues,registration_problems,en,english,e5_bilingual,registration_problems,0.9828034743950775,True
+EN-013026,I don't know how to get the invoice #37777,get_invoice,en,english,e5_bilingual,get_invoice,0.927322996634324,True
+EN-007241,what do I have to do to call customer service?,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9788205986929083,True
+EN-008266,can you help me contact a human agent?,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.976846693736335,True
+EN-012923,send me bull from DemoMart,get_invoice,en,english,e5_bilingual,get_invoice,0.7805870546568803,True
+EN-004800,help listing your allowed payment methods,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9847521629596491,True
+EN-020127,where to leave a comment about your company?,review,en,english,e5_bilingual,review,0.9903457148335442,True
+EN-019209,i need assistance to inform of errors with signup,registration_problems,en,english,e5_bilingual,registration_problems,0.9850757672689634,True
+EN-020189,wanna leave a comment how do i do it,review,en,english,e5_bilingual,review,0.8793614797299499,True
+EN-012068,where could I see how soon can I expect my shipment?,delivery_period,en,english,e5_bilingual,delivery_period,0.9885809106323278,True
+EN-015234,tell me about cancellling the subscription to ur newsletter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9682518473480316,True
+EN-021670,can I use the gold profile?,switch_account,en,english,e5_bilingual,switch_account,0.9718182979712839,True
+EN-010819,help to check what shipment options are there,delivery_options,en,english,e5_bilingual,delivery_options,0.9813678509001706,True
+EN-022809,can you help me seeing the ETA of the order A-20114?,track_order,en,english,e5_bilingual,track_order,0.9355194669598853,True
+EN-016545,help buying some of your product,place_order,en,english,e5_bilingual,place_order,0.9878436733486643,True
+EN-016929,need help earning several of your article,place_order,en,english,e5_bilingual,place_order,0.9852840993141438,True
+EN-017015,want help buying a product,place_order,en,english,e5_bilingual,place_order,0.9373300625857443,True
+EN-007903,i have to see what hours customer support available is,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9961028762577908,True
+EN-002114,"I have chosen a wrong shipping address, how do I correct it?",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.954030064945833,True
+EN-000314,i dont know how to cancel order A-34890,cancel_order,en,english,e5_bilingual,cancel_order,0.9404540794005072,True
+EN-021181,I can't enter the shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.8125684522353939,True
+EN-010815,I don't know what I need to do to see the shipping methods,delivery_options,en,english,e5_bilingual,delivery_options,0.8877584852660663,True
+EN-012947,can you send me my bill from DemoMart?,get_invoice,en,english,e5_bilingual,get_invoice,0.9681333984365389,True
+EN-006719,I want help making a ucstomer claim against your company,complaint,en,english,e5_bilingual,complaint,0.943300603021787,True
+EN-010118,problem with standard account terminations,delete_account,en,english,e5_bilingual,delete_account,0.8129606340968912,True
+EN-022481,I try to check the ETA of the purchase A-82924,track_order,en,english,e5_bilingual,track_order,0.6625489810369231,True
+EN-016362,want help solving a problem with payments,payment_issue,en,english,e5_bilingual,payment_issue,0.9697595383216764,True
+EN-020502,ca ya help me set another fucking shipping address up,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9684773730675476,True
+EN-006244,help me filing a customer complaint against your business,complaint,en,english,e5_bilingual,complaint,0.9954651988479076,True
+EN-021491,I'd like to use the DemoMart account could uhelp me,switch_account,en,english,e5_bilingual,switch_account,0.7948152872868822,True
+EN-016170,i need assistance to notify of an trouble with payment,payment_issue,en,english,e5_bilingual,payment_issue,0.988644463756151,True
+EN-022853,how can i see the status of purchase A-64874,track_order,en,english,e5_bilingual,track_order,0.9857025325028502,True
+EN-016610,is it possible to purchase several bloody items?,place_order,en,english,e5_bilingual,place_order,0.9565326343033743,True
+EN-022084,what do I have to do to change to the standard account?,switch_account,en,english,e5_bilingual,switch_account,0.9367552522550252,True
+EN-008922,I do not know what to do to create a DemoMart account for my dad,create_account,en,english,e5_bilingual,create_account,0.9061293810651082,True
+EN-016428,i dont know how to inform of an issue with payments,payment_issue,en,english,e5_bilingual,payment_issue,0.9816781834221888,True
+EN-008527,I need assistance to speak with an assistant,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9585372326730197,True
+EN-009003,i dont know how to open a DemoMart account for my daughter,create_account,en,english,e5_bilingual,create_account,0.9396849661936871,True
+EN-011380,where do i see when my product is gonna arrive,delivery_period,en,english,e5_bilingual,delivery_period,0.9613047097125623,True
+EN-011771,assistance seeing when my purchase is going to arrive,delivery_period,en,english,e5_bilingual,delivery_period,0.819683860079739,True
+EN-023515,how to see the current status of the rebate,track_refund,en,english,e5_bilingual,track_refund,0.9868034487545361,True
+EN-000387,need assistance to cancel purchase A-47353,cancel_order,en,english,e5_bilingual,cancel_order,0.9723668527651063,True
+EN-011226,I want assistance to see when will my purchase arrtive,delivery_period,en,english,e5_bilingual,delivery_period,0.48155725890843154,True
+EN-006879,help lodging a reclamation,complaint,en,english,e5_bilingual,complaint,0.9500543232439382,True
+EN-013437,need to get the invoicefrom DemoMart can i get some help,get_invoice,en,english,e5_bilingual,get_invoice,0.9394174119443066,True
+EN-015937,how to notify of problems with payment?,payment_issue,en,english,e5_bilingual,payment_issue,0.9919829060559727,True
+EN-000707,assistance adding something to purchase A-91560,change_order,en,english,e5_bilingual,change_order,0.9474357634930314,True
+EN-007560,i try to get in touch with customer assistance,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9413136425914643,True
+EN-018149,can you help me reset my profile PIN?,recover_password,en,english,e5_bilingual,recover_password,0.9902204660198803,True
+EN-012210,change information on pro account,edit_account,en,english,e5_bilingual,edit_account,0.9264718905697628,True
+EN-014436,I do not know how I could request compensations of money,get_refund,en,english,e5_bilingual,get_refund,0.9435007848141165,True
+EN-019393,where can I report issues with sign-up?,registration_problems,en,english,e5_bilingual,registration_problems,0.9891566863788903,True
+EN-021584,"I have got to use the DemoMart profile, help me",switch_account,en,english,e5_bilingual,switch_account,0.9151349698959619,True
+EN-021337,submit my secondary shipping address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9962285942911872,True
+EN-007611,what do I have to do to talk to customer service?,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9760838287415186,True
+EN-003561,I need assistance to look for the invoice #00108,check_invoice,en,english,e5_bilingual,check_invoice,0.891417914083737,True
+EN-019200,where do I inform of signup issues?,registration_problems,en,english,e5_bilingual,registration_problems,0.9918549276167236,True
+EN-000533,"I need to correct order A-35825, could you help me?",change_order,en,english,e5_bilingual,change_order,0.9169783464151685,True
+EN-004510,i do not knwo how to see the payment methods,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9317572087691557,True
+EN-019894,i need help writing an opinion for a service,review,en,english,e5_bilingual,review,0.9769077049003078,True
+EN-006280,"my experience with your work was bad, make a complaint",complaint,en,english,e5_bilingual,complaint,0.841640215890851,True
+EN-022479,help me seeing the ETA of order A-58843,track_order,en,english,e5_bilingual,track_order,0.9494791467115336,True
+EN-022263,locate order A-19869,track_order,en,english,e5_bilingual,track_order,0.8807195143713542,True
+EN-007653,I need to talk with bloody customer support,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.8507527952180473,True
+EN-014153,I want to obtain refunds of my money,get_refund,en,english,e5_bilingual,get_refund,0.9749202269465791,True
+EN-010812,how to see what options for delivery are there?,delivery_options,en,english,e5_bilingual,delivery_options,0.9704050406104834,True
+EN-016534,i do not know what i need to do to hsop several articles,place_order,en,english,e5_bilingual,place_order,0.7887559026903372,True
+EN-001614,I submitted a wrong shipping address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.7121231599284771,True
+EN-023251,I'm waiting for a rebate of DemoMart dollars,track_refund,en,english,e5_bilingual,track_refund,0.8785104510704067,True
+EN-003807,I need help checking the biol #37777,check_invoice,en,english,e5_bilingual,check_invoice,0.7694929493047856,True
+EN-004878,i want help to see what payment methods uaccept,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9631203306056932,True
+EN-014501,I do not know what to do to demand my money back,get_refund,en,english,e5_bilingual,get_refund,0.9542298796995468,True
+EN-010904,help to check what methods for delivery i have,delivery_options,en,english,e5_bilingual,delivery_options,0.9680413162297434,True
+EN-009274,I need assistance with opening a DemoMart acount,create_account,en,english,e5_bilingual,create_account,0.8792741688429353,True
+EN-000007,I am trying to cancel purchase A-23434,cancel_order,en,english,e5_bilingual,cancel_order,0.9511426274679535,True
+EN-001757,"I have got to modify my delivery address, how can I do it?",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9208361869220055,True
+EN-000746,I forgot to include an item in purchase A-36130,change_order,en,english,e5_bilingual,change_order,0.8105280577375017,True
+EN-010364,I don't know what I have to do to remove the DemoMart account,delete_account,en,english,e5_bilingual,delete_account,0.918653967141727,True
+EN-008243,"you are not helpful, help talking to an operator",contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9755699745487171,True
+EN-018538,i cant create a user need help reportinga sign-up problem,registration_problems,en,english,e5_bilingual,registration_problems,0.9552315872285357,True
+EN-015618,need to report an issue with paymentr,payment_issue,en,english,e5_bilingual,payment_issue,0.9849703304106899,True
+EN-012833,change data on gold account,edit_account,en,english,e5_bilingual,edit_account,0.9819673322132665,True
+EN-005703,in what situations can I ask for reimbursements?,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9387024932478323,True
+EN-002577,what do i have to do to see the cancellation penalty,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.987159872595094,True
+EN-014156,i do not know what i need to do to get retsitutions of money,get_refund,en,english,e5_bilingual,get_refund,0.9027758726075741,True
+EN-018068,could I retrieve my user account password?,recover_password,en,english,e5_bilingual,recover_password,0.9801145983055084,True
+EN-022210,I need assistance seeing purchase A-96275 bloody status,track_order,en,english,e5_bilingual,track_order,0.9281216027302177,True
+EN-009750,what do i have to do to delete my DemoMart account,delete_account,en,english,e5_bilingual,delete_account,0.9926882661741798,True
+EN-001994,I have issues editing my address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9769425514850288,True
+EN-017973,help resetting the pin coder of my profile,recover_password,en,english,e5_bilingual,recover_password,0.9869002398576477,True
+EN-011441,how to see how soon can I expect my goddamn product?,delivery_period,en,english,e5_bilingual,delivery_period,0.9694419798790833,True
+EN-013911,I don't know what I have to do to ask for reimbursements,get_refund,en,english,e5_bilingual,get_refund,0.7038846527572011,True
+EN-019575,where to leave a comment for your services?,review,en,english,e5_bilingual,review,0.9809860630359137,True
+EN-000114,"I have got to cancel purchase A-28726, how do I do it?",cancel_order,en,english,e5_bilingual,cancel_order,0.933190794258893,True
+EN-014760,i want information about my fucking newsletter subscriptino,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.8548033424263953,True
+EN-021732,I want assistance to switch to the gold account,switch_account,en,english,e5_bilingual,switch_account,0.9632780297177543,True
+EN-005042,check ur money back guarantee,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9368126366579494,True
+EN-013102,what do i have to do to download my invoice #85632,get_invoice,en,english,e5_bilingual,get_invoice,0.9874131243080106,True
+EN-020567,why I cannot set up the shipping address valid,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9532912158367809,True
+EN-012487,modify details on standard account,edit_account,en,english,e5_bilingual,edit_account,0.9921611165355493,True
+EN-010440,question about freemium account canclelations,delete_account,en,english,e5_bilingual,delete_account,0.6331443546132731,True
+EN-005739,I have got to check in which cases can I ask for refunds,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9832368926962364,True
+EN-016562,I want help doing a purchase,place_order,en,english,e5_bilingual,place_order,0.9705690935165265,True
+EN-012655,editing account,edit_account,en,english,e5_bilingual,edit_account,0.9843736368418416,True
+EN-003992,I'd like to check my fucking invoices from DemoMart help me,check_invoice,en,english,e5_bilingual,check_invoice,0.9011335870140583,True
+EN-003134,"I have to see the early termination fees, help me",check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9529368702713287,True
+EN-001829,I cannot edit the shipping address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9590321495482033,True
+EN-014966,i want assistance unsubscribing from the newsletter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9800567933847786,True
+EN-011302,I need to see how long it takes for the shipment to arrive,delivery_period,en,english,e5_bilingual,delivery_period,0.9899299476495541,True
+EN-021515,using DemoMart account,switch_account,en,english,e5_bilingual,switch_account,0.7844786620942655,True
+EN-001082,want help to add an article to purchase A-77952,change_order,en,english,e5_bilingual,change_order,0.8895782707167948,True
+EN-018521,report registration issue,registration_problems,en,english,e5_bilingual,registration_problems,0.9797494860895598,True
+EN-012899,I want to download the damn invoices from DemoMart,get_invoice,en,english,e5_bilingual,get_invoice,0.935012917836316,True
+EN-015133,I cannot sign up to your corporate newsledtter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.8609409456300161,True
+EN-017381,I need help earning some articles,place_order,en,english,e5_bilingual,place_order,0.9808729760291116,True
+EN-009558,new pro acount for wife,create_account,en,english,e5_bilingual,create_account,0.9423055927762325,True
+EN-022830,assistance to see the ETA of order A-63852,track_order,en,english,e5_bilingual,track_order,0.9478956400627775,True
+EN-008190,how do I speak with a live agent?,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.988550114521042,True
+EN-003433,assistance to look for the bill from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.9475085246970064,True
+EN-008593,I do not know how to speak with an agent,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9867493982505338,True
+EN-007281,can ya help me ccall customer support,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.931352393065599,True
+EN-000131,help cancelling purchase A-16175,cancel_order,en,english,e5_bilingual,cancel_order,0.974520203373027,True
+EN-003620,I need assistance to take a quick look at bill #85632,check_invoice,en,english,e5_bilingual,check_invoice,0.9721087459048271,True
+EN-018002,I need help restoring the PIN of my profile,recover_password,en,english,e5_bilingual,recover_password,0.9641013410308303,True
+EN-000148,"I have bought some items, help canceling purchase A-11504",cancel_order,en,english,e5_bilingual,cancel_order,0.9155910850289851,True
+EN-009374,open another gold account,create_account,en,english,e5_bilingual,create_account,0.987471725251079,True
+EN-001700,"my shipping address changed, can you update it?",change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9822053265404543,True
+EN-022169,help me using the pro profile,switch_account,en,english,e5_bilingual,switch_account,0.9743849541066587,True
+EN-019087,could I report a signup issue?,registration_problems,en,english,e5_bilingual,registration_problems,0.9933546758233623,True
+EN-012522,edit standard account,edit_account,en,english,e5_bilingual,edit_account,0.8823091489383998,True
+EN-015542,"the payment failed, I want to notify of issues",payment_issue,en,english,e5_bilingual,payment_issue,0.8970426009858022,True
+EN-020886,I have a trouble setting m new delivery address up,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9698689702614391,True
+EN-013601,"I lost the bill #85632, will you mail it to me?",get_invoice,en,english,e5_bilingual,get_invoice,0.8566064295244384,True
+EN-011967,help to check how soon can I expect my shipment,delivery_period,en,english,e5_bilingual,delivery_period,0.9905353103339486,True
+EN-012670,edit details on gold account,edit_account,en,english,e5_bilingual,edit_account,0.9933110243312506,True
+EN-017162,wanna shop a few of ur item how do i do it,place_order,en,english,e5_bilingual,place_order,0.9880783812078261,True
+EN-021868,"I want too use the DemoMart account, I need assistance",switch_account,en,english,e5_bilingual,switch_account,0.805319442942693,True
+EN-013689,where to obtain rebates of my money?,get_refund,en,english,e5_bilingual,get_refund,0.9875061843812459,True
+EN-023376,"I have to see the status of the rebate, will you help me?",track_refund,en,english,e5_bilingual,track_refund,0.8968978876974618,True
+EN-021937,what do i have to do to switch to the DemoMart account,switch_account,en,english,e5_bilingual,switch_account,0.9787376151157237,True
+EN-017733,assistance recovering my user account PIN,recover_password,en,english,e5_bilingual,recover_password,0.9817399816801569,True
+EN-015150,how do i unsubscribe fromur corporate newsletter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9952107256781424,True
+EN-011207,can I check how long the shipping takes?,delivery_period,en,english,e5_bilingual,delivery_period,0.9730747582789974,True
+EN-009011,where could I open a premium account for my fiance?,create_account,en,english,e5_bilingual,create_account,0.9847178373896593,True
+EN-002119,need assistance to modify the address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9836266334253941,True
+EN-012377,editing data on gold acocunt,edit_account,en,english,e5_bilingual,edit_account,0.9907566024468568,True
+EN-011119,how do i check what delivery methods are available,delivery_options,en,english,e5_bilingual,delivery_options,0.9686409836372583,True
+EN-017523,i want assistance retrieving the pin of my user account,recover_password,en,english,e5_bilingual,recover_password,0.9892804129257736,True
+EN-015034,"I want to unsubscribe to your newsletter, I need help",newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9298024460053601,True
+EN-006259,i dont know what to do to fgile a consumer claim,complaint,en,english,e5_bilingual,complaint,0.9223552376824287,True
+EN-002552,where can I check the cancellation penalties?,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9876456700223928,True
+EN-000318,"I bought some articles, how to cancel order A-85914?",cancel_order,en,english,e5_bilingual,cancel_order,0.8943970771545253,True
+EN-003065,help checking the withdrawal penalties,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9259190456299792,True
+EN-004114,how can i list the allowedd payment options,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.996647905812121,True
+EN-011852,i have gt to check when will my purchase arrive,delivery_period,en,english,e5_bilingual,delivery_period,0.9220059240169926,True
+EN-002077,I don't know what I need to do to modify my delivery address,change_shipping_address,en,english,e5_bilingual,change_shipping_address,0.9031833446142286,True
+EN-014797,where to unsubscribe to your newsletter?,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.991453808132628,True
+EN-005585,I have to see in which cases can I request a reimbursement,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9653042872920136,True
+EN-019499,help me submit some feedback about a product,review,en,english,e5_bilingual,review,0.9910341158001678,True
+EN-002757,I have to check the withdrawal fee,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9444649684321506,True
+EN-020972,I try to submit a different delivery address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.8620775483144675,True
+EN-014866,can uhelp me to unsubscribe to ur corporate newsetter,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9609538858715252,True
+EN-014356,can ya help me receive rebates,get_refund,en,english,e5_bilingual,get_refund,0.9527881244248425,True
+EN-000340,"I have bought some items, cancel order A-62923",cancel_order,en,english,e5_bilingual,cancel_order,0.9406278525071652,True
+EN-018991,report issues creating user,registration_problems,en,english,e5_bilingual,registration_problems,0.9648008107451344,True
+EN-004810,I do not know what I have to do to list the payment options,check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.9087403850330927,True
+EN-016392,I have to report troubles with payment,payment_issue,en,english,e5_bilingual,payment_issue,0.9736851614367419,True
+EN-010549,I have a question about the deletion of my standard account,delete_account,en,english,e5_bilingual,delete_account,0.9707152816750435,True
+EN-019283,could you help me report an error with signup?,registration_problems,en,english,e5_bilingual,registration_problems,0.9876661952128811,True
+EN-023526,know if there is anything wrong with the refund,track_refund,en,english,e5_bilingual,track_refund,0.9251734240974346,True
+EN-007203,I have to check what hours I can reach customer assistance,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9714170977801195,True
+EN-017504,help me restoring my user pin,recover_password,en,english,e5_bilingual,recover_password,0.9926002964324706,True
+EN-022444,i do not know how i can check the eta of order A-48652,track_order,en,english,e5_bilingual,track_order,0.9812351807229429,True
+EN-018905,want help to inform of errors with a signup,registration_problems,en,english,e5_bilingual,registration_problems,0.9822957443484952,True
+EN-013707,I need help to receive restitutions of money,get_refund,en,english,e5_bilingual,get_refund,0.9726869703930361,True
+EN-003124,how to see the early exit fees?,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9822595318735813,True
+EN-021834,i nee assistance to use the standard profile,switch_account,en,english,e5_bilingual,switch_account,0.9558834901702222,True
+EN-002475,can ya help me seeing the terminatio penalties,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9545265585852936,True
+EN-009986,I want assistance to close my DemoMart account,delete_account,en,english,e5_bilingual,delete_account,0.9677251082950244,True
+EN-010861,how can I see what shipping methods are there?,delivery_options,en,english,e5_bilingual,delivery_options,0.9849982995521454,True
+EN-023232,I can't see if there are any updates on my compensation,track_refund,en,english,e5_bilingual,track_refund,0.9835551072446829,True
+EN-010782,I want to check what shipping options are there,delivery_options,en,english,e5_bilingual,delivery_options,0.9796481839931803,True
+EN-010177,what do I need to do to close a fucking gold account?,delete_account,en,english,e5_bilingual,delete_account,0.9589238098407316,True
+EN-002794,"I need to see the withdrawal fee, how to do it?",check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9250740872911307,True
+EN-002286,what is the early exit penalty,check_cancellation_fee,en,english,e5_bilingual,check_cancellation_fee,0.9915033078640862,True
+EN-020385,how can i submit some feedback forur services,review,en,english,e5_bilingual,review,0.9436117316121324,True
+EN-013369,i cant find the bill #00108 will umail it to me,get_invoice,en,english,e5_bilingual,get_invoice,0.5064058002405702,True
+EN-013819,I do not knowhow to receive compensations of my money,get_refund,en,english,e5_bilingual,get_refund,0.9332730546709133,True
+EN-000425,can I modify purchase A-65518?,change_order,en,english,e5_bilingual,change_order,0.9287052624227817,True
+EN-017986,I have got to restore my user access key,recover_password,en,english,e5_bilingual,recover_password,0.9734295342879329,True
+EN-009624,create gold account for wife,create_account,en,english,e5_bilingual,create_account,0.9947028732685572,True
+EN-015523,wanna report issues with online pahment,payment_issue,en,english,e5_bilingual,payment_issue,0.8361708808374434,True
+EN-010895,"I have to check the shipment methods, can you help me?",delivery_options,en,english,e5_bilingual,delivery_options,0.9486418872210695,True
+EN-017233,is it possible to acquire an article?,place_order,en,english,e5_bilingual,place_order,0.9742152154738551,True
+EN-020274,I call to leave some feedback about your services,review,en,english,e5_bilingual,review,0.9627759728909364,True
+EN-014560,can you help me receiving the company newsletter?,newsletter_subscription,en,english,e5_bilingual,newsletter_subscription,0.9893404402762662,True
+EN-018365,"I lost my user password, would it be possible to recover it?",recover_password,en,english,e5_bilingual,recover_password,0.9722415542509316,True
+EN-008440,could you help me chatting with a live agent?,contact_human_agent,en,english,e5_bilingual,contact_human_agent,0.9855561737348065,True
+EN-007577,I need help seeing what hours I can call customer service,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.979986949976086,True
+EN-008977,open nw DemoMart account for daughter,create_account,en,english,e5_bilingual,create_account,0.9785368859268375,True
+EN-021374,i ahve an issue submitting a new delivery address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.9564736644272561,True
+EN-005402,help seeing in which situations can I request refunds,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.987235341870247,True
+EN-022005,want assistance to use the standard account,switch_account,en,english,e5_bilingual,switch_account,0.832405971427825,True
+EN-004614,"I have got to see the payment opitons, how to do it?",check_payment_methods,en,english,e5_bilingual,check_payment_methods,0.8251844810838259,True
+EN-019980,can you help me leave my feedback for your services?,review,en,english,e5_bilingual,review,0.9936978451717179,True
+EN-012314,edit data on freemium account,edit_account,en,english,e5_bilingual,edit_account,0.9971464538139131,True
+EN-007444,i have to check what hours i can reach customer service,contact_customer_service,en,english,e5_bilingual,contact_customer_service,0.9878689049594945,True
+EN-023142,I am waiting for a reimbursement of DemoMart dollras,track_refund,en,english,e5_bilingual,track_refund,0.8087194802806305,True
+EN-000499,i want help to add an item to purchase A-56025,change_order,en,english,e5_bilingual,change_order,0.9399803554792916,True
+EN-010771,I want to check what shipment methods I have,delivery_options,en,english,e5_bilingual,delivery_options,0.9787633677713505,True
+EN-003354,help to locate the bill from DemoMart,check_invoice,en,english,e5_bilingual,check_invoice,0.9603686663344186,True
+EN-006485,I do not know what I have to do to file a consumer complaint,complaint,en,english,e5_bilingual,complaint,0.9545342684604909,True
+EN-016023,i want help solving a trouble with online payments,payment_issue,en,english,e5_bilingual,payment_issue,0.9843048271571031,True
+EN-021338,there are issues setting up the delivery address,set_up_shipping_address,en,english,e5_bilingual,set_up_shipping_address,0.8073060753036817,True
+EN-005362,i have to check in what situatins can i ask to be reimbursed,check_refund_policy,en,english,e5_bilingual,check_refund_policy,0.9043507287445994,True
+AR-TEST-0000,أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,ar,msa,e5_bilingual,cancel_order,0.4260315427530392,False
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,e5_bilingual,complaint,0.377338247060398,False
+AR-TEST-0002,ابي اكنسل الطلب قبل لا يتشحن,cancel_order,ar,gulf,e5_bilingual,cancel_order,0.5153675928149172,False
+AR-TEST-0003,الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,ar,msa,e5_bilingual,cancel_order,0.2754353712616238,False
+AR-TEST-0004,أرغب في تعديل الكمية في طلبي الأخير,change_order,ar,msa,e5_bilingual,change_order,0.4095785750771799,False
+AR-TEST-0005,ابي اغير المقاس في الطلب اللي سويته قبل شوي,change_order,ar,gulf,e5_bilingual,change_order,0.5131945841988859,False
+AR-TEST-0006,هل يمكنني إضافة منتج آخر إلى الطلب A-30581؟,change_order,ar,msa,e5_bilingual,change_order,0.8279412962971296,True
+AR-TEST-0007,غلطت في اللون، ودي اعدل الطلب,change_order,ar,gulf,e5_bilingual,change_order,0.2566138251930659,False
+AR-TEST-0008,أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,ar,msa,e5_bilingual,change_shipping_address,0.6006260274439698,False
+AR-TEST-0009,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,ar,gulf,e5_bilingual,change_shipping_address,0.2473167373297796,False
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,e5_bilingual,set_up_shipping_address,0.40439972555622306,False
+AR-TEST-0011,ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,ar,gulf,e5_bilingual,change_shipping_address,0.7397533991556363,True
+AR-TEST-0012,كم رسوم إلغاء الطلب بعد الشحن؟,check_cancellation_fee,ar,msa,e5_bilingual,check_cancellation_fee,0.6281560504594745,False
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,ar,gulf,e5_bilingual,complaint,0.4916260987114634,False
+AR-TEST-0014,هل توجد رسوم على إلغاء طلب الأثاث؟,check_cancellation_fee,ar,msa,e5_bilingual,check_cancellation_fee,0.7354845302608707,True
+AR-TEST-0015,لو رفضت الاستلام بيخصمون علي شي؟,check_cancellation_fee,ar,gulf,e5_bilingual,check_cancellation_fee,0.18343668802977933,False
+AR-TEST-0016,أريد مراجعة الفاتورة رقم INV-2024-00731,check_invoice,ar,msa,e5_bilingual,check_invoice,0.825772958160247,True
+AR-TEST-0017,الفاتورة فيها مبلغ مو واضح ابي اتأكد منه,check_invoice,ar,gulf,e5_bilingual,check_invoice,0.6836963507531106,True
+AR-TEST-0018,هل الضريبة مضافة في فاتورتي؟,check_invoice,ar,msa,e5_bilingual,check_invoice,0.2999229021281193,False
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,ar,gulf,e5_bilingual,track_order,0.22229624737488526,False
+AR-TEST-0020,ما هي طرق الدفع المتاحة لديكم؟,check_payment_methods,ar,msa,e5_bilingual,check_payment_methods,0.8832856329572076,True
+AR-TEST-0021,تقبلون مدى ولا بس فيزا؟,check_payment_methods,ar,gulf,e5_bilingual,check_payment_methods,0.24712187224434043,False
+AR-TEST-0022,هل يمكن الدفع عند الاستلام؟,check_payment_methods,ar,msa,e5_bilingual,check_payment_methods,0.37636525222142725,False
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,ar,gulf,e5_bilingual,get_refund,0.2656001783337213,False
+AR-TEST-0024,ما هي سياسة الاسترجاع لديكم؟,check_refund_policy,ar,msa,e5_bilingual,check_refund_policy,0.7287389859697544,True
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,ar,gulf,e5_bilingual,delivery_period,0.6445309846448269,False
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,ar,msa,e5_bilingual,get_refund,0.43309664858421687,False
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,ar,gulf,e5_bilingual,track_order,0.2516422259729311,False
+AR-TEST-0028,خدمتكم سيئة جداً والمندوب تعامل معي بطريقة غير لائقة,complaint,ar,msa,e5_bilingual,complaint,0.34657812523075804,False
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,ar,gulf,e5_bilingual,cancel_order,0.27895546649397845,False
+AR-TEST-0030,أرغب في تقديم شكوى رسمية على الموظف,complaint,ar,msa,e5_bilingual,complaint,0.6766576199762665,True
+AR-TEST-0031,تجربة سيئة مرة، المنتج وصل مكسور وما احد رد علي,complaint,ar,gulf,e5_bilingual,complaint,0.3525168409774079,False
+AR-TEST-0032,كيف أتواصل مع خدمة العملاء؟,contact_customer_service,ar,msa,e5_bilingual,contact_customer_service,0.9602043189729851,True
+AR-TEST-0033,ابي رقم خدمة العملاء,contact_customer_service,ar,gulf,e5_bilingual,contact_customer_service,0.5954737480808379,False
+AR-TEST-0034,ما هي ساعات عمل الدعم الفني؟,contact_customer_service,ar,msa,e5_bilingual,contact_customer_service,0.9021064777685555,True
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,ar,gulf,e5_bilingual,contact_human_agent,0.3915373549788036,False
+AR-TEST-0036,أريد التحدث مع موظف حقيقي وليس روبوت,contact_human_agent,ar,msa,e5_bilingual,contact_human_agent,0.901906486499727,True
+AR-TEST-0037,ابي اكلم موظف الحين لو سمحت,contact_human_agent,ar,gulf,e5_bilingual,contact_human_agent,0.21928375108915546,False
+AR-TEST-0038,حولني على أحد من الموظفين,contact_human_agent,ar,gulf,e5_bilingual,contact_human_agent,0.7921774755486902,True
+AR-TEST-0039,هل يمكنني التحدث مع ممثل خدمة عملاء بشري؟,contact_human_agent,ar,msa,e5_bilingual,contact_human_agent,0.932882454311079,True
+AR-TEST-0040,أريد إنشاء حساب جديد,create_account,ar,msa,e5_bilingual,create_account,0.9604605292408865,True
+AR-TEST-0041,كيف اسوي حساب عندكم؟,create_account,ar,gulf,e5_bilingual,switch_account,0.433615072322923,False
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ar,msa,e5_bilingual,registration_problems,0.6463453660446358,False
+AR-TEST-0043,ودي افتح حساب جديد بإيميلي,create_account,ar,gulf,e5_bilingual,create_account,0.8119154915650552,True
+AR-TEST-0044,أرغب في حذف حسابي نهائياً,delete_account,ar,msa,e5_bilingual,delete_account,0.8457732252365523,True
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ar,gulf,e5_bilingual,edit_account,0.3265769774628042,False
+AR-TEST-0046,كيف أغلق حسابي لديكم؟,delete_account,ar,msa,e5_bilingual,delete_account,0.9674962670936151,True
+AR-TEST-0047,احذفوا حسابي لو سمحتوا ما عاد ابيه,delete_account,ar,gulf,e5_bilingual,delete_account,0.670423118610148,True
+AR-TEST-0048,ما هي خيارات التوصيل المتاحة؟,delivery_options,ar,msa,e5_bilingual,delivery_options,0.979752619089172,True
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,ar,gulf,e5_bilingual,delivery_period,0.27566469264108495,False
+AR-TEST-0050,هل يوجد توصيل سريع إلى الدمام؟,delivery_options,ar,msa,e5_bilingual,delivery_options,0.4961272759415971,False
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,ar,gulf,e5_bilingual,track_order,0.15724491306404684,False
+AR-TEST-0052,كم يستغرق التوصيل إلى جدة؟,delivery_period,ar,msa,e5_bilingual,delivery_period,0.7391808841080864,True
+AR-TEST-0053,متى يوصل الطلب عادة؟,delivery_period,ar,gulf,e5_bilingual,delivery_period,0.57567404726867,False
+AR-TEST-0054,كم يوم يحتاج الشحن العادي؟,delivery_period,ar,msa,e5_bilingual,delivery_period,0.7734417927995639,True
+AR-TEST-0055,لو طلبت اليوم متى يوصلني؟,delivery_period,ar,gulf,e5_bilingual,delivery_period,0.36740193489364625,False
+AR-TEST-0056,أريد تعديل رقم الجوال في حسابي,edit_account,ar,msa,e5_bilingual,edit_account,0.6545881879088085,False
+AR-TEST-0057,ابي اغير الايميل حقي في الحساب,edit_account,ar,gulf,e5_bilingual,edit_account,0.17799951728931432,False
+AR-TEST-0058,كيف أحدّث بياناتي الشخصية؟,edit_account,ar,msa,e5_bilingual,edit_account,0.818525193626667,True
+AR-TEST-0059,ودي اغير اسمي في الحساب,edit_account,ar,gulf,e5_bilingual,edit_account,0.4345544171978668,False
+AR-TEST-0060,أحتاج نسخة من فاتورة طلبي,get_invoice,ar,msa,e5_bilingual,get_invoice,0.6381639166302,False
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,ar,gulf,e5_bilingual,track_order,0.37166238029111803,False
+AR-TEST-0062,كيف أحصل على فاتورة الشراء؟,get_invoice,ar,msa,e5_bilingual,get_invoice,0.7800049632895805,True
+AR-TEST-0063,ارسلولي الفاتورة على الايميل,get_invoice,ar,gulf,e5_bilingual,get_invoice,0.2923529191611672,False
+AR-TEST-0064,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,ar,msa,e5_bilingual,get_refund,0.33804935558598936,False
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,e5_bilingual,track_refund,0.13806913072202015,False
+AR-TEST-0066,كيف أطلب استرجاع المبلغ؟,get_refund,ar,msa,e5_bilingual,get_refund,0.9173492805031203,True
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,e5_bilingual,contact_human_agent,0.13751056781425047,False
+AR-TEST-0068,أريد الاشتراك في النشرة البريدية,newsletter_subscription,ar,msa,e5_bilingual,newsletter_subscription,0.5995461685195544,False
+AR-TEST-0069,ابي الغي اشتراكي في الرسائل الترويجية,newsletter_subscription,ar,gulf,e5_bilingual,newsletter_subscription,0.27055135458621793,False
+AR-TEST-0070,كيف أوقف رسائل العروض على بريدي؟,newsletter_subscription,ar,msa,e5_bilingual,newsletter_subscription,0.7834864733794331,True
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,ar,gulf,e5_bilingual,review,0.21118388933071952,False
+AR-TEST-0072,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,ar,msa,e5_bilingual,payment_issue,0.1415684642027614,False
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,e5_bilingual,get_refund,0.21283358482575349,False
+AR-TEST-0074,فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,ar,msa,e5_bilingual,payment_issue,0.98458285164392,True
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,e5_bilingual,cancel_order,0.2802392051118338,False
+AR-TEST-0076,أرغب في تقديم طلب شراء جديد,place_order,ar,msa,e5_bilingual,place_order,0.42692024534872985,False
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ar,gulf,e5_bilingual,track_order,0.14430604397354474,False
+AR-TEST-0078,كيف أقوم بعملية شراء من الموقع؟,place_order,ar,msa,e5_bilingual,place_order,0.8733533392365842,True
+AR-TEST-0079,ودي اشتري هالمنتج وش الطريقة؟,place_order,ar,gulf,e5_bilingual,place_order,0.44989224024330216,False
+AR-TEST-0080,نسيت كلمة المرور ولا أستطيع الدخول,recover_password,ar,msa,e5_bilingual,recover_password,0.4772784263176995,False
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ar,gulf,e5_bilingual,track_refund,0.20269523492133748,False
+AR-TEST-0082,كيف أعيد تعيين كلمة المرور؟,recover_password,ar,msa,e5_bilingual,recover_password,0.3180990789326027,False
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ar,gulf,e5_bilingual,delete_account,0.18584578097720064,False
+AR-TEST-0084,لا يصلني رمز التحقق عند التسجيل,registration_problems,ar,msa,e5_bilingual,registration_problems,0.8578142760924949,True
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ar,gulf,e5_bilingual,recover_password,0.09113518179403896,False
+AR-TEST-0086,تظهر رسالة خطأ عند إنشاء الحساب,registration_problems,ar,msa,e5_bilingual,registration_problems,0.6183517553112271,False
+AR-TEST-0087,التسجيل يعلق عندي ما يكمل,registration_problems,ar,gulf,e5_bilingual,registration_problems,0.43223273906572784,False
+AR-TEST-0088,أود كتابة تقييم للمنتج الذي اشتريته,review,ar,msa,e5_bilingual,review,0.45122132784806945,False
+AR-TEST-0089,ابي اكتب رأيي عن الخدمة,review,ar,gulf,e5_bilingual,review,0.8198137185801335,True
+AR-TEST-0090,أين يمكنني إضافة مراجعة للمنتج؟,review,ar,msa,e5_bilingual,review,0.6428270187786087,False
+AR-TEST-0091,ودي اقيم المنتج، المنتج ممتاز,review,ar,gulf,e5_bilingual,review,0.24218329260873753,False
+AR-TEST-0092,أريد إضافة عنوان شحن جديد في حسابي,set_up_shipping_address,ar,msa,e5_bilingual,set_up_shipping_address,0.4923919896039413,False
+AR-TEST-0093,كيف اضيف عنواني الوطني؟,set_up_shipping_address,ar,gulf,e5_bilingual,set_up_shipping_address,0.44329961014599145,False
+AR-TEST-0094,أرغب في حفظ عنوان افتراضي للتوصيل,set_up_shipping_address,ar,msa,e5_bilingual,set_up_shipping_address,0.41292188683897885,False
+AR-TEST-0095,ابي اضبط عنوان التوصيل في الحساب,set_up_shipping_address,ar,gulf,e5_bilingual,set_up_shipping_address,0.39279410847155866,False
+AR-TEST-0096,أريد تحويل حسابي من شخصي إلى حساب أعمال,switch_account,ar,msa,e5_bilingual,switch_account,0.34857826970591144,False
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ar,gulf,e5_bilingual,create_account,0.2773333670538964,False
+AR-TEST-0098,كيف أنتقل إلى نوع حساب مختلف؟,switch_account,ar,msa,e5_bilingual,switch_account,0.8404781774375665,True
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ar,gulf,e5_bilingual,edit_account,0.4121786140383047,False
+AR-TEST-0100,أين طلبي؟ لم يصل حتى الآن,track_order,ar,msa,e5_bilingual,track_order,0.8453087976361937,True
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,e5_bilingual,delivery_period,0.30406484186412985,False
+AR-TEST-0102,أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,ar,msa,e5_bilingual,track_order,0.7719225444811613,True
+AR-TEST-0103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ar,gulf,e5_bilingual,track_order,0.5679159400371965,False
+AR-TEST-0104,لم يصلني المبلغ المسترد حتى الآن,track_refund,ar,msa,e5_bilingual,track_refund,0.4092080741712472,False
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,e5_bilingual,recover_password,0.3974464915185997,False
+AR-TEST-0106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,ar,msa,e5_bilingual,track_refund,0.2958090853208459,False
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,e5_bilingual,get_refund,0.3082153804370481,False

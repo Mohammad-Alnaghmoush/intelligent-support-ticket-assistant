@@ -1,0 +1,109 @@
+ticket_id,text,intent,category,priority,lang,dialect,group_id
+AR-TEST-0000,أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,ORDER,medium,ar,msa,14a75a74cb79d5e8
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ORDER,medium,ar,gulf,cc9ea7db9bf02f71
+AR-TEST-0002,ابي اكنسل الطلب قبل لا يتشحن,cancel_order,ORDER,medium,ar,gulf,47b047cd8bfd1a05
+AR-TEST-0003,الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,ORDER,high,ar,msa,697180cdbe36ccd4
+AR-TEST-0004,أرغب في تعديل الكمية في طلبي الأخير,change_order,ORDER,medium,ar,msa,2f99d2d615dc6c68
+AR-TEST-0005,ابي اغير المقاس في الطلب اللي سويته قبل شوي,change_order,ORDER,medium,ar,gulf,9ebb2e872ebbe798
+AR-TEST-0006,هل يمكنني إضافة منتج آخر إلى الطلب A-30581؟,change_order,ORDER,medium,ar,msa,f76abf57d0882780
+AR-TEST-0007,غلطت في اللون، ودي اعدل الطلب,change_order,ORDER,medium,ar,gulf,846a64245e921c7a
+AR-TEST-0008,أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,SHIPPING,medium,ar,msa,4515e99201b545fd
+AR-TEST-0009,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,SHIPPING,medium,ar,gulf,6402223da72b959d
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,SHIPPING,medium,ar,msa,62eec994b587e4e3
+AR-TEST-0011,ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,SHIPPING,medium,ar,gulf,5cd37ca36c73ea86
+AR-TEST-0012,كم رسوم إلغاء الطلب بعد الشحن؟,check_cancellation_fee,CANCEL,low,ar,msa,f7ee84a2304fdcde
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,CANCEL,low,ar,gulf,cc0f74b2da3fee7b
+AR-TEST-0014,هل توجد رسوم على إلغاء طلب الأثاث؟,check_cancellation_fee,CANCEL,low,ar,msa,bd3729ab0c2608a5
+AR-TEST-0015,لو رفضت الاستلام بيخصمون علي شي؟,check_cancellation_fee,CANCEL,low,ar,gulf,87f5acc315c9fffc
+AR-TEST-0016,أريد مراجعة الفاتورة رقم INV-2024-00731,check_invoice,INVOICE,low,ar,msa,523fb4ca787a856f
+AR-TEST-0017,الفاتورة فيها مبلغ مو واضح ابي اتأكد منه,check_invoice,INVOICE,low,ar,gulf,06b573ce7e1e2e94
+AR-TEST-0018,هل الضريبة مضافة في فاتورتي؟,check_invoice,INVOICE,low,ar,msa,a688f6cb05950873
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,INVOICE,low,ar,gulf,36489997e26aeb66
+AR-TEST-0020,ما هي طرق الدفع المتاحة لديكم؟,check_payment_methods,PAYMENT,low,ar,msa,26a80462694c27e8
+AR-TEST-0021,تقبلون مدى ولا بس فيزا؟,check_payment_methods,PAYMENT,low,ar,gulf,ad98380b793c8b9c
+AR-TEST-0022,هل يمكن الدفع عند الاستلام؟,check_payment_methods,PAYMENT,low,ar,msa,80247c66ba8014e4
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,PAYMENT,low,ar,gulf,d1b7fd6403644363
+AR-TEST-0024,ما هي سياسة الاسترجاع لديكم؟,check_refund_policy,REFUND,low,ar,msa,e4c2a4087da6cdce
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,REFUND,low,ar,gulf,c4ab81648ce21556
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,REFUND,low,ar,msa,6d2afb15f5744ce6
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,REFUND,low,ar,gulf,80cfd6e0bb77e21c
+AR-TEST-0028,خدمتكم سيئة جداً والمندوب تعامل معي بطريقة غير لائقة,complaint,FEEDBACK,high,ar,msa,f8bdd9806a0e71a0
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,FEEDBACK,urgent,ar,gulf,84140ccc39cede81
+AR-TEST-0030,أرغب في تقديم شكوى رسمية على الموظف,complaint,FEEDBACK,high,ar,msa,3d3d26ad8caff7ab
+AR-TEST-0031,تجربة سيئة مرة، المنتج وصل مكسور وما احد رد علي,complaint,FEEDBACK,high,ar,gulf,b34463211f63db91
+AR-TEST-0032,كيف أتواصل مع خدمة العملاء؟,contact_customer_service,CONTACT,low,ar,msa,78e64546fff9443f
+AR-TEST-0033,ابي رقم خدمة العملاء,contact_customer_service,CONTACT,low,ar,gulf,4908d7d60feb2317
+AR-TEST-0034,ما هي ساعات عمل الدعم الفني؟,contact_customer_service,CONTACT,low,ar,msa,c3bec361b4c6183a
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,CONTACT,low,ar,gulf,534df03669d5459e
+AR-TEST-0036,أريد التحدث مع موظف حقيقي وليس روبوت,contact_human_agent,CONTACT,medium,ar,msa,2c58f02b8a879b2d
+AR-TEST-0037,ابي اكلم موظف الحين لو سمحت,contact_human_agent,CONTACT,high,ar,gulf,5ec49d906bd95dc1
+AR-TEST-0038,حولني على أحد من الموظفين,contact_human_agent,CONTACT,medium,ar,gulf,e48d24d3d8f0cc35
+AR-TEST-0039,هل يمكنني التحدث مع ممثل خدمة عملاء بشري؟,contact_human_agent,CONTACT,medium,ar,msa,cffac0faa70d1998
+AR-TEST-0040,أريد إنشاء حساب جديد,create_account,ACCOUNT,low,ar,msa,6b46c25ae13c5590
+AR-TEST-0041,كيف اسوي حساب عندكم؟,create_account,ACCOUNT,low,ar,gulf,755cfcb3589f5c7c
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ACCOUNT,low,ar,msa,878e4132c07aa458
+AR-TEST-0043,ودي افتح حساب جديد بإيميلي,create_account,ACCOUNT,low,ar,gulf,8fe29796b1b5fa11
+AR-TEST-0044,أرغب في حذف حسابي نهائياً,delete_account,ACCOUNT,medium,ar,msa,c79f174183ec827d
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ACCOUNT,medium,ar,gulf,6a12dd1b22496a24
+AR-TEST-0046,كيف أغلق حسابي لديكم؟,delete_account,ACCOUNT,medium,ar,msa,ac2b43355dfb0a97
+AR-TEST-0047,احذفوا حسابي لو سمحتوا ما عاد ابيه,delete_account,ACCOUNT,medium,ar,gulf,e0123270313836eb
+AR-TEST-0048,ما هي خيارات التوصيل المتاحة؟,delivery_options,DELIVERY,low,ar,msa,59c665cb5fa4f011
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,DELIVERY,low,ar,gulf,f334d94a1af78482
+AR-TEST-0050,هل يوجد توصيل سريع إلى الدمام؟,delivery_options,DELIVERY,low,ar,msa,e438eb7026583741
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,DELIVERY,low,ar,gulf,1c3fa2129004b9dd
+AR-TEST-0052,كم يستغرق التوصيل إلى جدة؟,delivery_period,DELIVERY,low,ar,msa,174352f4f2ecf5fa
+AR-TEST-0053,متى يوصل الطلب عادة؟,delivery_period,DELIVERY,low,ar,gulf,68255777f50be45b
+AR-TEST-0054,كم يوم يحتاج الشحن العادي؟,delivery_period,DELIVERY,low,ar,msa,f27a11c5e33a2400
+AR-TEST-0055,لو طلبت اليوم متى يوصلني؟,delivery_period,DELIVERY,low,ar,gulf,a1897480e0cf7d79
+AR-TEST-0056,أريد تعديل رقم الجوال في حسابي,edit_account,ACCOUNT,low,ar,msa,51694e216e778f30
+AR-TEST-0057,ابي اغير الايميل حقي في الحساب,edit_account,ACCOUNT,low,ar,gulf,b61e6d4517a9aad2
+AR-TEST-0058,كيف أحدّث بياناتي الشخصية؟,edit_account,ACCOUNT,low,ar,msa,3278fef87d2426a3
+AR-TEST-0059,ودي اغير اسمي في الحساب,edit_account,ACCOUNT,low,ar,gulf,c09a4479047b1da5
+AR-TEST-0060,أحتاج نسخة من فاتورة طلبي,get_invoice,INVOICE,low,ar,msa,8abd3062ccee6bb4
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,INVOICE,low,ar,gulf,4bccf4e6a67855ff
+AR-TEST-0062,كيف أحصل على فاتورة الشراء؟,get_invoice,INVOICE,low,ar,msa,3bb76caebec39ba0
+AR-TEST-0063,ارسلولي الفاتورة على الايميل,get_invoice,INVOICE,low,ar,gulf,a9603cca63bd0e1b
+AR-TEST-0064,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,REFUND,medium,ar,msa,6f152c987d00c16e
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,REFUND,medium,ar,gulf,63fdabc97461e629
+AR-TEST-0066,كيف أطلب استرجاع المبلغ؟,get_refund,REFUND,medium,ar,msa,d34812c29ac76341
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,REFUND,high,ar,gulf,a3dd5a0fc8269ebf
+AR-TEST-0068,أريد الاشتراك في النشرة البريدية,newsletter_subscription,SUBSCRIPTION,low,ar,msa,18a1db193281e15a
+AR-TEST-0069,ابي الغي اشتراكي في الرسائل الترويجية,newsletter_subscription,SUBSCRIPTION,low,ar,gulf,714d442f5c5c1dcd
+AR-TEST-0070,كيف أوقف رسائل العروض على بريدي؟,newsletter_subscription,SUBSCRIPTION,low,ar,msa,24cb7bb909e0d8d6
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,SUBSCRIPTION,low,ar,gulf,11591892c987df51
+AR-TEST-0072,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,PAYMENT,urgent,ar,msa,c7a431ee6f2e8dc0
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,PAYMENT,high,ar,gulf,56abcbe886f4f494
+AR-TEST-0074,فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,PAYMENT,high,ar,msa,f1c7a0cb01f53206
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,PAYMENT,urgent,ar,gulf,06349aef286e1b7d
+AR-TEST-0076,أرغب في تقديم طلب شراء جديد,place_order,ORDER,low,ar,msa,1534c4f8ccd8c252
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ORDER,low,ar,gulf,b3f9eada9cf9ae53
+AR-TEST-0078,كيف أقوم بعملية شراء من الموقع؟,place_order,ORDER,low,ar,msa,594134d4134e5cee
+AR-TEST-0079,ودي اشتري هالمنتج وش الطريقة؟,place_order,ORDER,low,ar,gulf,c0c9779dc06ba192
+AR-TEST-0080,نسيت كلمة المرور ولا أستطيع الدخول,recover_password,ACCOUNT,medium,ar,msa,660e483e0a224603
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ACCOUNT,medium,ar,gulf,df221c4ea6168f00
+AR-TEST-0082,كيف أعيد تعيين كلمة المرور؟,recover_password,ACCOUNT,medium,ar,msa,bb094b62148603b5
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ACCOUNT,medium,ar,gulf,ae71856f68e39a07
+AR-TEST-0084,لا يصلني رمز التحقق عند التسجيل,registration_problems,ACCOUNT,medium,ar,msa,a7826572248498b8
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ACCOUNT,medium,ar,gulf,541e564f62ab20b6
+AR-TEST-0086,تظهر رسالة خطأ عند إنشاء الحساب,registration_problems,ACCOUNT,medium,ar,msa,b65ef51bc2f4a592
+AR-TEST-0087,التسجيل يعلق عندي ما يكمل,registration_problems,ACCOUNT,medium,ar,gulf,799e46149bc80211
+AR-TEST-0088,أود كتابة تقييم للمنتج الذي اشتريته,review,FEEDBACK,low,ar,msa,c566bed3e1257b97
+AR-TEST-0089,ابي اكتب رأيي عن الخدمة,review,FEEDBACK,low,ar,gulf,20e29d7227700b21
+AR-TEST-0090,أين يمكنني إضافة مراجعة للمنتج؟,review,FEEDBACK,low,ar,msa,21dbb525c50a2eaf
+AR-TEST-0091,ودي اقيم المنتج، المنتج ممتاز,review,FEEDBACK,low,ar,gulf,d6a77587e583b7a4
+AR-TEST-0092,أريد إضافة عنوان شحن جديد في حسابي,set_up_shipping_address,SHIPPING,low,ar,msa,aa129e4e8c02f8e8
+AR-TEST-0093,كيف اضيف عنواني الوطني؟,set_up_shipping_address,SHIPPING,low,ar,gulf,0f5118e058131a1b
+AR-TEST-0094,أرغب في حفظ عنوان افتراضي للتوصيل,set_up_shipping_address,SHIPPING,low,ar,msa,5a50293694985fed
+AR-TEST-0095,ابي اضبط عنوان التوصيل في الحساب,set_up_shipping_address,SHIPPING,low,ar,gulf,4dcaf496ae4b1c4c
+AR-TEST-0096,أريد تحويل حسابي من شخصي إلى حساب أعمال,switch_account,ACCOUNT,low,ar,msa,326a9b59ccf45bf9
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ACCOUNT,low,ar,gulf,f337cb17481a42c2
+AR-TEST-0098,كيف أنتقل إلى نوع حساب مختلف؟,switch_account,ACCOUNT,low,ar,msa,2d9ecae33563b217
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ACCOUNT,low,ar,gulf,c903f33ced7b7911
+AR-TEST-0100,أين طلبي؟ لم يصل حتى الآن,track_order,ORDER,medium,ar,msa,b8428f22c868eda0
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ORDER,medium,ar,gulf,ed3d05b324890ad0
+AR-TEST-0102,أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,ORDER,medium,ar,msa,76f38cc6e366cb01
+AR-TEST-0103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ORDER,medium,ar,gulf,8f5a7ec8aed59def
+AR-TEST-0104,لم يصلني المبلغ المسترد حتى الآن,track_refund,REFUND,medium,ar,msa,cedcb40200b87b8a
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,REFUND,medium,ar,gulf,3c9fe6b6a13a5498
+AR-TEST-0106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,REFUND,medium,ar,msa,d65131da8a43b552
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,REFUND,medium,ar,gulf,1853a3c53aca3eed

@@ -1,0 +1,7 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "command": "python -m pytest -q",
+  "scope": "canonical split disjointness, intent/priority/sources, identifier invariance, Arabic behavior, scope, injection, input boundaries, provenance validation and masking",
+  "interface_language": "English"
+}

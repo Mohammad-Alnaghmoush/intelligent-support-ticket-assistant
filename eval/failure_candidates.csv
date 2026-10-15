@@ -1,0 +1,201 @@
+ticket_id,text,y_true,lang,dialect,model,y_pred,confidence,accepted
+EN-000646,help with adding several damn articles to order A-46347,change_order,en,english,tfidf_en,place_order,0.5902863061510996,True
+EN-017015,want help buying a product,place_order,en,english,tfidf_en,review,0.19335281648519037,True
+EN-015618,need to report an issue with paymentr,payment_issue,en,english,tfidf_en,registration_problems,0.6753071186454428,True
+EN-016562,I want help doing a purchase,place_order,en,english,tfidf_en,change_order,0.46384763282121466,True
+EN-012522,edit standard account,edit_account,en,english,tfidf_en,delete_account,0.4506484777614932,True
+EN-013369,i cant find the bill #00108 will umail it to me,get_invoice,en,english,tfidf_en,check_invoice,0.5977651513501664,True
+AR-TEST-0000,أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0002,ابي اكنسل الطلب قبل لا يتشحن,cancel_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0003,الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0008,أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0009,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0011,ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0012,كم رسوم إلغاء الطلب بعد الشحن؟,check_cancellation_fee,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0014,هل توجد رسوم على إلغاء طلب الأثاث؟,check_cancellation_fee,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0015,لو رفضت الاستلام بيخصمون علي شي؟,check_cancellation_fee,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0016,أريد مراجعة الفاتورة رقم INV-2024-00731,check_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0017,الفاتورة فيها مبلغ مو واضح ابي اتأكد منه,check_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0018,هل الضريبة مضافة في فاتورتي؟,check_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0020,ما هي طرق الدفع المتاحة لديكم؟,check_payment_methods,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0021,تقبلون مدى ولا بس فيزا؟,check_payment_methods,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0022,هل يمكن الدفع عند الاستلام؟,check_payment_methods,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0024,ما هي سياسة الاسترجاع لديكم؟,check_refund_policy,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0028,خدمتكم سيئة جداً والمندوب تعامل معي بطريقة غير لائقة,complaint,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0030,أرغب في تقديم شكوى رسمية على الموظف,complaint,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0031,تجربة سيئة مرة، المنتج وصل مكسور وما احد رد علي,complaint,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0032,كيف أتواصل مع خدمة العملاء؟,contact_customer_service,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0033,ابي رقم خدمة العملاء,contact_customer_service,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0034,ما هي ساعات عمل الدعم الفني؟,contact_customer_service,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0036,أريد التحدث مع موظف حقيقي وليس روبوت,contact_human_agent,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0037,ابي اكلم موظف الحين لو سمحت,contact_human_agent,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0038,حولني على أحد من الموظفين,contact_human_agent,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0039,هل يمكنني التحدث مع ممثل خدمة عملاء بشري؟,contact_human_agent,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0040,أريد إنشاء حساب جديد,create_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0041,كيف اسوي حساب عندكم؟,create_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0043,ودي افتح حساب جديد بإيميلي,create_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0044,أرغب في حذف حسابي نهائياً,delete_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0046,كيف أغلق حسابي لديكم؟,delete_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0047,احذفوا حسابي لو سمحتوا ما عاد ابيه,delete_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0048,ما هي خيارات التوصيل المتاحة؟,delivery_options,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0050,هل يوجد توصيل سريع إلى الدمام؟,delivery_options,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0052,كم يستغرق التوصيل إلى جدة؟,delivery_period,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0053,متى يوصل الطلب عادة؟,delivery_period,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0054,كم يوم يحتاج الشحن العادي؟,delivery_period,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0055,لو طلبت اليوم متى يوصلني؟,delivery_period,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0056,أريد تعديل رقم الجوال في حسابي,edit_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0057,ابي اغير الايميل حقي في الحساب,edit_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0058,كيف أحدّث بياناتي الشخصية؟,edit_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0059,ودي اغير اسمي في الحساب,edit_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0060,أحتاج نسخة من فاتورة طلبي,get_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0062,كيف أحصل على فاتورة الشراء؟,get_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0063,ارسلولي الفاتورة على الايميل,get_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0064,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0066,كيف أطلب استرجاع المبلغ؟,get_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0068,أريد الاشتراك في النشرة البريدية,newsletter_subscription,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0069,ابي الغي اشتراكي في الرسائل الترويجية,newsletter_subscription,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0070,كيف أوقف رسائل العروض على بريدي؟,newsletter_subscription,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0072,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0074,فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0076,أرغب في تقديم طلب شراء جديد,place_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0078,كيف أقوم بعملية شراء من الموقع؟,place_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0079,ودي اشتري هالمنتج وش الطريقة؟,place_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0080,نسيت كلمة المرور ولا أستطيع الدخول,recover_password,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0082,كيف أعيد تعيين كلمة المرور؟,recover_password,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0084,لا يصلني رمز التحقق عند التسجيل,registration_problems,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0086,تظهر رسالة خطأ عند إنشاء الحساب,registration_problems,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0087,التسجيل يعلق عندي ما يكمل,registration_problems,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0088,أود كتابة تقييم للمنتج الذي اشتريته,review,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0089,ابي اكتب رأيي عن الخدمة,review,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0090,أين يمكنني إضافة مراجعة للمنتج؟,review,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0091,ودي اقيم المنتج، المنتج ممتاز,review,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0092,أريد إضافة عنوان شحن جديد في حسابي,set_up_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0093,كيف اضيف عنواني الوطني؟,set_up_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0094,أرغب في حفظ عنوان افتراضي للتوصيل,set_up_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0095,ابي اضبط عنوان التوصيل في الحساب,set_up_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0096,أريد تحويل حسابي من شخصي إلى حساب أعمال,switch_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0098,كيف أنتقل إلى نوع حساب مختلف؟,switch_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0100,أين طلبي؟ لم يصل حتى الآن,track_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0102,أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0104,لم يصلني المبلغ المسترد حتى الآن,track_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+EN-023381,help me to check the sxtatus of my reimbursement,track_refund,en,english,e5_en,check_refund_policy,0.24796123310394053,False
+EN-013284,i have to get the bill #85632 will huelp me,get_invoice,en,english,e5_en,check_invoice,0.40015818147065024,True
+EN-001614,I submitted a wrong shipping address,change_shipping_address,en,english,e5_en,set_up_shipping_address,0.4468313984317974,True
+EN-013369,i cant find the bill #00108 will umail it to me,get_invoice,en,english,e5_en,check_invoice,0.39777262386119117,True
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,e5_en,complaint,0.19485350790892272,False
+AR-TEST-0009,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,ar,gulf,e5_en,change_order,0.18859057847838337,False
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,e5_en,set_up_shipping_address,0.3688846758689333,True
+AR-TEST-0012,كم رسوم إلغاء الطلب بعد الشحن؟,check_cancellation_fee,ar,msa,e5_en,cancel_order,0.1534610288568439,False
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,ar,gulf,e5_en,complaint,0.31034476693727236,False
+AR-TEST-0015,لو رفضت الاستلام بيخصمون علي شي؟,check_cancellation_fee,ar,gulf,e5_en,cancel_order,0.167084685961377,False
+AR-TEST-0018,هل الضريبة مضافة في فاتورتي؟,check_invoice,ar,msa,e5_en,track_refund,0.24017864667936076,False
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,ar,gulf,e5_en,track_order,0.15233735918808977,False
+AR-TEST-0021,تقبلون مدى ولا بس فيزا؟,check_payment_methods,ar,gulf,e5_en,get_refund,0.10593080737437403,False
+AR-TEST-0022,هل يمكن الدفع عند الاستلام؟,check_payment_methods,ar,msa,e5_en,payment_issue,0.13326958374611214,False
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,ar,gulf,e5_en,get_refund,0.29941132890189703,False
+AR-TEST-0024,ما هي سياسة الاسترجاع لديكم؟,check_refund_policy,ar,msa,e5_en,recover_password,0.36448913752438283,True
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,ar,gulf,e5_en,delivery_period,0.45011675947565977,True
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,ar,msa,e5_en,get_refund,0.14498316124928687,False
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,ar,gulf,e5_en,track_order,0.12723056941406133,False
+AR-TEST-0028,خدمتكم سيئة جداً والمندوب تعامل معي بطريقة غير لائقة,complaint,ar,msa,e5_en,contact_human_agent,0.1584956028541322,False
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,ar,gulf,e5_en,cancel_order,0.15524934454153047,False
+AR-TEST-0031,تجربة سيئة مرة، المنتج وصل مكسور وما احد رد علي,complaint,ar,gulf,e5_en,review,0.16147628220999125,False
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,ar,gulf,e5_en,contact_human_agent,0.2674506032412346,False
+AR-TEST-0037,ابي اكلم موظف الحين لو سمحت,contact_human_agent,ar,gulf,e5_en,track_refund,0.13374903684975298,False
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ar,msa,e5_en,registration_problems,0.1492734353329599,False
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ar,gulf,e5_en,edit_account,0.21853823093791563,False
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,ar,gulf,e5_en,delivery_period,0.12180634691608261,False
+AR-TEST-0050,هل يوجد توصيل سريع إلى الدمام؟,delivery_options,ar,msa,e5_en,delivery_period,0.1500999672507719,False
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,ar,gulf,e5_en,set_up_shipping_address,0.10498624007606225,False
+AR-TEST-0057,ابي اغير الايميل حقي في الحساب,edit_account,ar,gulf,e5_en,change_order,0.16089502875700368,False
+AR-TEST-0060,أحتاج نسخة من فاتورة طلبي,get_invoice,ar,msa,e5_en,get_refund,0.26288201521434384,False
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,ar,gulf,e5_en,track_order,0.3119542341102065,False
+AR-TEST-0063,ارسلولي الفاتورة على الايميل,get_invoice,ar,gulf,e5_en,change_order,0.12784064265930703,False
+AR-TEST-0064,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,ar,msa,e5_en,review,0.11261282134184653,False
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,e5_en,change_order,0.1305100434956539,False
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,e5_en,delivery_period,0.07894278537507715,False
+AR-TEST-0068,أريد الاشتراك في النشرة البريدية,newsletter_subscription,ar,msa,e5_en,get_invoice,0.12433100482285717,False
+AR-TEST-0069,ابي الغي اشتراكي في الرسائل الترويجية,newsletter_subscription,ar,gulf,e5_en,review,0.12675052346594287,False
+AR-TEST-0070,كيف أوقف رسائل العروض على بريدي؟,newsletter_subscription,ar,msa,e5_en,review,0.1811056976379571,False
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,ar,gulf,e5_en,review,0.126317024387597,False
+AR-TEST-0072,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,ar,msa,e5_en,get_refund,0.1293955415225837,False
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,e5_en,get_refund,0.18004905116455866,False
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,e5_en,cancel_order,0.18101008854083067,False
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ar,gulf,e5_en,get_refund,0.11330917641636826,False
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ar,gulf,e5_en,change_order,0.14975657826215993,False
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ar,gulf,e5_en,create_account,0.13809507326442907,False
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ar,gulf,e5_en,recover_password,0.06890085952076741,False
+AR-TEST-0086,تظهر رسالة خطأ عند إنشاء الحساب,registration_problems,ar,msa,e5_en,create_account,0.19929622530737173,False
+AR-TEST-0093,كيف اضيف عنواني الوطني؟,set_up_shipping_address,ar,gulf,e5_en,switch_account,0.16262468106331388,False
+AR-TEST-0096,أريد تحويل حسابي من شخصي إلى حساب أعمال,switch_account,ar,msa,e5_en,create_account,0.27433890999606886,False
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ar,gulf,e5_en,create_account,0.22092587362690289,False
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ar,gulf,e5_en,edit_account,0.22254785314730371,False
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,e5_en,delivery_period,0.17309319336955656,False
+AR-TEST-0103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ar,gulf,e5_en,delivery_period,0.1637118544308141,False
+AR-TEST-0104,لم يصلني المبلغ المسترد حتى الآن,track_refund,ar,msa,e5_en,get_refund,0.17869591062549403,False
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,e5_en,recover_password,0.24379227063327685,False
+AR-TEST-0106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,ar,msa,e5_en,check_cancellation_fee,0.11617500626062707,False
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,e5_en,get_refund,0.2215002429229866,False
+EN-023381,help me to check the sxtatus of my reimbursement,track_refund,en,english,e5_bilingual,check_refund_policy,0.29665456797198597,False
+EN-013284,i have to get the bill #85632 will huelp me,get_invoice,en,english,e5_bilingual,check_invoice,0.6719432284916996,True
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,e5_bilingual,complaint,0.377338247060398,False
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,e5_bilingual,set_up_shipping_address,0.40439972555622306,False
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,ar,gulf,e5_bilingual,complaint,0.4916260987114634,False
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,ar,gulf,e5_bilingual,track_order,0.22229624737488526,False
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,ar,gulf,e5_bilingual,get_refund,0.2656001783337213,False
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,ar,gulf,e5_bilingual,delivery_period,0.6445309846448269,False
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,ar,msa,e5_bilingual,get_refund,0.43309664858421687,False
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,ar,gulf,e5_bilingual,track_order,0.2516422259729311,False
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,ar,gulf,e5_bilingual,cancel_order,0.27895546649397845,False
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,ar,gulf,e5_bilingual,contact_human_agent,0.3915373549788036,False
+AR-TEST-0041,كيف اسوي حساب عندكم؟,create_account,ar,gulf,e5_bilingual,switch_account,0.433615072322923,False
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ar,msa,e5_bilingual,registration_problems,0.6463453660446358,False
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ar,gulf,e5_bilingual,edit_account,0.3265769774628042,False
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,ar,gulf,e5_bilingual,delivery_period,0.27566469264108495,False
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,ar,gulf,e5_bilingual,track_order,0.15724491306404684,False
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,ar,gulf,e5_bilingual,track_order,0.37166238029111803,False
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,e5_bilingual,track_refund,0.13806913072202015,False
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,e5_bilingual,contact_human_agent,0.13751056781425047,False
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,ar,gulf,e5_bilingual,review,0.21118388933071952,False
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,e5_bilingual,get_refund,0.21283358482575349,False
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,e5_bilingual,cancel_order,0.2802392051118338,False
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ar,gulf,e5_bilingual,track_order,0.14430604397354474,False
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ar,gulf,e5_bilingual,track_refund,0.20269523492133748,False
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ar,gulf,e5_bilingual,delete_account,0.18584578097720064,False
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ar,gulf,e5_bilingual,recover_password,0.09113518179403896,False
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ar,gulf,e5_bilingual,create_account,0.2773333670538964,False
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ar,gulf,e5_bilingual,edit_account,0.4121786140383047,False
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,e5_bilingual,delivery_period,0.30406484186412985,False
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,e5_bilingual,recover_password,0.3974464915185997,False
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,e5_bilingual,get_refund,0.3082153804370481,False

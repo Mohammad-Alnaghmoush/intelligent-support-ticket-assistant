@@ -1,0 +1,514 @@
+ticket_id,text,y_true,lang,dialect,model,y_pred,confidence,accepted
+EN-003943,i need help to locate the bills from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.9573189310430156,True
+EN-012864,i dont know what to do to modify my bloody user account,edit_account,en,english,tfidf_en,edit_account,0.5917651784578327,True
+EN-022375,tracking order A-46342,track_order,en,english,tfidf_en,track_order,0.6804021631912412,True
+EN-002152,I want support modifying the shipping address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.8954980851064004,True
+EN-001317,"I entered a wrong delivery address, help me editing it",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9029879286769998,True
+EN-004855,help me checking the accepted payment modalities,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9516090209540754,True
+EN-008286,can you direct to me a human agent?,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.8998958640850737,True
+EN-020319,how can I send feedback about a service?,review,en,english,tfidf_en,review,0.9274594333924858,True
+EN-021594,I need assistance changing to the standard account,switch_account,en,english,tfidf_en,switch_account,0.9171100021772982,True
+EN-015065,need to receive the newsletter can ya help me,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.881303728506657,True
+EN-021467,can you help me change to the standard account?,switch_account,en,english,tfidf_en,switch_account,0.9283879192612,True
+EN-004884,assistance listing the payment methods,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9441321824375839,True
+EN-016317,I do not know how I can notify of an error with payments,payment_issue,en,english,tfidf_en,payment_issue,0.9307907366875766,True
+EN-022762,help to check the ETA of order A-60667,track_order,en,english,tfidf_en,track_order,0.9919246715938963,True
+EN-009412,new standard acount,create_account,en,english,tfidf_en,create_account,0.2945432029285234,True
+EN-014588,"I want to unsubscribe to your corporate newsletter, help me",newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9848811409341236,True
+EN-009701,problem with freemium account cancellations,delete_account,en,english,tfidf_en,delete_account,0.4131154692280896,True
+EN-020519,I have troubles entering another delivery address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9585868035637739,True
+EN-000016,what do I have to do to cancel purchase A-38657?,cancel_order,en,english,tfidf_en,cancel_order,0.7729768122769509,True
+EN-011705,I do not know wha to do to check when will my product arrive,delivery_period,en,english,tfidf_en,delivery_period,0.8313897249459211,True
+EN-002930,how to see the cancellation penalty,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9698914177327549,True
+EN-023063,can uhelp me check the compensation current status,track_refund,en,english,tfidf_en,track_refund,0.7263725743197489,True
+EN-013809,need help to get a copmpensation of money,get_refund,en,english,tfidf_en,get_refund,0.9912009856903093,True
+EN-013516,I want help downloading bill #00108,get_invoice,en,english,tfidf_en,get_invoice,0.7620922197370618,True
+EN-018586,I do not know what to do to inform of an issue with a signup,registration_problems,en,english,tfidf_en,registration_problems,0.9091058987175339,True
+EN-017599,I have problems with the key reset,recover_password,en,english,tfidf_en,recover_password,0.6635140546193248,True
+EN-004038,I need help to see what payment methods are accepted,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9731403683615073,True
+EN-011676,help me seeing how long it takes for the delivery to rarive,delivery_period,en,english,tfidf_en,delivery_period,0.8457719074304721,True
+EN-010367,I have a problem with the removal of my standard account,delete_account,en,english,tfidf_en,delete_account,0.9623296482935015,True
+EN-001214,i cant change an item of purchase A-66881,change_order,en,english,tfidf_en,change_order,0.9875375356642112,True
+EN-007491,I want help speaking with customer assistance,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.8838705582965146,True
+EN-005257,"I need to see how long reimbursements take, how can I do it?",check_refund_policy,en,english,tfidf_en,check_refund_policy,0.7126120860163884,True
+EN-000029,have a problem with canceling order A-46463,cancel_order,en,english,tfidf_en,cancel_order,0.883075810439109,True
+EN-007426,I want help to check what hours I can reach customer support,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9768245637278721,True
+EN-013892,I need assistance requesting a refund of money,get_refund,en,english,tfidf_en,get_refund,0.9260796063992619,True
+EN-020472,I need assistance to set up a secondary shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9897526429949061,True
+EN-002874,can you help me to see the early termination charges?,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9760892888900176,True
+EN-018264,"I forgot my profile access key, help to recover it",recover_password,en,english,tfidf_en,recover_password,0.9652562015578992,True
+EN-004066,show me your allowed payment options,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9488216192127455,True
+EN-018510,"I cannot open a profile, help me to report signup problems",registration_problems,en,english,tfidf_en,registration_problems,0.8117383364291015,True
+EN-014868,how do I sign up to the company newsletter?,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9634450900228719,True
+EN-019356,can ya help me to notify of an error with signup,registration_problems,en,english,tfidf_en,registration_problems,0.9223205245175369,True
+EN-008644,can udirect ot me somebody,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.6762303105344608,True
+EN-006749,want help to file a claim against your organization,complaint,en,english,tfidf_en,complaint,0.9738486501473338,True
+EN-005324,need assistance to see in what cases can i ask for refunds,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9815682088562973,True
+EN-019527,need assistance to write a review about ur copany,review,en,english,tfidf_en,review,0.9279938912259847,True
+EN-001203,i need help to delete something from order A-80912,change_order,en,english,tfidf_en,change_order,0.9376449847720303,True
+EN-021852,how to use the freemium profile?,switch_account,en,english,tfidf_en,switch_account,0.9870467562572017,True
+EN-010040,question about the cancellation of a DemoMart account,delete_account,en,english,tfidf_en,delete_account,0.8739666987879368,True
+EN-007816,do you have a free number to talk with customer service?,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9685992590176278,True
+EN-007984,I am trying to chat with somebody,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9278556235487547,True
+EN-000646,help with adding several damn articles to order A-46347,change_order,en,english,tfidf_en,place_order,0.5902863061510996,True
+EN-006088,help to make a customer complaint,complaint,en,english,tfidf_en,complaint,0.971098489977026,True
+EN-002927,i do not know how to see the cancellation penalty,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.941746969338986,True
+EN-022986,I'm waiting for a compensation of DemoMartDemoMart,track_refund,en,english,tfidf_en,track_refund,0.9152290963020238,True
+EN-020076,I don't know how t leave an opinion about a product,review,en,english,tfidf_en,review,0.941425659345941,True
+EN-003193,I want help seeing the invoices from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.513171340792502,True
+EN-003144,I need to look for the fucking invoices from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.935570488085392,True
+EN-002208,have a question about an address update,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.6989684071610323,True
+EN-017111,I am trying to earn a product,place_order,en,english,tfidf_en,place_order,0.6866607815205763,True
+EN-002880,I can't find the termination charge,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.8899452124348969,True
+EN-010077,problems with the deletion of my DemoMart accoun,delete_account,en,english,tfidf_en,delete_account,0.8664034472106996,True
+EN-001854,there are errors trying to update my shipping address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9741374246858417,True
+EN-009209,I do not know what I need to do to create a DemoMart account,create_account,en,english,tfidf_en,create_account,0.9075246617448567,True
+EN-020349,wanna send my feedback for ur services,review,en,english,tfidf_en,review,0.942005589981067,True
+EN-010557,I want to see what shipment methods I can choose,delivery_options,en,english,tfidf_en,delivery_options,0.9854153097799835,True
+EN-022954,i cannot see if there is anything new on the compensation,track_refund,en,english,tfidf_en,track_refund,0.9639197286571304,True
+EN-005498,I try to check in which situations can I request refunds,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.981765188839612,True
+EN-001948,I want assistance trying to correct the address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9769684275057499,True
+EN-022258,I'm trying to check purcahse A-73156 current status,track_order,en,english,tfidf_en,track_order,0.7232393470743861,True
+EN-013076,get ibll #85632,get_invoice,en,english,tfidf_en,get_invoice,0.5839112697788502,True
+EN-019480,"I have got to leave a review for a product, can you help me?",review,en,english,tfidf_en,review,0.8820342515566846,True
+EN-004049,show me what payment options are accepted,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9420575628642378,True
+EN-010669,is it possible to place na order from DemoMart,delivery_options,en,english,tfidf_en,delivery_options,0.7337752609870865,True
+EN-008835,helo to contact an assistant,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9623398724735616,True
+EN-000237,"I bought some items, help canceling order A-18834",cancel_order,en,english,tfidf_en,cancel_order,0.8707848791633646,True
+EN-002738,help seeing the early termination fees,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9905909912742952,True
+EN-005652,assistance seeing in what situations can I request a refund,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9204986081243729,True
+EN-013820,how can I obtain my money back?,get_refund,en,english,tfidf_en,get_refund,0.9392628352481561,True
+EN-023078,I'm waiting for a refund of DemoMart dollars,track_refund,en,english,tfidf_en,track_refund,0.9184940226726503,True
+EN-021644,help using the pro profile,switch_account,en,english,tfidf_en,switch_account,0.9353787944853281,True
+EN-021119,"I want to submit a delivery address, I need assistance",set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.8719761237805165,True
+EN-013300,where to download the invoices from DemoMart?,get_invoice,en,english,tfidf_en,get_invoice,0.9622593078075272,True
+EN-000268,"I doln't want order A-22899, can you cancel it?",cancel_order,en,english,tfidf_en,cancel_order,0.8416995919127078,True
+EN-000860,I try to edit order A-48566,change_order,en,english,tfidf_en,change_order,0.8001170201351397,True
+EN-007259,can I see at what time customer service available is?,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9688695870459428,True
+EN-006311,need to file an fucking consumer claim can i get some help,complaint,en,english,tfidf_en,complaint,0.7807684387621872,True
+EN-021264,I want help to submit a different shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9470936994675684,True
+EN-003520,i do not know how i can take a quick look at the bill #37777,check_invoice,en,english,tfidf_en,check_invoice,0.9766274063278575,True
+EN-019357,can you help me notify of a registration issue?,registration_problems,en,english,tfidf_en,registration_problems,0.9459669105514155,True
+EN-012564,correct information on standardaccount,edit_account,en,english,tfidf_en,edit_account,0.9501674199824491,True
+EN-022798,assistance to track purchase A-12389,track_order,en,english,tfidf_en,track_order,0.7416527772864928,True
+EN-005248,i have to see in what situations can i ask for refunds,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9708113734768488,True
+EN-019510,ya have a method to send feedback,review,en,english,tfidf_en,review,0.8041159673843176,True
+EN-006674,I try to make a complaint,complaint,en,english,tfidf_en,complaint,0.8594449517032531,True
+EN-023219,i expect a compensqtion of DemoMart dollars,track_refund,en,english,tfidf_en,track_refund,0.8023999596994603,True
+EN-012802,help to modify the fucking information on my profile,edit_account,en,english,tfidf_en,edit_account,0.9292388346678256,True
+EN-011141,I have got to check what delivery methods I can choose,delivery_options,en,english,tfidf_en,delivery_options,0.9679268573573155,True
+EN-014278,I would like to obtain my money back,get_refund,en,english,tfidf_en,get_refund,0.9536713107166515,True
+EN-022862,I do not know what to do to locate purchase A-58655,track_order,en,english,tfidf_en,track_order,0.854343050499862,True
+EN-023140,see my restitution current status,track_refund,en,english,tfidf_en,track_refund,0.9458085721440558,True
+EN-012530,correcting data on premium account,edit_account,en,english,tfidf_en,edit_account,0.9715641420734682,True
+EN-004644,where to list your allowed payment options?,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.976762639494366,True
+EN-006199,need help to make a complaint against ur company,complaint,en,english,tfidf_en,complaint,0.9666018084887422,True
+EN-006842,I want help to make a reclamation,complaint,en,english,tfidf_en,complaint,0.9080742940515832,True
+EN-000751,switch something of order A-41266,change_order,en,english,tfidf_en,change_order,0.87723471963287,True
+EN-003883,I want assistance looking for my invoice #12588,check_invoice,en,english,tfidf_en,check_invoice,0.7124924249798213,True
+EN-015553,I need assistance notifying of troubles with online payments,payment_issue,en,english,tfidf_en,payment_issue,0.9465997383478301,True
+EN-000353,can ya help me cancel order A-84085,cancel_order,en,english,tfidf_en,cancel_order,0.8478863023136962,True
+EN-000900,how do I add some articles to purchase A-57301?,change_order,en,english,tfidf_en,change_order,0.7092721380972679,True
+EN-009911,I need information about the removal of a premium account,delete_account,en,english,tfidf_en,delete_account,0.8831866289576059,True
+EN-023381,help me to check the sxtatus of my reimbursement,track_refund,en,english,tfidf_en,track_refund,0.5551298613716475,True
+EN-021190,I do not know what to do to submit my new shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9367676505142047,True
+EN-017417,where could I buy several articles?,place_order,en,english,tfidf_en,place_order,0.6844827379747257,True
+EN-017307,"I have to earn several products, how can I do it?",place_order,en,english,tfidf_en,place_order,0.9367835474819766,True
+EN-017224,I need assistance to shop a few of your item,place_order,en,english,tfidf_en,place_order,0.9847506227795138,True
+EN-023038,I'm trying to see my refund current status,track_refund,en,english,tfidf_en,track_refund,0.9463419873614879,True
+EN-017534,i have to retrieve my user account key,recover_password,en,english,tfidf_en,recover_password,0.9764234380818165,True
+EN-003821,I want assistance locating the invoices from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.8795847166028183,True
+EN-004433,"I have got to list the payment options, how can I do it?",check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9115483190385434,True
+EN-017677,"I can't remember my bloody user key, how to reset it?",recover_password,en,english,tfidf_en,recover_password,0.8930200686151533,True
+EN-017380,"I have got to acquire several items, I need help",place_order,en,english,tfidf_en,place_order,0.9232326467080475,True
+EN-020306,I do not know how to leave my feedback for a product,review,en,english,tfidf_en,review,0.9682561340536504,True
+EN-009358,create freemium account,create_account,en,english,tfidf_en,create_account,0.9381401707530498,True
+EN-006187,"I am very unsatisfied with your work, make a fucking claim",complaint,en,english,tfidf_en,complaint,0.8396533522153435,True
+EN-000901,i need help to delete some products from order A-33519,change_order,en,english,tfidf_en,change_order,0.9313804312556754,True
+EN-022736,I don't know how I can locate purchase A-15130,track_order,en,english,tfidf_en,track_order,0.6571993019182775,True
+EN-000711,I want help deleting something from purchase A-87580,change_order,en,english,tfidf_en,change_order,0.9147761463296941,True
+EN-015424,"I have to cancel my subscription to the newsletter, help me",newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9532945639011626,True
+EN-008891,I do not know what I have to do to contact an assistant,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.8360178374868794,True
+EN-014245,i want assistance to receive my money back,get_refund,en,english,tfidf_en,get_refund,0.9449549032543403,True
+EN-009106,creating account,create_account,en,english,tfidf_en,create_account,0.9161940121507549,True
+EN-010378,would it be possible to cancel a DemoMart account?,delete_account,en,english,tfidf_en,delete_account,0.3888904935575386,True
+EN-013731,I'm trying to demand a rebate of my money,get_refund,en,english,tfidf_en,get_refund,0.9886050220678011,True
+EN-015570,assistance informing of errors with payments,payment_issue,en,english,tfidf_en,payment_issue,0.769894478726927,True
+EN-006798,how can I lodge a reclamation against your business?,complaint,en,english,tfidf_en,complaint,0.9637548449478811,True
+EN-011237,can you help me seeing how soon can I expect my order?,delivery_period,en,english,tfidf_en,delivery_period,0.9630983601418969,True
+EN-012255,editting details on premium account,edit_account,en,english,tfidf_en,edit_account,0.9784184065921206,True
+EN-013164,I don't know what to do to download the invoice #85632,get_invoice,en,english,tfidf_en,get_invoice,0.9601838453667904,True
+EN-008903,how to open a premium account?,create_account,en,english,tfidf_en,create_account,0.9529999478688664,True
+EN-017738,"I cannot remember my damn profile key, how to restore it?",recover_password,en,english,tfidf_en,recover_password,0.8541425207912985,True
+EN-002207,"I have got to correct the delivery address, how to do it?",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.7558874651063755,True
+EN-008199,I would like to speak to a live agent,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9440114850147042,True
+EN-019138,help me to informof an issue with a registration,registration_problems,en,english,tfidf_en,registration_problems,0.919160761602028,True
+EN-020491,I have troubles entering a different shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9640086475646056,True
+EN-011436,give me information about the shippong periods,delivery_period,en,english,tfidf_en,delivery_period,0.4596688708245677,True
+EN-013266,help me download the bill from DemoMart,get_invoice,en,english,tfidf_en,get_invoice,0.9690822921202854,True
+EN-002517,I have got to see the early exit penalpties,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9483340188014138,True
+EN-006211,I want to lodge a reclamation,complaint,en,english,tfidf_en,complaint,0.9067862715297949,True
+EN-021068,I can't set a new delivery address up,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9940222029834612,True
+EN-010500,i need assistance to cancel my DemoMart account,delete_account,en,english,tfidf_en,delete_account,0.9393234647425018,True
+EN-000075,can you help me to cancel purchase A-31319?,cancel_order,en,english,tfidf_en,cancel_order,0.9569210406879847,True
+EN-016515,I need assistance to shop a product,place_order,en,english,tfidf_en,place_order,0.9420681440016198,True
+EN-016349,issue with payment,payment_issue,en,english,tfidf_en,payment_issue,0.9684644066387498,True
+EN-009346,creating new standard account for daughter,create_account,en,english,tfidf_en,create_account,0.9751589288839209,True
+EN-000066,I need help cacneling order A-20458,cancel_order,en,english,tfidf_en,cancel_order,0.3028177578756086,True
+EN-010665,is it possibleto place an order from DemoMart,delivery_options,en,english,tfidf_en,delivery_options,0.9233144364547453,True
+EN-005950,help seeing in what cases can i ask for a refund,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9698777761311008,True
+EN-004019,is it possible to see your available payment methods?,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9518496074055918,True
+EN-011689,I need to see how soon can I expect my shipment,delivery_period,en,english,tfidf_en,delivery_period,0.9858098887857906,True
+EN-016232,report problems with payment,payment_issue,en,english,tfidf_en,payment_issue,0.9743994373931667,True
+EN-022584,need to check order A-79066 current status how do i do it,track_order,en,english,tfidf_en,track_order,0.7772053383503963,True
+EN-012468,modifying ingormation on DemoMart account,edit_account,en,english,tfidf_en,edit_account,0.9047881763178263,True
+EN-015103,I am trying to cancel my subscription to your newsletter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.968207210999339,True
+EN-015221,I want assistance to subscribe to your company newsletter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9744611424849658,True
+EN-009990,give me information about the deletion of a gold account,delete_account,en,english,tfidf_en,delete_account,0.9500121611167716,True
+EN-004920,how do I see your payment modalities?,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9404497377467543,True
+EN-010655,what do I need to do to see what shipment methods I have?,delivery_options,en,english,tfidf_en,delivery_options,0.9417114976068012,True
+EN-009445,wanna know more about opening a DemoMart account,create_account,en,english,tfidf_en,create_account,0.9315827511171114,True
+EN-008304,"I cannot understand you, I want to speak to a person",contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9547728736005796,True
+EN-013016,I have got to download the invoice from DemoMart,get_invoice,en,english,tfidf_en,get_invoice,0.9796565886681042,True
+EN-005344,assistance seeing in what casew can i ask to be refunded,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9236485790372313,True
+EN-003429,I need assistance to see the invoice #00108,check_invoice,en,english,tfidf_en,check_invoice,0.7278991378049996,True
+EN-007372,"I need to contact customer service, hoow can I do it?",contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9412464067038682,True
+EN-005894,help me see in what situations can I request reimbursements,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9585829105049677,True
+EN-008680,I don't know how I can speak with a person,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9136374229302285,True
+EN-017551,i do not know how to recover my account pass,recover_password,en,english,tfidf_en,recover_password,0.6506613824682176,True
+EN-005301,I need help to se how long the bloody reimbursements take,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.3818705777319843,True
+EN-013284,i have to get the bill #85632 will huelp me,get_invoice,en,english,tfidf_en,get_invoice,0.9561870323765286,True
+EN-003483,seeing bil #00108,check_invoice,en,english,tfidf_en,check_invoice,0.374223724906883,True
+EN-000525,could i delete a item from purchase A-34914,change_order,en,english,tfidf_en,change_order,0.8895740925014777,True
+EN-001311,"I submitted a wrong shipping address, I awnt to change it",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9324720122675645,True
+EN-008344,how can I speak with an agent?,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9904379465158762,True
+EN-007839,how to talk with customer service?,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9871388369442716,True
+EN-011254,I call to see how soon can I expect my parcel,delivery_period,en,english,tfidf_en,delivery_period,0.976725030702462,True
+EN-010743,"I have to see the methods for shipping, I need help",delivery_options,en,english,tfidf_en,delivery_options,0.946397909455422,True
+EN-003810,where to find my invoices from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.9301682105816202,True
+EN-023588,I need help to see the current status of the refund,track_refund,en,english,tfidf_en,track_refund,0.9537758729928288,True
+EN-016119,want help norifying of a payment issue,payment_issue,en,english,tfidf_en,payment_issue,0.9053119774871426,True
+EN-012650,change info on gold account,edit_account,en,english,tfidf_en,edit_account,0.9802027579128415,True
+EN-018491,I needs to notify of signup issues,registration_problems,en,english,tfidf_en,registration_problems,0.981995322927816,True
+EN-013026,I don't know how to get the invoice #37777,get_invoice,en,english,tfidf_en,get_invoice,0.9785029775715969,True
+EN-007241,what do I have to do to call customer service?,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9508554489029788,True
+EN-008266,can you help me contact a human agent?,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.8763556650923235,True
+EN-012923,send me bull from DemoMart,get_invoice,en,english,tfidf_en,get_invoice,0.9184984321727621,True
+EN-004800,help listing your allowed payment methods,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9492527235563287,True
+EN-020127,where to leave a comment about your company?,review,en,english,tfidf_en,review,0.9770029849154026,True
+EN-019209,i need assistance to inform of errors with signup,registration_problems,en,english,tfidf_en,registration_problems,0.9664942931148325,True
+EN-020189,wanna leave a comment how do i do it,review,en,english,tfidf_en,review,0.5547049041777031,True
+EN-012068,where could I see how soon can I expect my shipment?,delivery_period,en,english,tfidf_en,delivery_period,0.9780651548433902,True
+EN-015234,tell me about cancellling the subscription to ur newsletter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9606872317521352,True
+EN-021670,can I use the gold profile?,switch_account,en,english,tfidf_en,switch_account,0.9392248620423709,True
+EN-010819,help to check what shipment options are there,delivery_options,en,english,tfidf_en,delivery_options,0.9620353006048067,True
+EN-022809,can you help me seeing the ETA of the order A-20114?,track_order,en,english,tfidf_en,track_order,0.9313582203567435,True
+EN-016545,help buying some of your product,place_order,en,english,tfidf_en,place_order,0.9465048553139908,True
+EN-016929,need help earning several of your article,place_order,en,english,tfidf_en,place_order,0.9727296517559317,True
+EN-017015,want help buying a product,place_order,en,english,tfidf_en,review,0.19335281648519037,True
+EN-007903,i have to see what hours customer support available is,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9499033922245504,True
+EN-002114,"I have chosen a wrong shipping address, how do I correct it?",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.8451591901791962,True
+EN-000314,i dont know how to cancel order A-34890,cancel_order,en,english,tfidf_en,cancel_order,0.9695785907687748,True
+EN-021181,I can't enter the shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.8276052887348285,True
+EN-010815,I don't know what I need to do to see the shipping methods,delivery_options,en,english,tfidf_en,delivery_options,0.7734669118351503,True
+EN-012947,can you send me my bill from DemoMart?,get_invoice,en,english,tfidf_en,get_invoice,0.9009323330549158,True
+EN-006719,I want help making a ucstomer claim against your company,complaint,en,english,tfidf_en,complaint,0.9351030459981476,True
+EN-010118,problem with standard account terminations,delete_account,en,english,tfidf_en,delete_account,0.7511644612959956,True
+EN-022481,I try to check the ETA of the purchase A-82924,track_order,en,english,tfidf_en,track_order,0.9780302886956402,True
+EN-016362,want help solving a problem with payments,payment_issue,en,english,tfidf_en,payment_issue,0.9539601957961836,True
+EN-020502,ca ya help me set another fucking shipping address up,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9450666060371559,True
+EN-006244,help me filing a customer complaint against your business,complaint,en,english,tfidf_en,complaint,0.9814294994176218,True
+EN-021491,I'd like to use the DemoMart account could uhelp me,switch_account,en,english,tfidf_en,switch_account,0.8745223593902162,True
+EN-016170,i need assistance to notify of an trouble with payment,payment_issue,en,english,tfidf_en,payment_issue,0.9811311835874246,True
+EN-022853,how can i see the status of purchase A-64874,track_order,en,english,tfidf_en,track_order,0.9333701876829134,True
+EN-016610,is it possible to purchase several bloody items?,place_order,en,english,tfidf_en,place_order,0.7275518320465217,True
+EN-022084,what do I have to do to change to the standard account?,switch_account,en,english,tfidf_en,switch_account,0.9147919573641174,True
+EN-008922,I do not know what to do to create a DemoMart account for my dad,create_account,en,english,tfidf_en,create_account,0.9786772883762622,True
+EN-016428,i dont know how to inform of an issue with payments,payment_issue,en,english,tfidf_en,payment_issue,0.9342400145335075,True
+EN-008527,I need assistance to speak with an assistant,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9909765777941709,True
+EN-009003,i dont know how to open a DemoMart account for my daughter,create_account,en,english,tfidf_en,create_account,0.9698758153645071,True
+EN-011380,where do i see when my product is gonna arrive,delivery_period,en,english,tfidf_en,delivery_period,0.9100462174599415,True
+EN-011771,assistance seeing when my purchase is going to arrive,delivery_period,en,english,tfidf_en,delivery_period,0.8867795443125933,True
+EN-023515,how to see the current status of the rebate,track_refund,en,english,tfidf_en,track_refund,0.9683238337886028,True
+EN-000387,need assistance to cancel purchase A-47353,cancel_order,en,english,tfidf_en,cancel_order,0.989152103414226,True
+EN-011226,I want assistance to see when will my purchase arrtive,delivery_period,en,english,tfidf_en,delivery_period,0.6939811861070225,True
+EN-006879,help lodging a reclamation,complaint,en,english,tfidf_en,complaint,0.7854010737434105,True
+EN-013437,need to get the invoicefrom DemoMart can i get some help,get_invoice,en,english,tfidf_en,get_invoice,0.716785646074011,True
+EN-015937,how to notify of problems with payment?,payment_issue,en,english,tfidf_en,payment_issue,0.9657653468017019,True
+EN-000707,assistance adding something to purchase A-91560,change_order,en,english,tfidf_en,change_order,0.6177551870114428,True
+EN-007560,i try to get in touch with customer assistance,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.8849796532868178,True
+EN-018149,can you help me reset my profile PIN?,recover_password,en,english,tfidf_en,recover_password,0.9725671584496625,True
+EN-012210,change information on pro account,edit_account,en,english,tfidf_en,edit_account,0.9390589039410873,True
+EN-014436,I do not know how I could request compensations of money,get_refund,en,english,tfidf_en,get_refund,0.9243258012530231,True
+EN-019393,where can I report issues with sign-up?,registration_problems,en,english,tfidf_en,registration_problems,0.9550672017925581,True
+EN-021584,"I have got to use the DemoMart profile, help me",switch_account,en,english,tfidf_en,switch_account,0.9764352495403874,True
+EN-021337,submit my secondary shipping address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9780016285199975,True
+EN-007611,what do I have to do to talk to customer service?,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9722063277594181,True
+EN-003561,I need assistance to look for the invoice #00108,check_invoice,en,english,tfidf_en,check_invoice,0.9415620086985449,True
+EN-019200,where do I inform of signup issues?,registration_problems,en,english,tfidf_en,registration_problems,0.9216463469794112,True
+EN-000533,"I need to correct order A-35825, could you help me?",change_order,en,english,tfidf_en,change_order,0.44479493443900103,True
+EN-004510,i do not knwo how to see the payment methods,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.936042669828741,True
+EN-019894,i need help writing an opinion for a service,review,en,english,tfidf_en,review,0.8672868314693752,True
+EN-006280,"my experience with your work was bad, make a complaint",complaint,en,english,tfidf_en,complaint,0.9060567839323895,True
+EN-022479,help me seeing the ETA of order A-58843,track_order,en,english,tfidf_en,track_order,0.966283324006829,True
+EN-022263,locate order A-19869,track_order,en,english,tfidf_en,track_order,0.9292358619666481,True
+EN-007653,I need to talk with bloody customer support,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.8979231260660029,True
+EN-014153,I want to obtain refunds of my money,get_refund,en,english,tfidf_en,get_refund,0.989119120756316,True
+EN-010812,how to see what options for delivery are there?,delivery_options,en,english,tfidf_en,delivery_options,0.9769633895884174,True
+EN-016534,i do not know what i need to do to hsop several articles,place_order,en,english,tfidf_en,place_order,0.6783766767858204,True
+EN-001614,I submitted a wrong shipping address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.764654388407728,True
+EN-023251,I'm waiting for a rebate of DemoMart dollars,track_refund,en,english,tfidf_en,track_refund,0.8967681478548029,True
+EN-003807,I need help checking the biol #37777,check_invoice,en,english,tfidf_en,check_invoice,0.1964224129281122,True
+EN-004878,i want help to see what payment methods uaccept,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.968529712317848,True
+EN-014501,I do not know what to do to demand my money back,get_refund,en,english,tfidf_en,get_refund,0.962257541761982,True
+EN-010904,help to check what methods for delivery i have,delivery_options,en,english,tfidf_en,delivery_options,0.9720305959567617,True
+EN-009274,I need assistance with opening a DemoMart acount,create_account,en,english,tfidf_en,create_account,0.6888431453026175,True
+EN-000007,I am trying to cancel purchase A-23434,cancel_order,en,english,tfidf_en,cancel_order,0.9297013023805942,True
+EN-001757,"I have got to modify my delivery address, how can I do it?",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.7406655642710706,True
+EN-000746,I forgot to include an item in purchase A-36130,change_order,en,english,tfidf_en,change_order,0.8792005880232096,True
+EN-010364,I don't know what I have to do to remove the DemoMart account,delete_account,en,english,tfidf_en,delete_account,0.8715398968674694,True
+EN-008243,"you are not helpful, help talking to an operator",contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9037912781043176,True
+EN-018538,i cant create a user need help reportinga sign-up problem,registration_problems,en,english,tfidf_en,registration_problems,0.7734305521989897,True
+EN-015618,need to report an issue with paymentr,payment_issue,en,english,tfidf_en,registration_problems,0.6753071186454428,True
+EN-012833,change data on gold account,edit_account,en,english,tfidf_en,edit_account,0.9753311859849939,True
+EN-005703,in what situations can I ask for reimbursements?,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9542975158969988,True
+EN-002577,what do i have to do to see the cancellation penalty,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9083110417384411,True
+EN-014156,i do not know what i need to do to get retsitutions of money,get_refund,en,english,tfidf_en,get_refund,0.9190343757500397,True
+EN-018068,could I retrieve my user account password?,recover_password,en,english,tfidf_en,recover_password,0.9419549087364132,True
+EN-022210,I need assistance seeing purchase A-96275 bloody status,track_order,en,english,tfidf_en,track_order,0.6961643503852567,True
+EN-009750,what do i have to do to delete my DemoMart account,delete_account,en,english,tfidf_en,delete_account,0.9737656984409601,True
+EN-001994,I have issues editing my address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.862651316678975,True
+EN-017973,help resetting the pin coder of my profile,recover_password,en,english,tfidf_en,recover_password,0.934427966006118,True
+EN-011441,how to see how soon can I expect my goddamn product?,delivery_period,en,english,tfidf_en,delivery_period,0.9600161081061553,True
+EN-013911,I don't know what I have to do to ask for reimbursements,get_refund,en,english,tfidf_en,get_refund,0.5164682392185995,True
+EN-019575,where to leave a comment for your services?,review,en,english,tfidf_en,review,0.9808551041409678,True
+EN-000114,"I have got to cancel purchase A-28726, how do I do it?",cancel_order,en,english,tfidf_en,cancel_order,0.7786893724149061,True
+EN-014760,i want information about my fucking newsletter subscriptino,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.4156245903730884,True
+EN-021732,I want assistance to switch to the gold account,switch_account,en,english,tfidf_en,switch_account,0.9077998376978346,True
+EN-005042,check ur money back guarantee,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9272510679038062,True
+EN-013102,what do i have to do to download my invoice #85632,get_invoice,en,english,tfidf_en,get_invoice,0.9302743780962234,True
+EN-020567,why I cannot set up the shipping address valid,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9627699260508245,True
+EN-012487,modify details on standard account,edit_account,en,english,tfidf_en,edit_account,0.9880011228437737,True
+EN-010440,question about freemium account canclelations,delete_account,en,english,tfidf_en,delete_account,0.6133913181343672,True
+EN-005739,I have got to check in which cases can I ask for refunds,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.981231812788994,True
+EN-016562,I want help doing a purchase,place_order,en,english,tfidf_en,change_order,0.46384763282121466,True
+EN-012655,editing account,edit_account,en,english,tfidf_en,edit_account,0.4520622466369598,True
+EN-003992,I'd like to check my fucking invoices from DemoMart help me,check_invoice,en,english,tfidf_en,check_invoice,0.8074113346529336,True
+EN-003134,"I have to see the early termination fees, help me",check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9927453475569155,True
+EN-001829,I cannot edit the shipping address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.931415804990707,True
+EN-014966,i want assistance unsubscribing from the newsletter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.8720223827734607,True
+EN-011302,I need to see how long it takes for the shipment to arrive,delivery_period,en,english,tfidf_en,delivery_period,0.9802885599928225,True
+EN-021515,using DemoMart account,switch_account,en,english,tfidf_en,switch_account,0.7710202714657196,True
+EN-001082,want help to add an article to purchase A-77952,change_order,en,english,tfidf_en,change_order,0.9503556297162908,True
+EN-018521,report registration issue,registration_problems,en,english,tfidf_en,registration_problems,0.9693208815567333,True
+EN-012899,I want to download the damn invoices from DemoMart,get_invoice,en,english,tfidf_en,get_invoice,0.9713933593738723,True
+EN-015133,I cannot sign up to your corporate newsledtter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.6616698297597733,True
+EN-017381,I need help earning some articles,place_order,en,english,tfidf_en,place_order,0.873271418323172,True
+EN-009558,new pro acount for wife,create_account,en,english,tfidf_en,create_account,0.8428402671369255,True
+EN-022830,assistance to see the ETA of order A-63852,track_order,en,english,tfidf_en,track_order,0.9907075055599234,True
+EN-008190,how do I speak with a live agent?,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9708612211254696,True
+EN-003433,assistance to look for the bill from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.9715071430016728,True
+EN-008593,I do not know how to speak with an agent,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.9890576694894597,True
+EN-007281,can ya help me ccall customer support,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9394626761010072,True
+EN-000131,help cancelling purchase A-16175,cancel_order,en,english,tfidf_en,cancel_order,0.937884299564727,True
+EN-003620,I need assistance to take a quick look at bill #85632,check_invoice,en,english,tfidf_en,check_invoice,0.9735423283405908,True
+EN-018002,I need help restoring the PIN of my profile,recover_password,en,english,tfidf_en,recover_password,0.9404156707628188,True
+EN-000148,"I have bought some items, help canceling purchase A-11504",cancel_order,en,english,tfidf_en,cancel_order,0.8773544607821686,True
+EN-009374,open another gold account,create_account,en,english,tfidf_en,create_account,0.9074074069517785,True
+EN-001700,"my shipping address changed, can you update it?",change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9572543340262047,True
+EN-022169,help me using the pro profile,switch_account,en,english,tfidf_en,switch_account,0.8885622799662359,True
+EN-019087,could I report a signup issue?,registration_problems,en,english,tfidf_en,registration_problems,0.9337486875326647,True
+EN-012522,edit standard account,edit_account,en,english,tfidf_en,delete_account,0.4506484777614932,True
+EN-015542,"the payment failed, I want to notify of issues",payment_issue,en,english,tfidf_en,payment_issue,0.6824857623489184,True
+EN-020886,I have a trouble setting m new delivery address up,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9772392894593565,True
+EN-013601,"I lost the bill #85632, will you mail it to me?",get_invoice,en,english,tfidf_en,get_invoice,0.8282965129821834,True
+EN-011967,help to check how soon can I expect my shipment,delivery_period,en,english,tfidf_en,delivery_period,0.9902692096363596,True
+EN-012670,edit details on gold account,edit_account,en,english,tfidf_en,edit_account,0.9939887270260143,True
+EN-017162,wanna shop a few of ur item how do i do it,place_order,en,english,tfidf_en,place_order,0.8378903425854222,True
+EN-021868,"I want too use the DemoMart account, I need assistance",switch_account,en,english,tfidf_en,switch_account,0.9030917629091986,True
+EN-013689,where to obtain rebates of my money?,get_refund,en,english,tfidf_en,get_refund,0.9904664373383155,True
+EN-023376,"I have to see the status of the rebate, will you help me?",track_refund,en,english,tfidf_en,track_refund,0.7862966215292368,True
+EN-021937,what do i have to do to switch to the DemoMart account,switch_account,en,english,tfidf_en,switch_account,0.9456598616328178,True
+EN-017733,assistance recovering my user account PIN,recover_password,en,english,tfidf_en,recover_password,0.9341004250705034,True
+EN-015150,how do i unsubscribe fromur corporate newsletter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9854562702328913,True
+EN-011207,can I check how long the shipping takes?,delivery_period,en,english,tfidf_en,delivery_period,0.9288877706759803,True
+EN-009011,where could I open a premium account for my fiance?,create_account,en,english,tfidf_en,create_account,0.9660022932240035,True
+EN-002119,need assistance to modify the address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.9605245348476078,True
+EN-012377,editing data on gold acocunt,edit_account,en,english,tfidf_en,edit_account,0.9650191426996085,True
+EN-011119,how do i check what delivery methods are available,delivery_options,en,english,tfidf_en,delivery_options,0.9401565192770609,True
+EN-017523,i want assistance retrieving the pin of my user account,recover_password,en,english,tfidf_en,recover_password,0.9086376403240126,True
+EN-015034,"I want to unsubscribe to your newsletter, I need help",newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9901558752589565,True
+EN-006259,i dont know what to do to fgile a consumer claim,complaint,en,english,tfidf_en,complaint,0.5526606607175306,True
+EN-002552,where can I check the cancellation penalties?,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9582735367704577,True
+EN-000318,"I bought some articles, how to cancel order A-85914?",cancel_order,en,english,tfidf_en,cancel_order,0.9340611117256695,True
+EN-003065,help checking the withdrawal penalties,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9007519601796775,True
+EN-004114,how can i list the allowedd payment options,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9691688086452902,True
+EN-011852,i have gt to check when will my purchase arrive,delivery_period,en,english,tfidf_en,delivery_period,0.9380509726797316,True
+EN-002077,I don't know what I need to do to modify my delivery address,change_shipping_address,en,english,tfidf_en,change_shipping_address,0.8212465395159486,True
+EN-014797,where to unsubscribe to your newsletter?,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9938569224861796,True
+EN-005585,I have to see in which cases can I request a reimbursement,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9829527672249069,True
+EN-019499,help me submit some feedback about a product,review,en,english,tfidf_en,review,0.9856823501932024,True
+EN-002757,I have to check the withdrawal fee,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9704439465725798,True
+EN-020972,I try to submit a different delivery address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.9556610131272495,True
+EN-014866,can uhelp me to unsubscribe to ur corporate newsetter,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.6735376270372083,True
+EN-014356,can ya help me receive rebates,get_refund,en,english,tfidf_en,get_refund,0.7962142206176034,True
+EN-000340,"I have bought some items, cancel order A-62923",cancel_order,en,english,tfidf_en,cancel_order,0.9254386164892863,True
+EN-018991,report issues creating user,registration_problems,en,english,tfidf_en,registration_problems,0.8612047777366689,True
+EN-004810,I do not know what I have to do to list the payment options,check_payment_methods,en,english,tfidf_en,check_payment_methods,0.9390577596153566,True
+EN-016392,I have to report troubles with payment,payment_issue,en,english,tfidf_en,payment_issue,0.9453797834209943,True
+EN-010549,I have a question about the deletion of my standard account,delete_account,en,english,tfidf_en,delete_account,0.955027417376625,True
+EN-019283,could you help me report an error with signup?,registration_problems,en,english,tfidf_en,registration_problems,0.8249054426510669,True
+EN-023526,know if there is anything wrong with the refund,track_refund,en,english,tfidf_en,track_refund,0.9494902926001884,True
+EN-007203,I have to check what hours I can reach customer assistance,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9658375819027581,True
+EN-017504,help me restoring my user pin,recover_password,en,english,tfidf_en,recover_password,0.8990618516820634,True
+EN-022444,i do not know how i can check the eta of order A-48652,track_order,en,english,tfidf_en,track_order,0.9384846946427102,True
+EN-018905,want help to inform of errors with a signup,registration_problems,en,english,tfidf_en,registration_problems,0.9632407535883016,True
+EN-013707,I need help to receive restitutions of money,get_refund,en,english,tfidf_en,get_refund,0.95705791288657,True
+EN-003124,how to see the early exit fees?,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9868579734336737,True
+EN-021834,i nee assistance to use the standard profile,switch_account,en,english,tfidf_en,switch_account,0.9846070356818429,True
+EN-002475,can ya help me seeing the terminatio penalties,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.23948445475264887,True
+EN-009986,I want assistance to close my DemoMart account,delete_account,en,english,tfidf_en,delete_account,0.9912695543549842,True
+EN-010861,how can I see what shipping methods are there?,delivery_options,en,english,tfidf_en,delivery_options,0.9739388217938822,True
+EN-023232,I can't see if there are any updates on my compensation,track_refund,en,english,tfidf_en,track_refund,0.9769003570821929,True
+EN-010782,I want to check what shipping options are there,delivery_options,en,english,tfidf_en,delivery_options,0.9566598280210871,True
+EN-010177,what do I need to do to close a fucking gold account?,delete_account,en,english,tfidf_en,delete_account,0.8865912761972629,True
+EN-002794,"I need to see the withdrawal fee, how to do it?",check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.8962645979602019,True
+EN-002286,what is the early exit penalty,check_cancellation_fee,en,english,tfidf_en,check_cancellation_fee,0.9819931496850198,True
+EN-020385,how can i submit some feedback forur services,review,en,english,tfidf_en,review,0.8418364063860181,True
+EN-013369,i cant find the bill #00108 will umail it to me,get_invoice,en,english,tfidf_en,check_invoice,0.5977651513501664,True
+EN-013819,I do not knowhow to receive compensations of my money,get_refund,en,english,tfidf_en,get_refund,0.9788499970589616,True
+EN-000425,can I modify purchase A-65518?,change_order,en,english,tfidf_en,change_order,0.8568549438012161,True
+EN-017986,I have got to restore my user access key,recover_password,en,english,tfidf_en,recover_password,0.9703148164614905,True
+EN-009624,create gold account for wife,create_account,en,english,tfidf_en,create_account,0.989604073343216,True
+EN-015523,wanna report issues with online pahment,payment_issue,en,english,tfidf_en,payment_issue,0.7347502189205483,True
+EN-010895,"I have to check the shipment methods, can you help me?",delivery_options,en,english,tfidf_en,delivery_options,0.9482762050854522,True
+EN-017233,is it possible to acquire an article?,place_order,en,english,tfidf_en,place_order,0.8219043408398687,True
+EN-020274,I call to leave some feedback about your services,review,en,english,tfidf_en,review,0.9908299546604711,True
+EN-014560,can you help me receiving the company newsletter?,newsletter_subscription,en,english,tfidf_en,newsletter_subscription,0.9387142123905843,True
+EN-018365,"I lost my user password, would it be possible to recover it?",recover_password,en,english,tfidf_en,recover_password,0.8749154203948364,True
+EN-008440,could you help me chatting with a live agent?,contact_human_agent,en,english,tfidf_en,contact_human_agent,0.8883136392326486,True
+EN-007577,I need help seeing what hours I can call customer service,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9858123724281596,True
+EN-008977,open nw DemoMart account for daughter,create_account,en,english,tfidf_en,create_account,0.9817573539947828,True
+EN-021374,i ahve an issue submitting a new delivery address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.860873115427098,True
+EN-005402,help seeing in which situations can I request refunds,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9780188676660548,True
+EN-022005,want assistance to use the standard account,switch_account,en,english,tfidf_en,switch_account,0.9317353380989382,True
+EN-004614,"I have got to see the payment opitons, how to do it?",check_payment_methods,en,english,tfidf_en,check_payment_methods,0.522915809592958,True
+EN-019980,can you help me leave my feedback for your services?,review,en,english,tfidf_en,review,0.9702903570737919,True
+EN-012314,edit data on freemium account,edit_account,en,english,tfidf_en,edit_account,0.9691581430010664,True
+EN-007444,i have to check what hours i can reach customer service,contact_customer_service,en,english,tfidf_en,contact_customer_service,0.9823114700391598,True
+EN-023142,I am waiting for a reimbursement of DemoMart dollras,track_refund,en,english,tfidf_en,track_refund,0.911397734894688,True
+EN-000499,i want help to add an item to purchase A-56025,change_order,en,english,tfidf_en,change_order,0.9761247447322936,True
+EN-010771,I want to check what shipment methods I have,delivery_options,en,english,tfidf_en,delivery_options,0.9664867941322255,True
+EN-003354,help to locate the bill from DemoMart,check_invoice,en,english,tfidf_en,check_invoice,0.9623830879329656,True
+EN-006485,I do not know what I have to do to file a consumer complaint,complaint,en,english,tfidf_en,complaint,0.9013884937006869,True
+EN-016023,i want help solving a trouble with online payments,payment_issue,en,english,tfidf_en,payment_issue,0.9778329282324151,True
+EN-021338,there are issues setting up the delivery address,set_up_shipping_address,en,english,tfidf_en,set_up_shipping_address,0.8745454548479618,True
+EN-005362,i have to check in what situatins can i ask to be reimbursed,check_refund_policy,en,english,tfidf_en,check_refund_policy,0.9565313216102651,True
+AR-TEST-0000,أريد إلغاء الطلب رقم A-48213 لأنني لم أعد بحاجة إليه,cancel_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0001,كيف ألغي طلبي؟ طلبته بالغلط,cancel_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0002,ابي اكنسل الطلب قبل لا يتشحن,cancel_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0003,الرجاء إلغاء طلبي فوراً قبل شحنه,cancel_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0004,أرغب في تعديل الكمية في طلبي الأخير,change_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0005,ابي اغير المقاس في الطلب اللي سويته قبل شوي,change_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0006,هل يمكنني إضافة منتج آخر إلى الطلب A-30581؟,change_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0007,غلطت في اللون، ودي اعدل الطلب,change_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0008,أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0009,العنوان غلط في الطلب ابي اغيره لحي النرجس,change_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0010,انتقلت إلى شقة جديدة، كيف أحدث عنوان الشحن للطلب الحالي؟,change_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0011,ممكن توصلون الطلب على عنوان شغلي بدل البيت؟,change_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0012,كم رسوم إلغاء الطلب بعد الشحن؟,check_cancellation_fee,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0013,فيه غرامة لو كنسلت الطلب؟,check_cancellation_fee,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0014,هل توجد رسوم على إلغاء طلب الأثاث؟,check_cancellation_fee,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0015,لو رفضت الاستلام بيخصمون علي شي؟,check_cancellation_fee,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0016,أريد مراجعة الفاتورة رقم INV-2024-00731,check_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0017,الفاتورة فيها مبلغ مو واضح ابي اتأكد منه,check_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0018,هل الضريبة مضافة في فاتورتي؟,check_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0019,ابي اشوف تفاصيل الفاتورة حقت الطلب الأخير,check_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0020,ما هي طرق الدفع المتاحة لديكم؟,check_payment_methods,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0021,تقبلون مدى ولا بس فيزا؟,check_payment_methods,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0022,هل يمكن الدفع عند الاستلام؟,check_payment_methods,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0023,اقدر ادفع بأبل باي؟,check_payment_methods,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0024,ما هي سياسة الاسترجاع لديكم؟,check_refund_policy,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0025,كم يوم عندي عشان ارجع المنتج؟,check_refund_policy,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0026,هل يمكن استرداد المبلغ للمنتجات المخفضة؟,check_refund_policy,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0027,وش الشروط عشان ارجع القطعة واسترد فلوسي؟,check_refund_policy,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0028,خدمتكم سيئة جداً والمندوب تعامل معي بطريقة غير لائقة,complaint,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0029,والله شي ما يصير، ثالث مرة يتأخر الطلب!!,complaint,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0030,أرغب في تقديم شكوى رسمية على الموظف,complaint,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0031,تجربة سيئة مرة، المنتج وصل مكسور وما احد رد علي,complaint,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0032,كيف أتواصل مع خدمة العملاء؟,contact_customer_service,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0033,ابي رقم خدمة العملاء,contact_customer_service,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0034,ما هي ساعات عمل الدعم الفني؟,contact_customer_service,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0035,وين القى طريقة اتواصل معكم؟,contact_customer_service,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0036,أريد التحدث مع موظف حقيقي وليس روبوت,contact_human_agent,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0037,ابي اكلم موظف الحين لو سمحت,contact_human_agent,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0038,حولني على أحد من الموظفين,contact_human_agent,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0039,هل يمكنني التحدث مع ممثل خدمة عملاء بشري؟,contact_human_agent,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0040,أريد إنشاء حساب جديد,create_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0041,كيف اسوي حساب عندكم؟,create_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0042,ما هي خطوات التسجيل في الموقع؟,create_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0043,ودي افتح حساب جديد بإيميلي,create_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0044,أرغب في حذف حسابي نهائياً,delete_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0045,ابي امسح حسابي وبياناتي كلها,delete_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0046,كيف أغلق حسابي لديكم؟,delete_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0047,احذفوا حسابي لو سمحتوا ما عاد ابيه,delete_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0048,ما هي خيارات التوصيل المتاحة؟,delivery_options,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0049,عندكم توصيل بنفس اليوم؟,delivery_options,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0050,هل يوجد توصيل سريع إلى الدمام؟,delivery_options,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0051,اقدر استلم الطلب من نقطة استلام؟,delivery_options,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0052,كم يستغرق التوصيل إلى جدة؟,delivery_period,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0053,متى يوصل الطلب عادة؟,delivery_period,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0054,كم يوم يحتاج الشحن العادي؟,delivery_period,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0055,لو طلبت اليوم متى يوصلني؟,delivery_period,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0056,أريد تعديل رقم الجوال في حسابي,edit_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0057,ابي اغير الايميل حقي في الحساب,edit_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0058,كيف أحدّث بياناتي الشخصية؟,edit_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0059,ودي اغير اسمي في الحساب,edit_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0060,أحتاج نسخة من فاتورة طلبي,get_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0061,ابي الفاتورة الضريبية للطلب A-77120,get_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0062,كيف أحصل على فاتورة الشراء؟,get_invoice,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0063,ارسلولي الفاتورة على الايميل,get_invoice,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0064,أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0065,ابي فلوسي ترجع، المنتج ما يشتغل,get_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0066,كيف أطلب استرجاع المبلغ؟,get_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0067,رجعوا لي فلوسي بسرعة لو سمحت,get_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0068,أريد الاشتراك في النشرة البريدية,newsletter_subscription,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0069,ابي الغي اشتراكي في الرسائل الترويجية,newsletter_subscription,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0070,كيف أوقف رسائل العروض على بريدي؟,newsletter_subscription,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0071,سجلوني في النشرة عشان توصلني العروض,newsletter_subscription,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0072,تم خصم المبلغ مرتين من بطاقتي!!,payment_issue,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0073,الدفع ما ضبط بس انخصم المبلغ من حسابي,payment_issue,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0074,فشلت عملية الدفع عدة مرات، ما المشكلة؟,payment_issue,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0075,انسحبت الفلوس مرتين على نفس الطلب عاجل,payment_issue,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0076,أرغب في تقديم طلب شراء جديد,place_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0077,ابي اطلب جوال من عندكم كيف؟,place_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0078,كيف أقوم بعملية شراء من الموقع؟,place_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0079,ودي اشتري هالمنتج وش الطريقة؟,place_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0080,نسيت كلمة المرور ولا أستطيع الدخول,recover_password,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0081,نسيت الباسوورد ابي استرجعه,recover_password,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0082,كيف أعيد تعيين كلمة المرور؟,recover_password,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0083,حسابي انقفل وما اقدر ادخل,recover_password,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0084,لا يصلني رمز التحقق عند التسجيل,registration_problems,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0085,احاول اسجل وما يرضى يقبل رقمي,registration_problems,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0086,تظهر رسالة خطأ عند إنشاء الحساب,registration_problems,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0087,التسجيل يعلق عندي ما يكمل,registration_problems,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0088,أود كتابة تقييم للمنتج الذي اشتريته,review,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0089,ابي اكتب رأيي عن الخدمة,review,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0090,أين يمكنني إضافة مراجعة للمنتج؟,review,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0091,ودي اقيم المنتج، المنتج ممتاز,review,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0092,أريد إضافة عنوان شحن جديد في حسابي,set_up_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0093,كيف اضيف عنواني الوطني؟,set_up_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0094,أرغب في حفظ عنوان افتراضي للتوصيل,set_up_shipping_address,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0095,ابي اضبط عنوان التوصيل في الحساب,set_up_shipping_address,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0096,أريد تحويل حسابي من شخصي إلى حساب أعمال,switch_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0097,ابي احول الحساب لحساب شركة,switch_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0098,كيف أنتقل إلى نوع حساب مختلف؟,switch_account,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0099,ودي اغير نوع حسابي,switch_account,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0100,أين طلبي؟ لم يصل حتى الآن,track_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0101,وين طلبي؟ صار له أسبوع,track_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0102,أريد تتبع الشحنة الخاصة بالطلب A-55821,track_order,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0103,متى يوصل طلبي؟ ابي رقم التتبع,track_order,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0104,لم يصلني المبلغ المسترد حتى الآن,track_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0105,وين وصل استرجاع فلوسي؟,track_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0106,ما هي حالة طلب الاسترداد الخاص بي؟,track_refund,ar,msa,tfidf_en,change_order,0.06291350813183154,True
+AR-TEST-0107,صار لي عشرة ايام وما رجع المبلغ,track_refund,ar,gulf,tfidf_en,change_order,0.06291350813183154,True

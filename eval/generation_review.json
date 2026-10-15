@@ -1,0 +1,30 @@
+{
+  "n_generator_reached": 3,
+  "valid_structured_selection": 3,
+  "source_provenance_pass": 3,
+  "answers_requested_detail": 1,
+  "reviewed_samples": [
+    {
+      "input_text": "How do I delete my account?",
+      "status": "llm_selected_evidence",
+      "source_provenance": true,
+      "answers_requested_detail": true,
+      "note": "Selected the account deletion entry point."
+    },
+    {
+      "input_text": "How long does a refund to my Visa card take?",
+      "status": "llm_selected_evidence",
+      "source_provenance": true,
+      "answers_requested_detail": false,
+      "note": "Visa question, but selector chose Wallet timing. The quoted text is authentic but irrelevant to the requested payment method."
+    },
+    {
+      "input_text": "أرغب في حذف حسابي نهائياً",
+      "status": "llm_selected_evidence",
+      "source_provenance": true,
+      "answers_requested_detail": false,
+      "note": "Arabic deletion request; selected only retained-records detail and set needs_human true, omitting deletion steps."
+    }
+  ],
+  "note": "Small qualitative smoke review, not a benchmark or factual-entailment proof. It supports keeping full-source drafting as default."
+}

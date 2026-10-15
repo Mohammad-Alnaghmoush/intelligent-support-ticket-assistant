@@ -1,0 +1,109 @@
+ticket_id,text,intent,category,priority,lang,dialect,group_id
+AR-TRAIN-0000,اشتريت بالغلط وأحتاج إيقاف عملية الشراء,cancel_order,ORDER,medium,ar,authored_mixed,4ce74a32499aa934
+AR-TRAIN-0001,لا ترسلوا الشحنة فقد تراجعت عن الشراء,cancel_order,ORDER,medium,ar,authored_mixed,3db08166622eb104
+AR-TRAIN-0002,أرغب بإلغاء مشترياتي الموجودة في الطلب,cancel_order,ORDER,medium,ar,authored_mixed,8c98f8d808a3f5a7
+AR-TRAIN-0003,الطلب لم يخرج من المستودع وأريد إلغاؤه,cancel_order,ORDER,medium,ar,authored_mixed,ef4bd87f6af52ecd
+AR-TRAIN-0004,أحتاج استبدال حجم السلعة قبل تجهيز طلبي,change_order,ORDER,medium,ar,authored_mixed,db9c52945046eaa4
+AR-TRAIN-0005,أريد إنقاص عدد القطع في الطلب الحالي,change_order,ORDER,medium,ar,authored_mixed,2510934f9f82f68b
+AR-TRAIN-0006,أريد تغيير أحد المنتجات التي طلبتها,change_order,ORDER,medium,ar,authored_mixed,53dfc303d7472d6b
+AR-TRAIN-0007,طلبت قطعتين وأحتاج تعديلهما إلى ثلاث قطع,change_order,ORDER,medium,ar,authored_mixed,114bc5587ef31418
+AR-TRAIN-0008,شحنوا طلبي إلى المكتب بدلا من المنزل,change_shipping_address,SHIPPING,medium,ar,authored_mixed,7294c4e5e4c32e20
+AR-TRAIN-0009,كتبت موقع التوصيل خطأ للطلب الجاري,change_shipping_address,SHIPPING,medium,ar,authored_mixed,9deb200eff1c69d3
+AR-TRAIN-0010,أحتاج تعديل وجهة الشحنة التي اشتريتها,change_shipping_address,SHIPPING,medium,ar,authored_mixed,4bc82ba3bfff5b94
+AR-TRAIN-0011,غيروا عنوان التسليم للطلب قبل خروجه,change_shipping_address,SHIPPING,medium,ar,authored_mixed,668c12508f6c7650
+AR-TRAIN-0012,هل يكلف إلغاء الشراء أي مبلغ؟,check_cancellation_fee,CANCEL,low,ar,authored_mixed,51e0463009cc4299
+AR-TRAIN-0013,ما تكلفة التراجع عن الطلب؟,check_cancellation_fee,CANCEL,low,ar,authored_mixed,95784d9a17c02a47
+AR-TRAIN-0014,أرغب بمعرفة غرامة رفض توصيل الشحنة,check_cancellation_fee,CANCEL,low,ar,authored_mixed,746469c8a0855e56
+AR-TRAIN-0015,هل تحسمون رسوما إذا ألغيت الشراء؟,check_cancellation_fee,CANCEL,low,ar,authored_mixed,f29bd45475de1f72
+AR-TRAIN-0016,مجموع الفاتورة لا يطابق السعر وأريد مراجعته,check_invoice,INVOICE,low,ar,authored_mixed,00b34d52690aeca3
+AR-TRAIN-0017,أعتقد أن حساب الضريبة في الفاتورة غير صحيح,check_invoice,INVOICE,low,ar,authored_mixed,6ab3557cb86a9da9
+AR-TRAIN-0018,تحققوا من المبالغ المكتوبة في فاتورة الشراء,check_invoice,INVOICE,low,ar,authored_mixed,bf0af1226384ecbb
+AR-TRAIN-0019,أريد تصحيح بيانات فاتورة موجودة لدي,check_invoice,INVOICE,low,ar,authored_mixed,38b7b2b6b599c600
+AR-TRAIN-0020,هل أستطيع الدفع باستخدام بطاقة ائتمان؟,check_payment_methods,PAYMENT,low,ar,authored_mixed,1f7f75e35ee44141
+AR-TRAIN-0021,أرغب بمعرفة وسائل تسديد قيمة المشتريات,check_payment_methods,PAYMENT,low,ar,authored_mixed,afe2e725cb93e981
+AR-TRAIN-0022,ما أنواع البطاقات التي يمكن استخدامها؟,check_payment_methods,PAYMENT,low,ar,authored_mixed,271f83eb9540dec8
+AR-TRAIN-0023,هل يتوفر خيار تسديد المبلغ نقدا للمندوب؟,check_payment_methods,PAYMENT,low,ar,authored_mixed,50e51c29bb98faac
+AR-TRAIN-0024,أريد معرفة مدة السماح بإعادة السلعة,check_refund_policy,REFUND,low,ar,authored_mixed,52081cf5e67afd87
+AR-TRAIN-0025,هل المنتجات المفتوحة مؤهلة للاسترجاع؟,check_refund_policy,REFUND,low,ar,authored_mixed,3c3aa33e9d0247b5
+AR-TRAIN-0026,أشرحوا شروط استعادة المال قبل أن أشتري,check_refund_policy,REFUND,low,ar,authored_mixed,717414ae508bc0f6
+AR-TRAIN-0027,ما قواعد إعادة المنتجات واسترداد قيمتها؟,check_refund_policy,REFUND,low,ar,authored_mixed,849656f3b2d6de8a
+AR-TRAIN-0028,أود الاعتراض على سوء تعامل فريقكم,complaint,FEEDBACK,high,ar,authored_mixed,657160b9003fabc7
+AR-TRAIN-0029,أريد رفع بلاغ عن خدمة غير مقبولة,complaint,FEEDBACK,high,ar,authored_mixed,252af951bfbad214
+AR-TRAIN-0030,الموظف كان وقحا وأحتاج تقديم شكوى,complaint,FEEDBACK,high,ar,authored_mixed,5458d24b583b5bc3
+AR-TRAIN-0031,أنا غير راض عن تجربتي وأرغب بتسجيل شكوى,complaint,FEEDBACK,high,ar,authored_mixed,cadc2871db6ae82d
+AR-TRAIN-0032,أحتاج البريد الإلكتروني الخاص بالدعم,contact_customer_service,CONTACT,low,ar,authored_mixed,e7155dd5d42e17c6
+AR-TRAIN-0033,ما قنوات الاتصال بفريق المساعدة؟,contact_customer_service,CONTACT,low,ar,authored_mixed,7b8863419d3f777e
+AR-TRAIN-0034,كيف أرسل استفسارا إلى مركز الدعم؟,contact_customer_service,CONTACT,low,ar,authored_mixed,2478398770f205b2
+AR-TRAIN-0035,متى يبدأ دوام خدمة الزبائن؟,contact_customer_service,CONTACT,low,ar,authored_mixed,466b879be7863354
+AR-TRAIN-0036,لا أريد إجابة آلية أحتاج شخصا يتحدث معي,contact_human_agent,CONTACT,medium,ar,authored_mixed,1f5e3afd260d6152
+AR-TRAIN-0037,هل يحولني النظام إلى ممثل بشري؟,contact_human_agent,CONTACT,medium,ar,authored_mixed,d11e4b1135867eb2
+AR-TRAIN-0038,أحتاج موظف دعم يتولى المحادثة,contact_human_agent,CONTACT,medium,ar,authored_mixed,a42b728c8714cdbe
+AR-TRAIN-0039,وصلوني بأحد العاملين بدلا من المساعد الآلي,contact_human_agent,CONTACT,medium,ar,authored_mixed,d354288b8a4f5770
+AR-TRAIN-0040,أريد التسجيل كعميل جديد في المتجر,create_account,ACCOUNT,low,ar,authored_mixed,c3be8278ca9974eb
+AR-TRAIN-0041,كيف أبدأ إنشاء ملف مستخدم؟,create_account,ACCOUNT,low,ar,authored_mixed,9b87d5ac35fe510d
+AR-TRAIN-0042,أحتاج فتح عضوية جديدة على الموقع,create_account,ACCOUNT,low,ar,authored_mixed,07067f40bf03beef
+AR-TRAIN-0043,لم أستخدم المتجر سابقا وأريد حسابا,create_account,ACCOUNT,low,ar,authored_mixed,92791fa296705d27
+AR-TRAIN-0044,أريد إزالة عضويتي وكل بياناتي المخزنة,delete_account,ACCOUNT,medium,ar,authored_mixed,791e9b9c0e88d96e
+AR-TRAIN-0045,أغلقوا ملفي الشخصي بشكل دائم,delete_account,ACCOUNT,medium,ar,authored_mixed,794b03b51c66959d
+AR-TRAIN-0046,ما طريقة حذف العضوية نهائيا؟,delete_account,ACCOUNT,medium,ar,authored_mixed,9015f6087267aa59
+AR-TRAIN-0047,لم أعد أرغب بالحساب وأطلب مسحه,delete_account,ACCOUNT,medium,ar,authored_mixed,c5aef2fbab2d7914
+AR-TRAIN-0048,هل تقدمون خدمة الشحن السريع؟,delivery_options,DELIVERY,low,ar,authored_mixed,4f8e1fda19cd76dd
+AR-TRAIN-0049,أحتاج معرفة أنواع خدمات التوصيل,delivery_options,DELIVERY,low,ar,authored_mixed,c9e9355e6af084ce
+AR-TRAIN-0050,هل أستطيع اختيار الاستلام من الفرع؟,delivery_options,DELIVERY,low,ar,authored_mixed,20e37da27cc77d9f
+AR-TRAIN-0051,ما الفرق بين الشحن العادي والشحن السريع لديكم؟,delivery_options,DELIVERY,low,ar,authored_mixed,14c3755f939d32bc
+AR-TRAIN-0052,كم المدة المتوقعة لوصول مشتريات جديدة؟,delivery_period,DELIVERY,low,ar,authored_mixed,656d43ac1ff66133
+AR-TRAIN-0053,أحتاج معرفة عدد أيام التوصيل المعتادة,delivery_period,DELIVERY,low,ar,authored_mixed,27c1e63c1c4c295d
+AR-TRAIN-0054,ما الوقت اللازم للشحن إلى مدينتي؟,delivery_period,DELIVERY,low,ar,authored_mixed,a1b5551a28712f20
+AR-TRAIN-0055,هل يستغرق الشحن أسبوعا أم أقل؟,delivery_period,DELIVERY,low,ar,authored_mixed,15032e64ea940fed
+AR-TRAIN-0056,أحتاج تحديث معلومات الملف الشخصي,edit_account,ACCOUNT,low,ar,authored_mixed,a36fc46199a43725
+AR-TRAIN-0057,كيف أستبدل رقم الهاتف المرتبط بعضويتي؟,edit_account,ACCOUNT,low,ar,authored_mixed,4081857c2b2e266f
+AR-TRAIN-0058,أريد تعديل اسمي الظاهر في حساب المستخدم,edit_account,ACCOUNT,low,ar,authored_mixed,163e87cc0e3a8e63
+AR-TRAIN-0059,ساعدوني في تحديث البريد الإلكتروني للحساب,edit_account,ACCOUNT,low,ar,authored_mixed,37bb1f82c070eb58
+AR-TRAIN-0060,أرسلوا نسخة PDF من فاتورة المشتريات,get_invoice,INVOICE,low,ar,authored_mixed,3dcb7f9e94c9dda7
+AR-TRAIN-0061,لم أستلم إيصال الشراء وأحتاج إرساله,get_invoice,INVOICE,low,ar,authored_mixed,1954759c4d0028f1
+AR-TRAIN-0062,أين أنزل مستند الفاتورة الضريبية؟,get_invoice,INVOICE,low,ar,authored_mixed,499ff13ed02a5575
+AR-TRAIN-0063,أحتاج استخراج فاتورة للطلب السابق,get_invoice,INVOICE,low,ar,authored_mixed,896e346cfb86177a
+AR-TRAIN-0064,أطلب إعادة قيمة السلعة التي تعطلت,get_refund,REFUND,medium,ar,authored_mixed,fcac4c2cfc7d0ccf
+AR-TRAIN-0065,أعيدوا المبلغ الذي دفعته مقابل المنتج المعيب,get_refund,REFUND,medium,ar,authored_mixed,e48f82c9ed2f982b
+AR-TRAIN-0066,أريد بدء طلب استرداد مالي,get_refund,REFUND,medium,ar,authored_mixed,f789a0c7dba62074
+AR-TRAIN-0067,أحتاج إرجاع هذا المنتج واستعادة قيمته,get_refund,REFUND,medium,ar,authored_mixed,5bd26a8ca568078a
+AR-TRAIN-0068,أريد الانضمام إلى قائمة رسائل التخفيضات,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,c0407670ae813fe8
+AR-TRAIN-0069,أوقفوا إرسال نشرات العروض إلى بريدي,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,234ecac15189b67a
+AR-TRAIN-0070,أحتاج إدارة اشتراكي في البريد الترويجي,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,e7a0ba1c9c044fbe
+AR-TRAIN-0071,كيف أفعل تلقي النشرة الأسبوعية؟,newsletter_subscription,SUBSCRIPTION,low,ar,authored_mixed,0b6df7628dc95e3e
+AR-TRAIN-0072,اقتطع البنك قيمة الشراء مرتين,payment_issue,PAYMENT,high,ar,authored_mixed,f2b8016ca2bcf27e
+AR-TRAIN-0073,تم رفض الدفع رغم سحب المال,payment_issue,PAYMENT,high,ar,authored_mixed,ef75354b3667f92a
+AR-TRAIN-0074,البطاقة لا تكمل عملية السداد,payment_issue,PAYMENT,high,ar,authored_mixed,fafa057eeb65e277
+AR-TRAIN-0075,هناك مشكلة في الدفع وتم الخصم بدون تأكيد الطلب,payment_issue,PAYMENT,high,ar,authored_mixed,30564a864afd025f
+AR-TRAIN-0076,كيف أرسل طلب شراء عبر التطبيق؟,place_order,ORDER,low,ar,authored_mixed,02e92c7969d7ba4b
+AR-TRAIN-0077,أريد شراء منتج وإتمام الطلب,place_order,ORDER,low,ar,authored_mixed,3e23dc325fc6cfcf
+AR-TRAIN-0078,كيف أضيف السلع للسلة وأتم الشراء؟,place_order,ORDER,low,ar,authored_mixed,98705a71e775c806
+AR-TRAIN-0079,أحتاج مساعدة في تنفيذ أول عملية شراء,place_order,ORDER,low,ar,authored_mixed,82628dec11ca5c2b
+AR-TRAIN-0080,أحتاج رابط إعادة ضبط كلمة السر,recover_password,ACCOUNT,medium,ar,authored_mixed,f547b2b21c7a13a0
+AR-TRAIN-0081,لا أتذكر كلمة الدخول لحسابي,recover_password,ACCOUNT,medium,ar,authored_mixed,9f753dd046bf1d7c
+AR-TRAIN-0082,أريد استعادة الدخول بعد نسيان كلمة السر,recover_password,ACCOUNT,medium,ar,authored_mixed,c04b70796ef4a207
+AR-TRAIN-0083,كيف أفتح الحساب المقفل بعد محاولات دخول خاطئة؟,recover_password,ACCOUNT,medium,ar,authored_mixed,6ecf3debaea581b0
+AR-TRAIN-0084,نموذج التسجيل يعطي خطأ عند الإرسال,registration_problems,ACCOUNT,medium,ar,authored_mixed,74d2fd29b4582814
+AR-TRAIN-0085,لم يصلني كود تأكيد إنشاء الحساب,registration_problems,ACCOUNT,medium,ar,authored_mixed,07661c2accff647d
+AR-TRAIN-0086,الموقع يرفض إكمال تسجيل مستخدم جديد,registration_problems,ACCOUNT,medium,ar,authored_mixed,b72b43de953a75ca
+AR-TRAIN-0087,أتوقف في صفحة التسجيل ولا تكتمل العملية,registration_problems,ACCOUNT,medium,ar,authored_mixed,e3fa3a08e96e8bd6
+AR-TRAIN-0088,أريد نشر مراجعة عن مشترياتي,review,FEEDBACK,low,ar,authored_mixed,f1d0ac2595d01383
+AR-TRAIN-0089,كيف أضع نجوم التقييم للسلعة؟,review,FEEDBACK,low,ar,authored_mixed,6bcc275eabdf581f
+AR-TRAIN-0090,أرغب بكتابة تعليق عن جودة المنتج,review,FEEDBACK,low,ar,authored_mixed,322620ba993a53ab
+AR-TRAIN-0091,أحتاج مشاركة رأيي بعد تجربة المشتريات,review,FEEDBACK,low,ar,authored_mixed,04cc682e5a573116
+AR-TRAIN-0092,أريد حفظ عنوان منزل جديد للمشتريات القادمة,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,f84b3f9980d03eae
+AR-TRAIN-0093,كيف أسجل أول عنوان في ملف العميل؟,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,a87877ea170115d2
+AR-TRAIN-0094,أحتاج إضافة موقع توصيل إلى دفتر العناوين,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,7becc9393ff09071
+AR-TRAIN-0095,ساعدوني في تسجيل عنواني لاستخدامه مستقبلا,set_up_shipping_address,SHIPPING,low,ar,authored_mixed,a2364e2cb33402f0
+AR-TRAIN-0096,أريد تحويل عضويتي من عادية إلى مميزة,switch_account,ACCOUNT,low,ar,authored_mixed,61fce1152ee42aab
+AR-TRAIN-0097,كيف أغير نوع الاشتراك إلى حساب أعمال؟,switch_account,ACCOUNT,low,ar,authored_mixed,195a9a9cd0bb4c3b
+AR-TRAIN-0098,أحتاج الانتقال إلى باقة عضوية مختلفة,switch_account,ACCOUNT,low,ar,authored_mixed,2f2b412976eb6ea0
+AR-TRAIN-0099,أريد ترقية مستوى الحساب إلى الباقة الأعلى,switch_account,ACCOUNT,low,ar,authored_mixed,02ca2814fa735b76
+AR-TRAIN-0100,أين وصلت الشحنة الخاصة بطلب سابق؟,track_order,ORDER,medium,ar,authored_mixed,c38e04ee6d96862d
+AR-TRAIN-0101,لم تصل مشترياتي وأريد معرفة حالتها,track_order,ORDER,medium,ar,authored_mixed,71a11b43aaa9d64e
+AR-TRAIN-0102,أحتاج رقم تتبع الشحنة التي طلبتها,track_order,ORDER,medium,ar,authored_mixed,a9b79a870b0f7d0d
+AR-TRAIN-0103,هل خرج طلبي من المستودع أم ما زال قيد التجهيز؟,track_order,ORDER,medium,ar,authored_mixed,19f0864e54d5f464
+AR-TRAIN-0104,قدمت طلب استرداد وأريد معرفة تقدمه,track_refund,REFUND,medium,ar,authored_mixed,13f642ff4f62f702
+AR-TRAIN-0105,لم يصل المال بعد الموافقة على الاسترجاع,track_refund,REFUND,medium,ar,authored_mixed,9489ffafb190f4e9
+AR-TRAIN-0106,أحتاج متابعة تحويل مبلغ الاسترداد للبنك,track_refund,REFUND,medium,ar,authored_mixed,18c636993be314f9
+AR-TRAIN-0107,كيف أرى حالة رد المال الذي طلبته سابقا؟,track_refund,REFUND,medium,ar,authored_mixed,51d230761441c216

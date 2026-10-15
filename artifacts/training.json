@@ -1,0 +1,119 @@
+{
+  "e5_en": {
+    "C": 5.0,
+    "validation_candidates": [
+      {
+        "C": 5.0,
+        "mean_language_macro_f1": 0.8203648772985073,
+        "fit_seconds": 4.1315292399999635
+      },
+      {
+        "C": 20.0,
+        "mean_language_macro_f1": 0.782710556310853,
+        "fit_seconds": 5.162401944999829
+      },
+      {
+        "C": 50.0,
+        "mean_language_macro_f1": 0.7919698155701123,
+        "fit_seconds": 10.645856998999989
+      }
+    ],
+    "language_thresholds": {
+      "en": {
+        "threshold": 0.26,
+        "coverage": 0.9876543209876543,
+        "accepted_accuracy": 0.9925,
+        "ood_validation_max_confidence": 0.24944617585747755
+      },
+      "ar": {
+        "threshold": 0.35,
+        "coverage": 0.2037037037037037,
+        "accepted_accuracy": 1.0,
+        "ood_validation_max_confidence": 0.2872946130323484
+      }
+    },
+    "training_examples": 2700
+  },
+  "e5_bilingual": {
+    "C": 50.0,
+    "validation_candidates": [
+      {
+        "C": 5.0,
+        "mean_language_macro_f1": 0.8666611735948035,
+        "fit_seconds": 3.8786812389998886
+      },
+      {
+        "C": 20.0,
+        "mean_language_macro_f1": 0.9018463587799888,
+        "fit_seconds": 5.095738557000004
+      },
+      {
+        "C": 50.0,
+        "mean_language_macro_f1": 0.9067860036528929,
+        "fit_seconds": 10.039923815999828
+      }
+    ],
+    "language_thresholds": {
+      "en": {
+        "threshold": 0.41999999999999993,
+        "coverage": 1.0,
+        "accepted_accuracy": 0.9925925925925926,
+        "ood_validation_max_confidence": 0.40755572826473613
+      },
+      "ar": {
+        "threshold": 0.6699999999999999,
+        "coverage": 0.3148148148148148,
+        "accepted_accuracy": 1.0,
+        "ood_validation_max_confidence": 0.6554147479374793
+      }
+    },
+    "training_examples": 2808
+  },
+  "tfidf_en": {
+    "fit_seconds": 1.9324630559999605,
+    "note": "English-only lexical baseline. Fixed C=10 from course lab."
+  },
+  "embedding_precompute_seconds": 0.06870372000003044,
+  "config": {
+    "seed": 42,
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "llm_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "llm_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "train_per_intent": 100,
+    "val_per_intent": 15,
+    "test_per_intent": 15,
+    "history_size": 1200,
+    "embedding_batch_size": 32,
+    "max_input_characters": 2000,
+    "C_candidates": [
+      5.0,
+      20.0,
+      50.0
+    ],
+    "target_accepted_accuracy": 0.9,
+    "llm_max_new_tokens": 240,
+    "torch_cpu_threads": 4
+  },
+  "inference_config": {
+    "seed": 42,
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "llm_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "llm_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "train_per_intent": 100,
+    "val_per_intent": 15,
+    "test_per_intent": 15,
+    "history_size": 1200,
+    "embedding_batch_size": 32,
+    "max_input_characters": 2000,
+    "C_candidates": [
+      5.0,
+      20.0,
+      50.0
+    ],
+    "target_accepted_accuracy": 0.9,
+    "llm_max_new_tokens": 80,
+    "torch_cpu_threads": 4
+  }
+}

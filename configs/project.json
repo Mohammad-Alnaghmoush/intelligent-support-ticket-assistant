@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "llm_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "llm_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "train_per_intent": 100,
+  "val_per_intent": 15,
+  "test_per_intent": 15,
+  "history_size": 1200,
+  "embedding_batch_size": 32,
+  "max_input_characters": 2000,
+  "C_candidates": [5.0, 20.0, 50.0],
+  "target_accepted_accuracy": 0.9,
+  "llm_max_new_tokens": 80,
+  "torch_cpu_threads": 4
+}

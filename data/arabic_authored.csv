@@ -1,0 +1,163 @@
+text,intent,split
+اشتريت بالغلط وأحتاج إيقاف عملية الشراء,cancel_order,train
+لا ترسلوا الشحنة فقد تراجعت عن الشراء,cancel_order,train
+أرغب بإلغاء مشترياتي الموجودة في الطلب,cancel_order,train
+الطلب لم يخرج من المستودع وأريد إلغاؤه,cancel_order,train
+تراجعت عن شراء المنتجات هل تلغون الطلب؟,cancel_order,val
+أوقفوا تجهيز الطلب لم أعد أريده,cancel_order,val
+أحتاج استبدال حجم السلعة قبل تجهيز طلبي,change_order,train
+أريد إنقاص عدد القطع في الطلب الحالي,change_order,train
+أريد تغيير أحد المنتجات التي طلبتها,change_order,train
+طلبت قطعتين وأحتاج تعديلهما إلى ثلاث قطع,change_order,train
+هل يسمح بتعديل محتويات طلب لم يجهز؟,change_order,val
+أحتاج تغيير اللون الذي اخترته عند الشراء,change_order,val
+شحنوا طلبي إلى المكتب بدلا من المنزل,change_shipping_address,train
+كتبت موقع التوصيل خطأ للطلب الجاري,change_shipping_address,train
+أحتاج تعديل وجهة الشحنة التي اشتريتها,change_shipping_address,train
+غيروا عنوان التسليم للطلب قبل خروجه,change_shipping_address,train
+أريد تحويل الشحنة الحالية إلى منزل آخر,change_shipping_address,val
+كيف أصحح الموقع المسجل في طلب هذا الأسبوع؟,change_shipping_address,val
+هل يكلف إلغاء الشراء أي مبلغ؟,check_cancellation_fee,train
+ما تكلفة التراجع عن الطلب؟,check_cancellation_fee,train
+أرغب بمعرفة غرامة رفض توصيل الشحنة,check_cancellation_fee,train
+هل تحسمون رسوما إذا ألغيت الشراء؟,check_cancellation_fee,train
+أحتاج معرفة قيمة رسوم الكنسلة,check_cancellation_fee,val
+ما المبلغ المطلوب عند رفض الاستلام؟,check_cancellation_fee,val
+مجموع الفاتورة لا يطابق السعر وأريد مراجعته,check_invoice,train
+أعتقد أن حساب الضريبة في الفاتورة غير صحيح,check_invoice,train
+تحققوا من المبالغ المكتوبة في فاتورة الشراء,check_invoice,train
+أريد تصحيح بيانات فاتورة موجودة لدي,check_invoice,train
+أحتاج التحقق من بنود الفاتورة ومجموعها,check_invoice,val
+الرقم الضريبي في فاتورتي يبدو خاطئا,check_invoice,val
+هل أستطيع الدفع باستخدام بطاقة ائتمان؟,check_payment_methods,train
+أرغب بمعرفة وسائل تسديد قيمة المشتريات,check_payment_methods,train
+ما أنواع البطاقات التي يمكن استخدامها؟,check_payment_methods,train
+هل يتوفر خيار تسديد المبلغ نقدا للمندوب؟,check_payment_methods,train
+هل تدعمون المحافظ الإلكترونية للدفع؟,check_payment_methods,val
+ما وسائل الدفع التي يقبلها المتجر؟,check_payment_methods,val
+أريد معرفة مدة السماح بإعادة السلعة,check_refund_policy,train
+هل المنتجات المفتوحة مؤهلة للاسترجاع؟,check_refund_policy,train
+أشرحوا شروط استعادة المال قبل أن أشتري,check_refund_policy,train
+ما قواعد إعادة المنتجات واسترداد قيمتها؟,check_refund_policy,train
+ما السلع المستثناة من سياسة الاسترداد؟,check_refund_policy,val
+هل أستطيع إرجاع منتج بعد مرور شهر؟,check_refund_policy,val
+أود الاعتراض على سوء تعامل فريقكم,complaint,train
+أريد رفع بلاغ عن خدمة غير مقبولة,complaint,train
+الموظف كان وقحا وأحتاج تقديم شكوى,complaint,train
+أنا غير راض عن تجربتي وأرغب بتسجيل شكوى,complaint,train
+أحتاج تصعيد شكوى رسمية عن سوء الخدمة,complaint,val
+تكرر سوء التعامل وأريد تقديم اعتراض,complaint,val
+أحتاج البريد الإلكتروني الخاص بالدعم,contact_customer_service,train
+ما قنوات الاتصال بفريق المساعدة؟,contact_customer_service,train
+كيف أرسل استفسارا إلى مركز الدعم؟,contact_customer_service,train
+متى يبدأ دوام خدمة الزبائن؟,contact_customer_service,train
+أعطوني عنوان البريد الخاص بخدمة العملاء,contact_customer_service,val
+أين أجد بيانات الاتصال بالدعم الفني؟,contact_customer_service,val
+لا أريد إجابة آلية أحتاج شخصا يتحدث معي,contact_human_agent,train
+هل يحولني النظام إلى ممثل بشري؟,contact_human_agent,train
+أحتاج موظف دعم يتولى المحادثة,contact_human_agent,train
+وصلوني بأحد العاملين بدلا من المساعد الآلي,contact_human_agent,train
+أرغب بمحادثة مباشرة مع شخص من فريق الدعم,contact_human_agent,val
+أحتاج تحويل هذه المحادثة إلى إنسان,contact_human_agent,val
+أريد التسجيل كعميل جديد في المتجر,create_account,train
+كيف أبدأ إنشاء ملف مستخدم؟,create_account,train
+أحتاج فتح عضوية جديدة على الموقع,create_account,train
+لم أستخدم المتجر سابقا وأريد حسابا,create_account,train
+أرغب بالتسجيل لأول مرة كمستخدم جديد,create_account,val
+ساعدوني على إنشاء حساب للمشتريات,create_account,val
+أريد إزالة عضويتي وكل بياناتي المخزنة,delete_account,train
+أغلقوا ملفي الشخصي بشكل دائم,delete_account,train
+ما طريقة حذف العضوية نهائيا؟,delete_account,train
+لم أعد أرغب بالحساب وأطلب مسحه,delete_account,train
+أحتاج إنهاء عضويتي وحذف بياناتها,delete_account,val
+هل يمكن إزالة حسابي نهائيا من الموقع؟,delete_account,val
+هل تقدمون خدمة الشحن السريع؟,delivery_options,train
+أحتاج معرفة أنواع خدمات التوصيل,delivery_options,train
+هل أستطيع اختيار الاستلام من الفرع؟,delivery_options,train
+ما الفرق بين الشحن العادي والشحن السريع لديكم؟,delivery_options,train
+ما خيارات استلام المشتريات المتوفرة؟,delivery_options,val
+هل خدمة التوصيل في اليوم نفسه متاحة؟,delivery_options,val
+كم المدة المتوقعة لوصول مشتريات جديدة؟,delivery_period,train
+أحتاج معرفة عدد أيام التوصيل المعتادة,delivery_period,train
+ما الوقت اللازم للشحن إلى مدينتي؟,delivery_period,train
+هل يستغرق الشحن أسبوعا أم أقل؟,delivery_period,train
+كم يوما يستغرق الشحن الاقتصادي عادة؟,delivery_period,val
+ما مدة انتظار التسليم قبل إجراء طلب جديد؟,delivery_period,val
+أحتاج تحديث معلومات الملف الشخصي,edit_account,train
+كيف أستبدل رقم الهاتف المرتبط بعضويتي؟,edit_account,train
+أريد تعديل اسمي الظاهر في حساب المستخدم,edit_account,train
+ساعدوني في تحديث البريد الإلكتروني للحساب,edit_account,train
+أريد تعديل بيانات الاتصال في عضويتي,edit_account,val
+أين أعدل المعلومات الشخصية المسجلة؟,edit_account,val
+أرسلوا نسخة PDF من فاتورة المشتريات,get_invoice,train
+لم أستلم إيصال الشراء وأحتاج إرساله,get_invoice,train
+أين أنزل مستند الفاتورة الضريبية؟,get_invoice,train
+أحتاج استخراج فاتورة للطلب السابق,get_invoice,train
+أرغب بتنزيل إيصال ضريبي لمشترياتي,get_invoice,val
+هل يمكن إرسال صورة الفاتورة إلى بريدي؟,get_invoice,val
+أطلب إعادة قيمة السلعة التي تعطلت,get_refund,train
+أعيدوا المبلغ الذي دفعته مقابل المنتج المعيب,get_refund,train
+أريد بدء طلب استرداد مالي,get_refund,train
+أحتاج إرجاع هذا المنتج واستعادة قيمته,get_refund,train
+وصلني منتج تالف وأريد تقديم طلب استرداد,get_refund,val
+أطلب إرجاع المال بعد إعادة السلعة,get_refund,val
+أريد الانضمام إلى قائمة رسائل التخفيضات,newsletter_subscription,train
+أوقفوا إرسال نشرات العروض إلى بريدي,newsletter_subscription,train
+أحتاج إدارة اشتراكي في البريد الترويجي,newsletter_subscription,train
+كيف أفعل تلقي النشرة الأسبوعية؟,newsletter_subscription,train
+لا أرغب بمزيد من رسائل التسويق,newsletter_subscription,val
+أرغب بالاشتراك في نشرة المتجر البريدية,newsletter_subscription,val
+اقتطع البنك قيمة الشراء مرتين,payment_issue,train
+تم رفض الدفع رغم سحب المال,payment_issue,train
+البطاقة لا تكمل عملية السداد,payment_issue,train
+هناك مشكلة في الدفع وتم الخصم بدون تأكيد الطلب,payment_issue,train
+أرى خصمين ماليين لنفس عملية الشراء,payment_issue,val
+لم تنجح عملية التسديد لكن المبلغ خرج من الحساب,payment_issue,val
+كيف أرسل طلب شراء عبر التطبيق؟,place_order,train
+أريد شراء منتج وإتمام الطلب,place_order,train
+كيف أضيف السلع للسلة وأتم الشراء؟,place_order,train
+أحتاج مساعدة في تنفيذ أول عملية شراء,place_order,train
+أرغب بتقديم طلب شراء من الموقع,place_order,val
+كيف أنهي شراء المنتجات الموجودة بالسلة؟,place_order,val
+أحتاج رابط إعادة ضبط كلمة السر,recover_password,train
+لا أتذكر كلمة الدخول لحسابي,recover_password,train
+أريد استعادة الدخول بعد نسيان كلمة السر,recover_password,train
+كيف أفتح الحساب المقفل بعد محاولات دخول خاطئة؟,recover_password,train
+فقدت كلمة السر وأريد إعادة تعيينها,recover_password,val
+تعذر الدخول بسبب نسيان بيانات كلمة المرور,recover_password,val
+نموذج التسجيل يعطي خطأ عند الإرسال,registration_problems,train
+لم يصلني كود تأكيد إنشاء الحساب,registration_problems,train
+الموقع يرفض إكمال تسجيل مستخدم جديد,registration_problems,train
+أتوقف في صفحة التسجيل ولا تكتمل العملية,registration_problems,train
+رمز تفعيل الحساب الجديد لا يصل إلى الهاتف,registration_problems,val
+واجهت مشكلة أثناء إنشاء العضوية الجديدة,registration_problems,val
+أريد نشر مراجعة عن مشترياتي,review,train
+كيف أضع نجوم التقييم للسلعة؟,review,train
+أرغب بكتابة تعليق عن جودة المنتج,review,train
+أحتاج مشاركة رأيي بعد تجربة المشتريات,review,train
+أين أنشر تقييما للمنتج الذي استلمته؟,review,val
+أود كتابة مراجعتي عن تجربة الشراء,review,val
+أريد حفظ عنوان منزل جديد للمشتريات القادمة,set_up_shipping_address,train
+كيف أسجل أول عنوان في ملف العميل؟,set_up_shipping_address,train
+أحتاج إضافة موقع توصيل إلى دفتر العناوين,set_up_shipping_address,train
+ساعدوني في تسجيل عنواني لاستخدامه مستقبلا,set_up_shipping_address,train
+أرغب بإضافة عنوان جديد قبل أول طلب,set_up_shipping_address,val
+كيف أحفظ عنوان الشحن ضمن الحساب؟,set_up_shipping_address,val
+أريد تحويل عضويتي من عادية إلى مميزة,switch_account,train
+كيف أغير نوع الاشتراك إلى حساب أعمال؟,switch_account,train
+أحتاج الانتقال إلى باقة عضوية مختلفة,switch_account,train
+أريد ترقية مستوى الحساب إلى الباقة الأعلى,switch_account,train
+كيف أحول الحساب المميز إلى حساب عادي؟,switch_account,val
+أرغب بتبديل فئة العضوية الحالية,switch_account,val
+أين وصلت الشحنة الخاصة بطلب سابق؟,track_order,train
+لم تصل مشترياتي وأريد معرفة حالتها,track_order,train
+أحتاج رقم تتبع الشحنة التي طلبتها,track_order,train
+هل خرج طلبي من المستودع أم ما زال قيد التجهيز؟,track_order,train
+أين يمكن متابعة حركة شحنتي الحالية؟,track_order,val
+أريد التحقق من وضع طلب اشتريته منذ أيام,track_order,val
+قدمت طلب استرداد وأريد معرفة تقدمه,track_refund,train
+لم يصل المال بعد الموافقة على الاسترجاع,track_refund,train
+أحتاج متابعة تحويل مبلغ الاسترداد للبنك,track_refund,train
+كيف أرى حالة رد المال الذي طلبته سابقا؟,track_refund,train
+متى يظهر مبلغ الاسترداد المعتمد في بطاقتي؟,track_refund,val
+أرغب بتتبع طلب استعادة المال المفتوح,track_refund,val

@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "bootstrap_resamples": 400,
+  "bootstrap_note": "Percentile CI, fixed 27-label universe. Small slices can have downward-biased bootstrap intervals when labels disappear in resamples.",
+  "classification_latency": "30 warm individual queries, 15 EN + 15 AR; excludes model load, retrieval and LLM generation",
+  "cost_note": "0 external API fees; hardware, electricity and hosting costs are NOT zero and are not estimated.",
+  "near_duplicate_flags": 312,
+  "template_limit": "Canonical duplicates removed. Semantic similarity flags remain and are reported, not a guarantee of full independence.",
+  "failure_counts": {
+    "e5_bilingual": 32,
+    "e5_en": 58,
+    "tfidf_en": 110
+  }
+}

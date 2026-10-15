@@ -1,0 +1,28 @@
+intent,category,definition_en,example_ar
+cancel_order,ORDER,Cancel a purchase,اشتريت بالغلط وأحتاج إيقاف عملية الشراء
+change_order,ORDER,Change order contents,أحتاج استبدال حجم السلعة قبل تجهيز طلبي
+change_shipping_address,SHIPPING,Change delivery address of an existing order,شحنوا طلبي إلى المكتب بدلا من المنزل
+check_cancellation_fee,CANCEL,Ask about cancellation charges,هل يكلف إلغاء الشراء أي مبلغ؟
+check_invoice,INVOICE,Check or correct an existing invoice,مجموع الفاتورة لا يطابق السعر وأريد مراجعته
+check_payment_methods,PAYMENT,Ask which payment methods are accepted,هل أستطيع الدفع باستخدام بطاقة ائتمان؟
+check_refund_policy,REFUND,Ask refund eligibility or policy,أريد معرفة مدة السماح بإعادة السلعة
+complaint,FEEDBACK,Report dissatisfaction or complain,أود الاعتراض على سوء تعامل فريقكم
+contact_customer_service,CONTACT,Ask contact channels or support hours,أحتاج البريد الإلكتروني الخاص بالدعم
+contact_human_agent,CONTACT,Request a human agent,لا أريد إجابة آلية أحتاج شخصا يتحدث معي
+create_account,ACCOUNT,Ask how to register,أريد التسجيل كعميل جديد في المتجر
+delete_account,ACCOUNT,Request account deletion,أريد إزالة عضويتي وكل بياناتي المخزنة
+delivery_options,DELIVERY,Ask delivery service options,هل تقدمون خدمة الشحن السريع؟
+delivery_period,DELIVERY,Ask typical delivery duration,كم المدة المتوقعة لوصول مشتريات جديدة؟
+edit_account,ACCOUNT,Update profile details,أحتاج تحديث معلومات الملف الشخصي
+get_invoice,INVOICE,Request an invoice copy,أرسلوا نسخة PDF من فاتورة المشتريات
+get_refund,REFUND,Start a refund request,أطلب إعادة قيمة السلعة التي تعطلت
+newsletter_subscription,SUBSCRIPTION,Manage marketing newsletter subscription,أريد الانضمام إلى قائمة رسائل التخفيضات
+payment_issue,PAYMENT,Report payment failure or duplicate charge,اقتطع البنك قيمة الشراء مرتين
+place_order,ORDER,Ask how to make a purchase,كيف أرسل طلب شراء عبر التطبيق؟
+recover_password,ACCOUNT,Recover account access or password,أحتاج رابط إعادة ضبط كلمة السر
+registration_problems,ACCOUNT,Report a signup failure,نموذج التسجيل يعطي خطأ عند الإرسال
+review,FEEDBACK,Ask to publish a review,أريد نشر مراجعة عن مشترياتي
+set_up_shipping_address,SHIPPING,Add a saved account address,أريد حفظ عنوان منزل جديد للمشتريات القادمة
+switch_account,ACCOUNT,Switch account type,أريد تحويل عضويتي من عادية إلى مميزة
+track_order,ORDER,Track an existing shipment,أين وصلت الشحنة الخاصة بطلب سابق؟
+track_refund,REFUND,Track an existing refund,قدمت طلب استرداد وأريد معرفة تقدمه
