@@ -1,0 +1,10 @@
+{
+  "runtime": "onnxruntime-web WASM, one thread; Transformers.js tokenizer and mean pooling",
+  "samples": 10,
+  "semantic_output_agreement": 10,
+  "max_embedding_absolute_difference": 1.2852251529693604e-7,
+  "max_probability_absolute_difference": 0.000010000000000065512,
+  "classifier_messages": 513,
+  "classifier_decision_agreement": 513,
+  "token_ids_agreement": 10
+}

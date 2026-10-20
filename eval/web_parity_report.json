@@ -1,0 +1,13 @@
+{
+  "encoder": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dtype": "fp32",
+  "n_test": 513,
+  "raw_label_agreement": 513,
+  "threshold_decision_agreement": 513,
+  "max_embedding_absolute_difference": 1.434236764907837e-07,
+  "max_probability_absolute_difference": 9.49178424414221e-07,
+  "python_macro_f1": 0.9380906958641946,
+  "onnx_macro_f1": 0.9380906958641946,
+  "scope": "Full-precision ONNX and PyTorch on the same held-out messages. This checks port parity, not new model performance. Browser timing differs by device."
+}

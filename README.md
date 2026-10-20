@@ -1,6 +1,8 @@
 # Intelligent Support Ticket Assistant
 
-**Team:** Mohammad · **Use case:** Intelligent Support Ticket Assistant · **Demo:** `python app.py`
+**Team:** Mohammad · **Use case:** Intelligent Support Ticket Assistant
+
+**[Open the live browser demo](https://mohammad-ticket-assistant.cool-dill-2655.chatgpt.site)** · Local Python interface: `python app.py`
 
 Course: [SDAIA Academy — Applied NLP Engineering](https://sdaiaacademy.github.io/applied-nlp/). This README follows the [official capstone README template](https://github.com/SDAIAAcademy/applied-nlp/blob/main/labs/capstone/TEMPLATE_README.md).
 
@@ -82,6 +84,14 @@ See [ERROR_ANALYSIS.md](docs/ERROR_ANALYSIS.md) and [error_analysis.csv](eval/er
 
 Python 3.12 is the reference version. Run commands from the repository root.
 
+### Public browser demo
+
+Open the [live demo](https://mohammad-ticket-assistant.cool-dill-2655.chatgpt.site), select an example or enter an English or Arabic message, and click **Load assistant**. First use downloads approximately 470 MB of full-precision model weights from Hugging Face, plus tokenizer/runtime files. Keep the tab open; a recent desktop browser is recommended. After loading, use **Analyze ticket**. No Python installation or API key is needed for visitors.
+
+The dark interface displays the intent, model confidence, priority, category, reply draft, citations, related cases and downloadable JSON. Confidence describes one prediction; it is not the project's test accuracy. Messages are processed on the visitor's device.
+
+The web demo uses the original pinned e5 model's FP32 ONNX export, the saved LR coefficients, unchanged language thresholds and the existing dense retrieval vectors. It follows the default `use_llm=False` path; optional Qwen and BM25/RRF experiments remain available in Python. The original Python pipeline, trained artifacts, splits and benchmark results are unchanged. [Web build and parity checks](docs/WEB_DEMO.md) explain how to reproduce the browser version.
+
 ### Windows PowerShell
 
 ```powershell
@@ -145,6 +155,8 @@ Seed 42 and frozen model revisions are in `configs/project.json`. The source has
 |---|---|
 | `src/` | Data preparation, representations, training, retrieval, drafting, pipeline and evaluation |
 | `app.py` | English-labeled Gradio interface |
+| `ui/` | Dark Gradio theme; presentation only |
+| `web/` | Browser interface, worker, build and parity checks |
 | `configs/` | Model revisions and hyperparameters |
 | `data/` | Prepared bilingual splits, KB and source-linked Arabic reply data |
 | `artifacts/` | Trained classifiers and training metadata |

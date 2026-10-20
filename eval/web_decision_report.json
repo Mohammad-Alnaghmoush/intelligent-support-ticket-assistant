@@ -1,0 +1,7 @@
+{
+  "samples": 10,
+  "classifier_messages": 513,
+  "decision_agreement": 513,
+  "python_vector_output_agreement": 10,
+  "onnx_vector_output_agreement": 10
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090e18" />
+    <meta
+      name="description"
+      content="Try an English or Arabic support ticket. Get an intent, priority, similar cases and an evidence-based reply draft."
+    />
+    <title>Intelligent Support Ticket Assistant</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="shell">
+      <nav class="nav">
+        <a class="brand" href="./" aria-label="Ticket Assistant home"
+          ><span class="brand-mark" aria-hidden="true">↗</span
+          ><span
+            >Ticket Assistant<small>by Mohammad Alnaghmoush</small></span
+          ></a
+        ><a
+          class="source-link"
+          href="https://github.com/Mohammad-Alnaghmoush/intelligent-support-ticket-assistant"
+          target="_blank"
+          rel="noopener noreferrer"
+          >View project <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+      <header class="intro">
+        <div class="eyebrow"><span></span> APPLIED NLP · INTERACTIVE DEMO</div>
+        <h1>Intelligent Support<br /><span>Ticket Assistant</span></h1>
+        <p>
+          Understand the request. Find the evidence.<br class="mobile-break" />
+          Prepare a reply for review.
+        </p>
+        <div class="features">
+          <span>English & العربية</span><span>27 support intents</span
+          ><span>Cited reply drafts</span>
+        </div>
+      </header>
+      <main class="workspace">
+        <section class="panel input-panel" aria-labelledby="input-title">
+          <div class="panel-heading">
+            <span class="step">01</span>
+            <div>
+              <h2 id="input-title">Customer message</h2>
+              <p>What does the customer need help with?</p>
+            </div>
+          </div>
+          <label class="sr-only" for="ticket">Customer message</label
+          ><textarea
+            id="ticket"
+            dir="auto"
+            maxlength="4000"
+            placeholder="Type a support ticket in English or Arabic…&#10;مثال: أرغب في حذف حسابي نهائياً"
+          ></textarea>
+          <div class="input-meta">
+            <span>Ctrl / ⌘ + Enter to analyze</span
+            ><span id="count">0 / 2000</span>
+          </div>
+          <div class="examples">
+            <h3>TRY AN EXAMPLE</h3>
+            <button class="example" data-example="ar-delete">
+              <span class="example-lang">AR</span
+              ><span dir="auto">أرغب في حذف حسابي نهائياً</span
+              ><span aria-hidden="true">↗</span></button
+            ><button class="example" data-example="en-refund">
+              <span class="example-lang">EN</span
+              ><span>How long does a Visa refund take?</span
+              ><span aria-hidden="true">↗</span></button
+            ><button class="example" data-example="ar-review">
+              <span class="example-lang">AR</span
+              ><span dir="auto">تم خصم المبلغ مرتين من بطاقتي!!</span
+              ><span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <button class="primary" id="analyze">
+            <span id="action-label">Load assistant</span
+            ><span aria-hidden="true">→</span>
+          </button>
+          <div class="runtime-status" role="status" aria-live="polite">
+            <span id="status-dot" class="status-dot"></span
+            ><span id="status">Not loaded yet</span>
+          </div>
+          <progress
+            id="progress"
+            max="100"
+            value="0"
+            hidden
+            aria-label="Model download progress"
+          ></progress>
+          <p id="download-note" class="download-note">
+            First use downloads about <strong>470 MB</strong> of model weights.
+            Use Wi-Fi and keep this tab open. Analysis runs on your device.
+          </p>
+          <p id="error" class="error" role="alert" hidden></p>
+          <button id="clear" class="clear" type="button">
+            Clear message and results
+          </button>
+        </section>
+        <section class="panel output-panel" aria-labelledby="output-title">
+          <div class="panel-heading">
+            <span class="step">02</span>
+            <div>
+              <h2 id="output-title">Analysis & reply</h2>
+              <p>Classification, context and a source-linked draft.</p>
+            </div>
+            <span id="language-badge" class="small-badge" hidden></span>
+          </div>
+          <div id="empty" class="empty-state">
+            <div class="empty-icon" aria-hidden="true">✦</div>
+            <h3>Your results will appear here</h3>
+            <p>
+              Choose an example or enter a customer message,<br />then load the
+              assistant to get started.
+            </p>
+            <div class="empty-preview">
+              <span>Intent</span><i></i><span>Priority</span><i></i
+              ><span>Draft reply</span>
+            </div>
+          </div>
+          <div id="results" hidden>
+            <div id="route-banner" class="route-banner">
+              <span id="route-symbol" aria-hidden="true"></span>
+              <div>
+                <strong id="route-title"></strong>
+                <p id="route-note"></p>
+              </div>
+            </div>
+            <div class="result-grid">
+              <div class="result-cell wide">
+                <span>Intent</span><strong id="intent"></strong
+                ><code id="intent-code"></code>
+              </div>
+              <div class="result-cell">
+                <span>Model confidence</span><strong id="confidence"></strong>
+                <div class="confidence-track"><i id="confidence-fill"></i></div>
+              </div>
+              <div class="result-cell">
+                <span>Priority</span><strong id="priority"></strong>
+              </div>
+              <div class="result-cell">
+                <span>Category</span><strong id="category"></strong>
+              </div>
+            </div>
+            <div class="draft-heading">
+              <h3>Suggested reply</h3>
+              <button id="copy" class="copy-button" type="button">
+                Copy reply
+              </button>
+            </div>
+            <p class="draft-label">DRAFT · FOR SUPPORT-AGENT REVIEW</p>
+            <div id="reply" class="reply" dir="auto"></div>
+            <div id="sources" class="sources"></div>
+            <div class="details-stack">
+              <details>
+                <summary>
+                  Knowledge-base evidence <span id="kb-count"></span>
+                </summary>
+                <div id="evidence" class="detail-body"></div>
+              </details>
+              <details>
+                <summary>
+                  Similar resolved cases <span id="case-count"></span>
+                </summary>
+                <div id="cases" class="detail-body"></div>
+              </details>
+              <details>
+                <summary>Full structured output</summary>
+                <div class="detail-body">
+                  <button id="download" class="copy-button" type="button">
+                    Download JSON
+                  </button>
+                  <pre id="raw"></pre>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>
+          <span class="footer-dot"></span> DemoMart is fictional course data.
+          Replies are drafts and do not perform customer actions.
+        </p>
+        <a
+          href="https://sdaiaacademy.github.io/applied-nlp/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >SDAIA Academy · Applied NLP ↗</a
+        >
+      </footer>
+    </div>
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>
