@@ -1,0 +1,15 @@
+.git
+.venv
+**/__pycache__
+.pytest_cache
+.gradio
+.env
+.env.*
+.cache
+artifacts/cache
+data/raw
+web
+notebooks
+docs
+eval
+tests
