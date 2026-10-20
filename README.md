@@ -92,8 +92,6 @@ The dark interface displays the intent, model confidence, priority, category, re
 
 The web demo uses the original pinned e5 model's FP32 ONNX export, the saved LR coefficients, unchanged language thresholds and the existing dense retrieval vectors. It follows the default `use_llm=False` path; optional Qwen and BM25/RRF experiments remain available in Python. The original Python pipeline, trained artifacts, splits and benchmark results are unchanged. [Web build and parity checks](docs/WEB_DEMO.md) explain how to reproduce the browser version.
 
-For visitors who should not download model weights, run the Python application on a server instead. The repository includes a Dockerfile and a [server-hosting guide](docs/SERVER_HOSTING.md), including a temporary Colab share link and Railway deployment instructions. The existing live browser demo continues to use local browser inference until a separate server deployment is created.
-
 ### Windows PowerShell
 
 ```powershell
